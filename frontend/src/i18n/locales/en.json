@@ -1,0 +1,129 @@
+{
+  "navbar": {
+    "home": "Home",
+    "quote": "Quote",
+    "gallery": "Gallery",
+    "services": "Services",
+    "videos": "Videos",
+    "menu": "Menu",
+    "closeMenu": "Close Menu",
+    "call": "Call",
+    "whatsapp": "WhatsApp"
+  },
+  "hero": {
+    "tagline": "AUTOMATISMOS LA PROVINCIA",
+    "title1": "Metal Doors & Gates",
+    "title2": "All Across Spain",
+    "bullets": "· Sales · Repair · Automation",
+    "badge1": "🕐 24/7 Emergency Service",
+    "badge2": "🛡️ Full Warranty",
+    "badge3": "📍 Service All Across Spain",
+    "btnQuote": "💰 Instant Quote",
+    "btnProjects": "View Projects",
+    "experience": "⭐ Over 10 Years of Experience"
+  },
+  "quote": {
+    "title": "Instant Quote Calculator",
+    "subtitle": "Calculate the estimated cost of your metal door in just 3 steps",
+    "step1": "1. Select Door Type",
+    "step2": "2. Dimensions (Meters)",
+    "step3": "3. Finish & Color",
+    "doorTypes": {
+      "sectional": "Sectional Door",
+      "sliding": "Sliding Gate",
+      "swing": "Swing Gate",
+      "ironwork": "Ironwork & Structures"
+    },
+    "width": "Width (m)",
+    "height": "Height (m)",
+    "estimatedPrice": "Estimated Price:",
+    "btnSendWa": "📱 Request Quote via WhatsApp",
+    "btnReset": "Reset Calculator",
+    "successMsg": "✅ Quote ready. Clicking will redirect you to WhatsApp."
+  },
+  "gallery": {
+    "title": "Real Projects Gallery",
+    "subtitle": "Real photos of our installations, repairs, and custom ironwork",
+    "close": "Close"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete solutions for metal doors, automation, and professional ironwork",
+    "s1Title": "Sectional Doors",
+    "s1Desc": "Installation and maintenance of residential and industrial sectional doors with premium motors.",
+    "s2Title": "Sliding Gates",
+    "s2Desc": "Manufacture and installation of sandwich panel or sheet metal sliding gates with nylon rack.",
+    "s3Title": "Swing Gates",
+    "s3Desc": "1 and 2-leaf swing gates, oven-lacquered with electromechanical arms and safety units.",
+    "s4Title": "Ironwork & Structures",
+    "s4Desc": "General metalwork: pergolas, self-supporting roofs, window guards, railings, and parking carports."
+  },
+  "whyUs": {
+    "title": "Why Choose Us",
+    "subtitle": "Quality, speed, and written warranty on every gate project",
+    "b1Title": "24/7 Emergency Help",
+    "b1Desc": "Available anytime for urgent breakdowns or blocked garage doors.",
+    "b2Title": "Top-Grade Materials",
+    "b2Desc": "We use leading brand motors, sandwich panels, and durable lacquering.",
+    "b3Title": "Written Warranty",
+    "b3Desc": "All our installations and repairs include direct warranty.",
+    "b4Title": "Free Quote",
+    "b4Desc": "We advise you and calculate costs with zero hidden fees."
+  },
+  "process": {
+    "title": "How We Work",
+    "subtitle": "Simple and transparent 4-step process",
+    "p1Title": "1. Contact",
+    "p1Desc": "Call us or message us on WhatsApp with your requirements.",
+    "p2Title": "2. Quote",
+    "p2Desc": "We send you a clear quotation with zero surprises.",
+    "p3Title": "3. Fabrication / Repair",
+    "p3Desc": "We execute the job with high technical precision.",
+    "p4Title": "4. Delivery & Warranty",
+    "p4Desc": "We test the system with the remote control and hand over the warranty."
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Real reviews about our service and craftsmanship",
+    "t1Text": "They installed my garage sectional door in record time. The motor works smoothly and quietly.",
+    "t1Author": "José Manuel (Alicante)",
+    "t2Text": "I had an emergency with my sliding gate on a Sunday and they arrived immediately. Excellent!",
+    "t2Author": "Isabel T. (Elche)",
+    "t3Text": "They built custom carport roofing and window guards with flawless ironwork quality.",
+    "t3Author": "Pedro López (Murcia)"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to your questions regarding metal doors and motors",
+    "q1": "How long does it take to install a sectional door?",
+    "a1": "Typically full installation takes between 4 and 8 hours depending on dimensions.",
+    "q2": "Do you offer emergency service outside business hours?",
+    "a2": "Yes, we offer 24/7 emergency service 365 days a year for urgent door blockages.",
+    "q3": "What warranty comes with motors and automation?",
+    "a3": "All new motors come with a 2-year manufacturer warranty plus installation guarantee."
+  },
+  "videos": {
+    "title": "Video Demonstration",
+    "subtitle": "Watch our automatic gate systems in full operation"
+  },
+  "contact": {
+    "title": "Direct Contact",
+    "subtitle": "We are ready to assist you today",
+    "callUs": "Call us at:",
+    "whatsappUs": "Write to us on WhatsApp:",
+    "emailUs": "Send us an Email:",
+    "followUs": "Follow us on social media"
+  },
+  "footer": {
+    "legalNotice": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy",
+    "terms": "Terms & Conditions",
+    "accessibility": "Accessibility",
+    "configCookies": "Cookie Settings",
+    "rights": "All rights reserved."
+  },
+  "legal": {
+    "backHome": "← Back to Home"
+  }
+}

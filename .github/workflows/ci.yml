@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  lint-type-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: 'auton-provincia/frontend/package-lock.json'
+      - run: cd auton-provincia/frontend && npm ci
+      - run: cd auton-provincia/frontend && npm run lint
+      - run: cd auton-provincia/frontend && npm run typecheck
+      - run: cd auton-provincia/frontend && npm run test
+      - run: cd auton-provincia/frontend && npm run build
