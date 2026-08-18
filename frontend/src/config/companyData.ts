@@ -10,5 +10,5 @@ export const companyInfo = {
   phoneHref: "tel:+34694917083",
   waHref: "https://wa.me/34694917083",
   registry: "Pendiente de adscripción societaria / Autónomo", // Registro Mercantil (solo si aplica sociedad)
-  website: "https://auton-provincia.vercel.app",
+  website: "https://automatismolaprovincia.netlify.app",
 };
