@@ -25,11 +25,13 @@
 
 
 -------------------------------------------------------------------------------
-2. ESTADO ACTUAL DEL FRONTEND (LIMPIEZA DE RESIDUOS Y 5 IDIOMAS ESPEJO)
+2. ESTADO ACTUAL DEL REPOSISORIO Y FRONTEND (GITHUB SINCRONIZADO)
 -------------------------------------------------------------------------------
 
-- **Limpieza de Estructura de Archivos:**
-  - Depurados los archivos temporales y capturas prescindibles (`edge-dom.html`, `edge-shot.png`, `edge-shot-after.png`, etc.) de la raíz de `frontend/`.
+- **Repositorio Oficial en GitHub:**
+  - URL: https://github.com/jhoanzapata/auton-provincia.git
+  - Último Commit: `Feat: integrar i18n en 5 idiomas (ES, DE, EN, FR, NL), nuevo logo PNG y optimizaciones UX`.
+  - Rama Principal: `main`.
 
 - **5 Idiomas Oficiales Soportados (`ES`, `DE`, `EN`, `FR`, `NL`):**
   - **`🇪🇸 ES`** (Español): Idioma oficial base del negocio.
@@ -37,10 +39,6 @@
   - **`🇬🇧 EN`** (Inglés): 19,1 millones de turistas y mercado internacional (`Free Quote`).
   - **`🇫🇷 FR`** (Francés): 12,8 millones de turistas (`Calculateur de Devis`, `Portes Sectionnelles`).
   - **`🇳🇱 NL`** (Neerlandés): Mercado de Holanda y Bélgica Flamenca (`Geautomatiseerde Sectiepoort`, `Gratis Offerte`).
-
-- **Internacionalización (i18n) Absoluta y Espejo (100% de la Web):**
-  - Asignados identificadores explícitos (`id: "v1"`, `id: "v2"`) en `public/data/videos.json` y conectados en `VideoGallery.tsx`.
-  - Al presionar cualquiera de las 5 banderas, **el 100% absoluto de la página (incluido el reproductor central de vídeo)** se traduce inmediatamente al Neerlandés o idioma activo.
 
 - **Actualización de Marca e Identidad Visual (Fondo Transparente):**
   - Sustituido el logo por la versión PNG con fondo recortado transparente (`Nuevo_Logo-removebg-preview.png`) en `Navbar.tsx` y `FooterSection.tsx`.
@@ -65,7 +63,7 @@
 
 - Datos finales a actualizar cuando el titular los facilite en `companyData.ts`:
   - NIF / CIF definitivo.
-  - Domicilio físico completo with número de calle.
+  - Domicilio físico completo con número de calle.
   - Registro Mercantil / Adscripción societaria oficial.
 
 
