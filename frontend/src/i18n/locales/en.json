@@ -127,7 +127,8 @@
     "terms": "Terms & Conditions",
     "accessibility": "Accessibility",
     "configCookies": "Cookie Settings",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "devNotice": "Web development by Jhoan Zapata. The developer is independent of the commercial services of Automatismos La Provincia."
   },
   "legal": {
     "backHome": "← Back to Home"

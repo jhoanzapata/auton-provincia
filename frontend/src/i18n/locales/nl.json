@@ -127,7 +127,8 @@
     "terms": "Algemene Voorwaarden",
     "accessibility": "Toegankelijkheid",
     "configCookies": "Cookie-instellingen",
-    "rights": "Alle rechten voorbehouden."
+    "rights": "Alle rechten voorbehouden.",
+    "devNotice": "Webontwikkeling door Jhoan Zapata. De ontwikkelaar staat los van de commerciële diensten van Automatismos La Provincia."
   },
   "legal": {
     "backHome": "← Terug naar Home"

@@ -127,7 +127,8 @@
     "terms": "Términos y Condiciones",
     "accessibility": "Accesibilidad",
     "configCookies": "Configurar cookies",
-    "rights": "Todos los derechos reservados."
+    "rights": "Todos los derechos reservados.",
+    "devNotice": "Desarrollo web por Jhoan Zapata. El desarrollador es independiente de los servicios comerciales de Automatismos La Provincia."
   },
   "legal": {
     "backHome": "← Volver al Inicio"

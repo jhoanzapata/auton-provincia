@@ -99,6 +99,16 @@ export function FooterSection() {
         <p>© 2026 Automatismos La Provincia. {t("footer.rights")}</p>
         <p
           style={{
+            marginTop: "0.4rem",
+            fontSize: "0.75rem",
+            color: "var(--color-text-muted)",
+            opacity: 0.8,
+          }}
+        >
+          {t("footer.devNotice")}
+        </p>
+        <p
+          style={{
             marginTop: "0.3rem",
             fontSize: "0.8rem",
             color: "var(--color-text-muted)",
