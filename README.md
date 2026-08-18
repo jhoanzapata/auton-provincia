@@ -1,26 +1,32 @@
-# Automatismos La Provincia — Sitio Web
+# Automatismos La Provincia — Sitio Web Oficial
 
-Landing estática (frontend informativo) del negocio de puertas metálicas y automatismos.
+Sitio web oficial multilingüe (ES, DE, EN, FR, NL) para **Automatismos La Provincia**, empresa especializada en fabricación, instalación, reparación y automatización de puertas metálicas, pérgolas, rejas y herrería en toda España.
 
-- **Frontend**: `frontend/` — Vite + React 18 + TypeScript + Tailwind v4
-- **Producción**: https://auton-provincia.vercel.app
-- **Documentación del proyecto**: `notas_auton-provincia.md`
+## Enlaces Oficiales
 
-## ⚠️ GDPR HOSTING CHECK
+- **Producción Oficial (Netlify UE - Frankfurt):** [https://automatismolaprovincia.netlify.app](https://automatismolaprovincia.netlify.app)
+- **Repositorio de Código en GitHub:** [https://github.com/jhoanzapata/auton-provincia](https://github.com/jhoanzapata/auton-provincia)
 
-- **Hosting actual**: Vercel (empresa con sede en EE. UU.).
-- Los datos de los visitantes (IP, logs) pueden tratarse en servidores de EE. UU. bajo las cláusulas contractuales tipo (SCC) de Vercel.
-- Para cumplimiento estricto con servidores dentro de la UE, valorar migrar a:
-  - OVHcloud (Francia/Alemania)
-  - Hetzner (Alemania/Finlandia)
-  - AWS eu-central-1 (Frankfurt) o DigitalOcean Frankfurt
-- Si se migra el hosting, actualizar DNS/CNAME y el `vercel.json` si deja de aplicarse.
+## Características Técnicas
 
-## Pendiente del titular (no inventar datos)
+- **Frontend:** React 18, TypeScript, Vite, Tailwind CSS.
+- **Internacionalización (i18n):** 5 Idiomas espejo (`🇪🇸 ES`, `🇩🇪 DE`, `🇬🇧 EN`, `🇫🇷 FR`, `🇳🇱 NL`).
+- **Simulador / Cotizador:** Calculadora interactiva de presupuestos aproximados en 3 pasos.
+- **Galerías Dinámicas:** Fotos y reproductor de vídeos con descripciones traducidas dinámicamente.
+- **Cumplimiento Legal:** Aviso legal, política de privacidad, banner de cookies y accesibilidad según RGPD / LSSI.
+- **Protección del Desarrollador:** `DEVELOPER_NOTICE.md` e exención legal de responsabilidad técnica registrada para **Zapata Labs**.
 
-- NIF / CIF
-- Domicilio físico
-- Nombre legal del titular (si es autónomo)
-- Inscripción en Registro Mercantil (solo si aplica forma societaria)
+## Ejecución Local
 
-Estos datos se centralizan en `frontend/src/config/companyData.ts` — actualizar ese único archivo cuando se disponga de ellos.
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+## Compilación de Producción
+
+```bash
+cd frontend
+npm run build
+```
