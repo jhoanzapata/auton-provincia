@@ -12,7 +12,6 @@
 
 - **Cumplimiento Normativo Multilingüe en 5 Idiomas (España / UE):**
   - **Traducción Integral de Leyes:** Los 5 documentos legales (`LegalNotice.tsx`, `PrivacyPolicy.tsx`, `CookiePolicy.tsx`, `TermsConditions.tsx`, `Accessibility.tsx`) traducen íntegramente todo su contenido al **Español**, **Inglés**, **Alemán**, **Francés** y **Neerlandés (`🇳🇱 NL`)**.
-  - **Botón de Retorno al Inicio:** Incorporado en la cabecera superior de las 5 páginas legales.
 
 
 -------------------------------------------------------------------------------
@@ -21,15 +20,18 @@
 
 - **Repositorio Oficial en GitHub:**
   - URL: https://github.com/jhoanzapata/auton-provincia.git
-  - Último Commit: `legal: añadir aviso y proteccion de responsabilidad del desarrollador web`.
+  - Último Commit: `style: centrar rigidamente el logo en el pie de pagina`.
   - Rama Principal: `main`.
+
+- **Diseño e Identidad de Marca:**
+  - Centrado rígido con Flexbox colum de 100% de ancho para el logo en [FooterSection.tsx](file:///E:/Proyectos_Develoment/auton-provincia/frontend/src/pages/sections/FooterSection.tsx), eliminando cualquier desplazamiento hacia la izquierda en pantallas anchas.
 
 - **5 Idiomas Oficiales Soportados (`ES`, `DE`, `EN`, `FR`, `NL`):**
   - `🇪🇸 ES` (Español), `🇩🇪 DE` (Alemán), `🇬🇧 EN` (Inglés), `🇫🇷 FR` (Francés), `🇳🇱 NL` (Neerlandés).
 
 - **Arquitectura Base y Rendimiento:**
   - Frontend estático con Vite + React 18 + TypeScript + Tailwind v4.
-  - Compilación de producción limpia en 4.50s con 0 errores de TypeScript.
+  - Compilación de producción limpia en 4.15s con 0 errores de TypeScript.
 
 
 -------------------------------------------------------------------------------
