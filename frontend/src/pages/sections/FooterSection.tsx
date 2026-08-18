@@ -8,12 +8,18 @@ export function FooterSection() {
 
   return (
     <footer className="footer">
-      <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-        <div style={{ textAlign: "center", marginBottom: "1.25rem" }}>
+      <div style={{ maxWidth: "600px", margin: "0 auto", display: "flex", flexDirection: "column", alignItems: "center" }}>
+        <div style={{ width: "100%", textAlign: "center", marginBottom: "1.25rem" }}>
           <img
             src={logo}
             alt="Automatismos La Provincia"
-            style={{ height: "48px", objectFit: "contain", opacity: 0.9 }}
+            style={{
+              height: "48px",
+              display: "block",
+              margin: "0 auto",
+              objectFit: "contain",
+              opacity: 0.9,
+            }}
           />
         </div>
         <div
