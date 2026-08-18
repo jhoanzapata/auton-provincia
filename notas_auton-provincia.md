@@ -6,11 +6,11 @@
 1. MARCO DE CUMPLIMIENTO LEGAL (LSSI, RGPD Y COOKIES)
 -------------------------------------------------------------------------------
 
-- **Cumplimiento Normativo Multilingüe (España / UE):**
-  - **Traducción Integral de Leyes:** Los 5 documentos legales (`LegalNotice.tsx`, `PrivacyPolicy.tsx`, `CookiePolicy.tsx`, `TermsConditions.tsx`, `Accessibility.tsx`) traducen íntegramente todo su contenido (títulos, migas de pan, secciones 1 a 9 y párrafos) al **Español**, **Inglés** y **Alemán** según el idioma seleccionado.
-  - **Botón de Retorno al Inicio:** Incorporado en la cabecera superior de las 5 páginas legales (`← Volver al Inicio` / `← Back to Home` / `← Zurück zur Startseite`).
+- **Cumplimiento Normativo Multilingüe en 5 Idiomas (España / UE):**
+  - **Traducción Integral de Leyes:** Los 5 documentos legales (`LegalNotice.tsx`, `PrivacyPolicy.tsx`, `CookiePolicy.tsx`, `TermsConditions.tsx`, `Accessibility.tsx`) traducen íntegramente todo su contenido al **Español**, **Inglés**, **Alemán**, **Francés** y **Neerlandés (`🇳🇱 NL`)** según el idioma seleccionado.
+  - **Botón de Retorno al Inicio:** Incorporado en la cabecera superior de las 5 páginas legales (`← Volver al Inicio` / `← Back to Home` / `← Zurück zur Startseite` / `← Retour à l'Accueil` / `← Terug naar Home`).
   - **RGPD (Reglamento General de Protección de Datos UE 2016/679):**
-    - Banner interactivo de consentimiento de cookies (`CookieBanner.tsx` + `useCookieConsent.ts`) con opciones de aceptar todas, rechazar y configurar por categorías (analíticas/marketing).
+    - Banner interactivo de consentimiento de cookies (`CookieBanner.tsx` + `useCookieConsent.ts`) refactorizado con clases CSS limpias en `index.css`.
 
 - **Datos del Titular Centralizados (`companyData.ts`):**
   - Nombre Legal: Duban Dario Zapata Arboleda.
@@ -25,22 +25,29 @@
 
 
 -------------------------------------------------------------------------------
-2. ESTADO ACTUAL DEL FRONTEND (100% TRADUCIDO E IMPLEMENTADO)
+2. ESTADO ACTUAL DEL FRONTEND (LIMPIEZA DE RESIDUOS Y 5 IDIOMAS ESPEJO)
 -------------------------------------------------------------------------------
 
-- **Internacionalización (i18n) Absoluta (100% de los Componentes):**
-  - Conectada la frase de redes sociales (`t("contact.followUs")`) en `ContactSection.tsx`.
-  - Al presionar **`🇩🇪 DE`** (Alemán), **`🇬🇧 EN`** (Inglés) o **`🇪🇸 ES`** (Español), **absolutamente el 100% de los textos de la página (secciones, galerías, redes y documentos legales) se traducen al instante**:
-    - Español: `"Síguenos en redes sociales"`
-    - Alemán: `"Folgen Sie uns in den sozialen Netzwerken"`
-    - Inglés: `"Follow us on social media"`
+- **Limpieza de Estructura de Archivos:**
+  - Depurados los archivos temporales y capturas prescindibles (`edge-dom.html`, `edge-shot.png`, `edge-shot-after.png`, etc.) de la raíz de `frontend/`.
 
-- **Diseño del Pie de Página (Footer) y Páginas Legales:**
-  - Enlaces del pie de página reestructurados con formato de viñetas limpia previa: `· Impressum`, `· Datenschutz`, `· Cookie-Richtlinie`, `· Barrierefreiheit`, `· AGB`, `· Cookie-Einstellungen`.
+- **5 Idiomas Oficiales Soportados (`ES`, `DE`, `EN`, `FR`, `NL`):**
+  - **`🇪🇸 ES`** (Español): Idioma oficial base del negocio.
+  - **`🇩🇪 DE`** (Alemán): 12,0 millones de turistas y residentes (`Angebotsrechner`, `Breite/Höhe`).
+  - **`🇬🇧 EN`** (Inglés): 19,1 millones de turistas y mercado internacional (`Free Quote`).
+  - **`🇫🇷 FR`** (Francés): 12,8 millones de turistas (`Calculateur de Devis`, `Portes Sectionnelles`).
+  - **`🇳🇱 NL`** (Neerlandés): Mercado de Holanda y Bélgica Flamenca (`Geautomatiseerde Sectiepoort`, `Gratis Offerte`).
+
+- **Internacionalización (i18n) Absoluta y Espejo (100% de la Web):**
+  - Asignados identificadores explícitos (`id: "v1"`, `id: "v2"`) en `public/data/videos.json` y conectados en `VideoGallery.tsx`.
+  - Al presionar cualquiera de las 5 banderas, **el 100% absoluto de la página (incluido el reproductor central de vídeo)** se traduce inmediatamente al Neerlandés o idioma activo.
+
+- **Actualización de Marca e Identidad Visual (Fondo Transparente):**
+  - Sustituido el logo por la versión PNG con fondo recortado transparente (`Nuevo_Logo-removebg-preview.png`) en `Navbar.tsx` y `FooterSection.tsx`.
 
 - **Arquitectura Base y Rendimiento:**
   - Frontend estático con Vite + React 18 + TypeScript + Tailwind v4.
-  - Compilación de producción limpia en 5.90s con 0 errores de TypeScript.
+  - Compilación de producción limpia en 4.05s con 0 errores de TypeScript.
 
 
 -------------------------------------------------------------------------------
@@ -49,7 +56,7 @@
 
 - **Plan Free ($0 USD / mes para siempre):**
   - Permite dominios personalizados con SSL gratis y red CDN global.
-  - **Estrategia Consumo Cero (0 Créditos):** Compilar en local (`npm run build`) y subir la carpeta `dist/` usando la CLI (`npx netlify-cli deploy --prod --dir=dist`), evitando gastar minutos de compilación en la nube.
+  - **Estaticidad Consumo Cero (0 Créditos):** Compilar en local (`npm run build`) y subir la carpeta `dist/` usando la CLI (`npx netlify-cli deploy --prod --dir=dist`), evitando gastar minutos de compilación en la nube.
 
 
 -------------------------------------------------------------------------------
@@ -58,7 +65,7 @@
 
 - Datos finales a actualizar cuando el titular los facilite en `companyData.ts`:
   - NIF / CIF definitivo.
-  - Domicilio físico completo con número de calle.
+  - Domicilio físico completo with número de calle.
   - Registro Mercantil / Adscripción societaria oficial.
 
 

@@ -358,7 +358,7 @@ export function QuoteSection() {
                     fontSize: "0.9rem",
                   }}
                 >
-                  Alto (metros)
+                  {t("quote.height")}
                 </label>
                 <input
                   id="height-input"
@@ -369,7 +369,7 @@ export function QuoteSection() {
                   value={vHeightInput}
                   onChange={handleHeightChange}
                   placeholder="2.20"
-                  aria-label="Alto en metros"
+                  aria-label={t("quote.height")}
                   aria-describedby={!vIsHeightValid && vHeightInput ? 'height-error' : undefined}
                   aria-invalid={!vIsHeightValid && vHeightInput !== ''}
                   style={{
@@ -407,7 +407,7 @@ export function QuoteSection() {
                 className="btn-secondary"
                 style={{ padding: "0.6rem 1.5rem" }}
               >
-                ← Atrás
+                {t("quote.back")}
               </button>
               <button
                 onClick={() => vMeasuresValid && cSetStep(3)}
@@ -420,7 +420,7 @@ export function QuoteSection() {
                   cursor: vMeasuresValid ? "pointer" : "not-allowed",
                 }}
               >
-                Continuar →
+                {t("quote.continue")}
               </button>
             </div>
           </div>
@@ -437,7 +437,7 @@ export function QuoteSection() {
                 color: "var(--color-text-dim)",
               }}
             >
-              3. ¿Qué color prefieres?
+              {t("quote.step3")}
             </h3>
             
             {/* Precio estimado también en paso 3 */}
@@ -452,7 +452,7 @@ export function QuoteSection() {
                   fontSize: "0.9rem",
                 }}
               >
-                Precio estimado: <strong>~{vEstimatedPrice.toLocaleString()} €</strong>
+                {t("quote.estimatedPrice")} <strong>~{vEstimatedPrice.toLocaleString()} €</strong>
               </div>
             )}
 
@@ -545,14 +545,14 @@ export function QuoteSection() {
                     className="btn-secondary"
                     style={{ padding: "0.6rem 1.5rem" }}
                   >
-                    ← Atrás
+                    {t("quote.back")}
                   </button>
                   <button
                     onClick={cHandleSubmit}
                     className="btn-whatsapp"
                     style={{ padding: "0.75rem 2rem", fontSize: "1rem" }}
                   >
-                    💬 Solicitar presupuesto
+                    {t("quote.requestQuote")}
                   </button>
                 </div>
               </>
@@ -569,18 +569,15 @@ export function QuoteSection() {
                 }}
               >
                 <p style={{ margin: 0, fontWeight: 700, color: "#d7ffe6" }}>
-                  ✅ Presupuesto preparado en WhatsApp
+                  {t("quote.successMsg")}
                 </p>
-                <p style={{ margin: "0.5rem 0 1rem", color: "var(--color-text-dim)", fontSize: "0.9rem" }}>
-                  Puedes reiniciar el cotizador o volver al paso de medidas para ajustar valores.
-                </p>
-                <div style={{ display: "flex", justifyContent: "center", gap: "0.75rem", flexWrap: "wrap" }}>
+                <div style={{ display: "flex", justifyContent: "center", gap: "0.75rem", flexWrap: "wrap", marginTop: "1rem" }}>
                   <button
                     onClick={cHandleReset}
                     className="btn-secondary"
                     style={{ padding: "0.6rem 1.25rem" }}
                   >
-                    Reiniciar cotizador
+                    {t("quote.reset")}
                   </button>
                   <button
                     onClick={() => {
@@ -590,7 +587,7 @@ export function QuoteSection() {
                     className="btn-primary"
                     style={{ padding: "0.6rem 1.25rem" }}
                   >
-                    Ajustar medidas
+                    {t("quote.adjustMeasures")}
                   </button>
                 </div>
               </div>

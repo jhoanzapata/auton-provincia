@@ -64,10 +64,10 @@ export function ProjectGallery() {
               }}
             >
               <div className="card-media">
-                <img src={vProj.mediaUrl} alt={vProj.title} loading="lazy" />
+                <img src={vProj.mediaUrl} alt={t(`projectsData.${vProj.id}.title`, vProj.title)} loading="lazy" />
                 <div className="card-overlay">
-                  <h3>{vProj.title}</h3>
-                  <p>{vProj.description}</p>
+                  <h3>{t(`projectsData.${vProj.id}.title`, vProj.title)}</h3>
+                  <p>{t(`projectsData.${vProj.id}.desc`, vProj.description)}</p>
                 </div>
               </div>
             </div>
@@ -118,11 +118,11 @@ export function ProjectGallery() {
             <>
               <img
                 src={lProjects[vIndex].mediaUrl}
-                alt={lProjects[vIndex].title}
+                alt={t(`projectsData.${lProjects[vIndex].id}.title`, lProjects[vIndex].title)}
               />
               <div className="lightbox-info">
-                <h3>{lProjects[vIndex].title}</h3>
-                <p>{lProjects[vIndex].description}</p>
+                <h3>{t(`projectsData.${lProjects[vIndex].id}.title`, lProjects[vIndex].title)}</h3>
+                <p>{t(`projectsData.${lProjects[vIndex].id}.desc`, lProjects[vIndex].description)}</p>
                 <span className="lightbox-counter">
                   {vIndex + 1} / {lProjects.length}
                 </span>

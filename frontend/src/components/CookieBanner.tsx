@@ -15,25 +15,15 @@ export function CookieBanner() {
       aria-modal="true"
       aria-labelledby="cookie-title"
       aria-describedby="cookie-desc"
-      style={{
-        position: 'fixed',
-        bottom: 0,
-        left: 0,
-        right: 0,
-        zIndex: 9999,
-        background: 'var(--color-bg-medium)',
-        borderTop: '1px solid rgba(184, 115, 51, 0.3)',
-        boxShadow: '0 -4px 20px rgba(0,0,0,0.3)',
-        padding: '1.5rem',
-      }}
+      className="cookie-banner-wrapper"
     >
-      <div style={{ maxWidth: 800, margin: '0 auto' }}>
+      <div className="cookie-banner-content">
         {!vShowSettings ? (
           <>
-            <h3 id="cookie-title" style={{ margin: '0 0 0.5rem', fontSize: '1.1rem' }}>
+            <h3 id="cookie-title" className="cookie-banner-title">
               🍪 Usamos cookies
             </h3>
-            <p id="cookie-desc" style={{ margin: '0 0 1.5rem', color: 'var(--color-text-dim)', fontSize: '0.9rem', lineHeight: 1.5 }}>
+            <p id="cookie-desc" className="cookie-banner-desc">
               Utilizamos cookies propias y de terceros para mejorar tu experiencia, analizar el tráfico y personalizar contenido.
               Puedes aceptar todas, rechazarlas o configurar tus preferencias.
               <br />
@@ -41,49 +31,22 @@ export function CookieBanner() {
                 Más información en nuestra Política de Cookies
               </a>
             </p>
-            <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+            <div className="cookie-banner-actions">
               <button
                 onClick={() => { acceptAll(); }}
-                style={{
-                  background: 'var(--grad-bronze)',
-                  color: '#fff',
-                  border: 'none',
-                  padding: '0.75rem 1.5rem',
-                  borderRadius: 8,
-                  fontWeight: 600,
-                  cursor: 'pointer',
-                  fontSize: '0.95rem',
-                }}
+                className="btn-cookie-accept"
               >
                 Aceptar todo
               </button>
               <button
                 onClick={() => { rejectAll(); }}
-                style={{
-                  background: 'transparent',
-                  color: 'var(--color-text)',
-                  border: '1px solid rgba(184, 115, 51, 0.5)',
-                  padding: '0.75rem 1.5rem',
-                  borderRadius: 8,
-                  fontWeight: 600,
-                  cursor: 'pointer',
-                  fontSize: '0.95rem',
-                }}
+                className="btn-cookie-secondary"
               >
-                Rechazar todo
+                Rechazar no esenciales
               </button>
               <button
                 onClick={() => setVShowSettings(true)}
-                style={{
-                  background: 'transparent',
-                  color: 'var(--color-accent)',
-                  border: '1px solid var(--color-accent)',
-                  padding: '0.75rem 1.5rem',
-                  borderRadius: 8,
-                  fontWeight: 600,
-                  cursor: 'pointer',
-                  fontSize: '0.95rem',
-                }}
+                className="btn-cookie-secondary"
               >
                 Configurar
               </button>

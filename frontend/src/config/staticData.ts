@@ -8,6 +8,7 @@ export interface IProject {
 }
 
 export interface VideoData {
+  id?: string;
   src: string;
   title: string;
   description: string;

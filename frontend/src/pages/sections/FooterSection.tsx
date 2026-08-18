@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { openCookieSettings } from "../../hooks/useCookieConsent";
+import logo from "../../assets/logo.png";
 
 export function FooterSection() {
   const { t } = useTranslation();
@@ -8,6 +9,13 @@ export function FooterSection() {
   return (
     <footer className="footer">
       <div style={{ maxWidth: "600px", margin: "0 auto" }}>
+        <div style={{ textAlign: "center", marginBottom: "1.25rem" }}>
+          <img
+            src={logo}
+            alt="Automatismos La Provincia"
+            style={{ height: "48px", objectFit: "contain", opacity: 0.9 }}
+          />
+        </div>
         <div
           style={{
             display: "flex",

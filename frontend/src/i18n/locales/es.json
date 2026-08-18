@@ -37,6 +37,11 @@
     "width": "Ancho (m)",
     "height": "Alto (m)",
     "estimatedPrice": "Precio Estimado:",
+    "back": "← Atrás",
+    "continue": "Continuar →",
+    "requestQuote": "💬 Solicitar presupuesto",
+    "reset": "Reiniciar cotizador",
+    "adjustMeasures": "Ajustar medidas",
     "btnSendWa": "📱 Solicitar Presupuesto en WhatsApp",
     "btnReset": "Reiniciar Cotizador",
     "successMsg": "✅ Presupuesto preparado. Al hacer clic serás redirigido a WhatsApp."
@@ -104,7 +109,8 @@
   },
   "videos": {
     "title": "Demostración en Video",
-    "subtitle": "Mira nuestros sistemas automáticos en pleno funcionamiento"
+    "subtitle": "Mira nuestros sistemas automáticos en pleno funcionamiento",
+    "noVideoSupport": "Tu navegador no soporta reproducción de vídeo."
   },
   "contact": {
     "title": "Contacto Directo",
@@ -125,5 +131,19 @@
   },
   "legal": {
     "backHome": "← Volver al Inicio"
+  },
+  "projectsData": {
+    "proj-01": { "title": "Puerta seccional panel sándwich", "desc": "Instalación de puerta seccional en panel sándwich con motor a techo y mando a distancia. Aislamiento térmico y acabado lacado." },
+    "proj-02": { "title": "Puerta corredera panel sándwich", "desc": "Puerta corredera con panel tipo sándwich, motor de transmisión, cremallera en nylon y mando a distancia. Ideal para accesos amplios." },
+    "proj-03": { "title": "Puerta abatible chapa lacada", "desc": "Fabricación e instalación de puerta abatible 1 hoja en chapa metálica, lacado al horno, con brazo electromecánico y centralita." },
+    "proj-04": { "title": "Pérgola metálica autoportante", "desc": "Estructura de pérgola metálica autoportante para zona de parking. Acero galvanizado y lacado, resistente a intemperie." },
+    "proj-05": { "title": "Barandilla escalera portal interior", "desc": "Barandilla de escalera en portal interior. Herrería decorativa con acabado en pintura epoxi, diseño a medida según normativa." },
+    "proj-06": { "title": "Cubierta porche panel sándwich", "desc": "Cubierta para porche metálico con panel sándwich. Aislamiento térmico, estructura de acero galvanizado, instalación rápida." },
+    "proj-07": { "title": "Reja seguridad ventana", "desc": "Fabricación e instalación de reja de seguridad para ventana. Hierro macizo, diseño funcional y estético, lacado al horno." },
+    "proj-08": { "title": "Automatismo puerta existente", "desc": "Automatización de puerta existente: instalación de motor, centralita, fotocélulas y mandos. Puesta en marcha y prueba." }
+  },
+  "videosData": {
+    "v1": { "title": "Puerta Seccional Automatizada", "desc": "Puerta seccional con paneles aislantes de alta densidad, motor a techo ultrasilencioso y receptor con mando a distancia." },
+    "v2": { "title": "Puerta Corredera en Panel Sándwich", "desc": "Sistema corredero de automatización rápida con cremallera de nylon silenciosa, motor de gran potencia y cierre de seguridad." }
   }
 }

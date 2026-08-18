@@ -5,14 +5,18 @@ import { initReactI18next } from "react-i18next";
 import es from "./locales/es.json";
 import de from "./locales/de.json";
 import en from "./locales/en.json";
+import fr from "./locales/fr.json";
+import nl from "./locales/nl.json";
 
-export const lSupportedLanguages = ["es", "de", "en"] as const;
+export const lSupportedLanguages = ["es", "de", "en", "fr", "nl"] as const;
 export type TLanguageCode = (typeof lSupportedLanguages)[number];
 
 export const lLanguageOptions: Array<{ code: TLanguageCode; label: string; flag: string }> = [
   { code: "es", label: "ES", flag: "🇪🇸" },
   { code: "de", label: "DE", flag: "🇩🇪" },
   { code: "en", label: "EN", flag: "🇬🇧" },
+  { code: "fr", label: "FR", flag: "🇫🇷" },
+  { code: "nl", label: "NL", flag: "🇳🇱" },
 ];
 
 const STORAGE_KEY = "auton-provincia-language";
@@ -25,12 +29,15 @@ void i18n
       es: { translation: es },
       de: { translation: de },
       en: { translation: en },
+      fr: { translation: fr },
+      nl: { translation: nl },
     },
     supportedLngs: lSupportedLanguages,
     fallbackLng: "es",
     defaultNS: "translation",
     detection: {
-      order: ["localStorage", "navigator", "htmlTag"],
+      order: ["querystring", "localStorage", "navigator", "htmlTag"],
+      lookupQuerystring: "lng",
       lookupLocalStorage: STORAGE_KEY,
       caches: ["localStorage"],
     },

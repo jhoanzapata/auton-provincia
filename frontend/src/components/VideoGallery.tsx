@@ -73,11 +73,11 @@ export function VideoGallery() {
           playsInline
           onEnded={cHandleVideoEnd}
         >
-          Tu navegador no soporta video.
+          {t("videos.noVideoSupport")}
         </video>
         <div className="video-featured-info">
-          <h3>{vCurrentVideo.title}</h3>
-          <p>{vCurrentVideo.description}</p>
+          <h3>{t(`videosData.${vCurrentVideo.id || 'v1'}.title`, vCurrentVideo.title)}</h3>
+          <p>{t(`videosData.${vCurrentVideo.id || 'v1'}.desc`, vCurrentVideo.description)}</p>
         </div>
       </div>
 
@@ -95,7 +95,7 @@ export function VideoGallery() {
           >
             <div className="video-thumb-poster" style={{ backgroundImage: `url(${vVideo.poster || '/images/video-placeholder.svg'})` }} />
             <div className="video-thumb-overlay">
-              <h4>{vVideo.title}</h4>
+              <h4>{t(`videosData.${vVideo.id || `v${i + 1}`}.title`, vVideo.title)}</h4>
               <span className="play-icon" aria-hidden="true">▶</span>
             </div>
           </div>

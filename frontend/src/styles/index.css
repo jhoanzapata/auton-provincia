@@ -43,6 +43,11 @@
   box-sizing: border-box;
 }
 
+:focus-visible {
+  outline: 2px solid var(--color-accent) !important;
+  outline-offset: 3px !important;
+}
+
 body {
   margin: 0;
   display: flex;
@@ -1408,4 +1413,62 @@ details[open] .faq-question::after {
 :focus-visible {
   outline: 3px solid #4da3ff;
   outline-offset: 2px;
+}
+
+/* Cookie Banner Styles */
+.cookie-banner-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: var(--color-bg-medium);
+  border-top: 1px solid rgba(184, 115, 51, 0.3);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+}
+
+.cookie-banner-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cookie-banner-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.cookie-banner-desc {
+  margin: 0 0 1.5rem;
+  color: var(--color-text-dim);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.cookie-banner-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn-cookie-accept {
+  background: var(--grad-bronze);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.btn-cookie-secondary {
+  background: transparent;
+  color: var(--color-text-dim);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 0.95rem;
 }

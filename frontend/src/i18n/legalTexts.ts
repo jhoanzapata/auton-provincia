@@ -55,6 +55,32 @@ export const mLegalNoticeTexts: Record<string, any> = {
     s5Title: "5. Anwendbares Recht",
     s5Text: "Es gilt spanisches Recht. Für alle Streitigkeiten sind die Gerichte in Spanien zuständig.",
   },
+  fr: {
+    title: "Mentions Légales",
+    subtitle: "Informations légales et conditions d'utilisation du site web d'Automatismos La Provincia.",
+    s1Title: "1. Données d'identification du propriétaire",
+    s2Title: "2. Objet et champ d'application",
+    s2Text: `Les présentes mentions légales régissent l'accès et l'utilisation du site web ${companyInfo.website}, mis à disposition par Automatismos La Provincia.\nL'accès au site web implique l'acceptation pleine et sans réserve de toutes les dispositions incluses dans ces mentions légales, la politique de confidentialité et la politique de cookies.`,
+    s3Title: "3. Conditions d'accès et d'utilisation",
+    s3Text: "L'utilisateur s'engage à faire un usage approprié, licite et diligent du site web conformément à la législation en vigueur et à la bonne foi.",
+    s4Title: "4. Propriété intellectuelle et industrielle",
+    s4Text: "Tous les contenus du site web (textes, images, designs, marques) sont la propriété d'Automatismos La Provincia ou de tiers autorisés.",
+    s5Title: "5. Législation applicable",
+    s5Text: "Les présentes mentions légales sont régies par la législation espagnole. Pour tout litige, les parties se soumettent aux tribunaux d'Espagne.",
+  },
+  nl: {
+    title: "Juridische Kennisgeving",
+    subtitle: "Juridische informatie en gebruiksvoorwaarden van de website van Automatismos La Provincia.",
+    s1Title: "1. Identificatiegegevens van de eigenaar",
+    s2Title: "2. Onderwerp en toepassingsgebied",
+    s2Text: `Deze Juridische Kennisgeving regelt de toegang tot en het gebruik van de website ${companyInfo.website}, ter beschikking gesteld door Automatismos La Provincia.\nToegang tot de website houdt volledige aanvaarding in van alle bepalingen in deze Juridische Kennisgeving, het Privacybeleid en het Cookiebeleid.`,
+    s3Title: "3. Voorwaarden voor toegang en gebruik",
+    s3Text: "De gebruiker verplicht zich tot een gepast, rechtmatig en zorgvuldig gebruik van de website overeenkomstig de geldende wetgeving en de goede trouw.",
+    s4Title: "4. Intellectuele en industriële eigendom",
+    s4Text: "Alle inhoud van de website (teksten, afbeeldingen, ontwerpen, merken) is eigendom van Automatismos La Provincia of gemachtigde derden.",
+    s5Title: "5. Toepasselijk recht",
+    s5Text: "Deze Juridische Kennisgeving wordt beheerst door de Spaanse wetgeving. Voor geschillen onderwerpen partijen zich aan de Spaanse rechtbanken.",
+  },
 };
 
 export const mPrivacyTexts: Record<string, any> = {
@@ -94,6 +120,30 @@ export const mPrivacyTexts: Record<string, any> = {
     s4Title: "4. Ihre Rechte",
     s4Text: `Sie können Ihre Rechte auf Auskunft, Berichtigung und Löschung per E-Mail an ${companyInfo.email} ausüben.`,
   },
+  fr: {
+    title: "Politique de Confidentialité",
+    subtitle: "Informations sur le traitement de vos données personnelles conformément au RGPD.",
+    s1Title: "1. Responsable du traitement",
+    s1Text: `Responsable: ${companyInfo.legalName} (${companyInfo.name})\nNuméro fiscal: ${companyInfo.nif}\nAdresse: ${companyInfo.address}\nE-mail de contact: ${companyInfo.email}`,
+    s2Title: "2. Finalité du traitement",
+    s2Text: "Les données personnelles fournies via les formulaires ou le contact direct sont utilisées exclusivement pour répondre aux demandes et envoyer des devis.",
+    s3Title: "3. Base légale",
+    s3Text: "La base légale du traitement est le consentement explicite de l'utilisateur lors de la demande d'information ou de devis.",
+    s4Title: "4. Droits des utilisateurs",
+    s4Text: `Vous pouvez exercer vos droits d'accès, de rectification et de suppression en envoyant un e-mail à ${companyInfo.email}.`,
+  },
+  nl: {
+    title: "Privacybeleid",
+    subtitle: "Informatie over de verwerking van uw persoonsgegevens overeenkomstig de AVG (GDPR).",
+    s1Title: "1. Verwerkingsverantwoordelijke",
+    s1Text: `Verantwoordelijke: ${companyInfo.legalName} (${companyInfo.name})\nBTW / NIF: ${companyInfo.nif}\nAdres: ${companyInfo.address}\nContact E-mail: ${companyInfo.email}`,
+    s2Title: "2. Doel van de verwerking",
+    s2Text: "Persoonsgegevens verstrekt via formulieren of direct contact worden uitsluitend gebruikt om vragen te beantwoorden en offertes te versturen.",
+    s3Title: "3. Rechtsgrond",
+    s3Text: "De rechtsgrond voor gegevensverwerking is de uitdrukkelijke toestemming van de gebruiker bij een aanvraag.",
+    s4Title: "4. Rechten van gebruikers",
+    s4Text: `U kunt uw rechten op inzage, rectificatie en verwijdering uitoefenen door een e-mail te sturen naar ${companyInfo.email}.`,
+  },
 };
 
 export const mCookieTexts: Record<string, any> = {
@@ -121,6 +171,22 @@ export const mCookieTexts: Record<string, any> = {
     s2Title: "2. Einwilligungsverwaltung",
     s2Text: "Sie können Ihre Cookie-Einstellungen jederzeit über die Schaltfläche 'Cookie-Einstellungen' im Footer anpassen.",
   },
+  fr: {
+    title: "Politique de Cookies",
+    subtitle: "Informations transparentes sur l'utilisation des cookies sur notre site web.",
+    s1Title: "1. Qu'est-ce qu'un cookie ?",
+    s1Text: "Un cookie est un petit fichier texte stocké dans votre navigateur lorsque vous visitez notre site web.",
+    s2Title: "2. Gestion du consentement",
+    s2Text: "Vous pouvez configurer vos préférences de cookies à tout moment via le bouton 'Paramètres des cookies' dans le pied de page.",
+  },
+  nl: {
+    title: "Cookiebeleid",
+    subtitle: "Transparante informatie over het gebruik van cookies op onze website.",
+    s1Title: "1. Wat is een cookie?",
+    s1Text: "Een cookie is een klein tekstbestand dat op uw browser wordt opgeslagen wanneer u onze website bezoekt.",
+    s2Title: "2. Beheer van toestemming",
+    s2Text: "U kunt uw cookievoorkeuren op elk moment aanpassen via de knop 'Cookie-instellingen' in de footer.",
+  },
 };
 
 export const mAccessibilityTexts: Record<string, any> = {
@@ -142,6 +208,18 @@ export const mAccessibilityTexts: Record<string, any> = {
     s1Title: "1. Stand der Vereinbarkeit",
     s1Text: "Diese Website ist mit der Konformitätsstufe AA der Richtlinien für barrierefreie Webinhalte (WCAG 2.1) vollständig vereinbar.",
   },
+  fr: {
+    title: "Déclaration d'Accessibilité",
+    subtitle: "Engagement d'Automatismos La Provincia envers l'accessibilité numérique WCAG 2.1 AA.",
+    s1Title: "1. État de conformité",
+    s1Text: "Ce site web est pleinement conforme au niveau AA des Règles d'accessibilité aux contenus web (WCAG 2.1).",
+  },
+  nl: {
+    title: "Toegankelijkheidsverklaring",
+    subtitle: "Engagement van Automatismos La Provincia voor digitale toegankelijkheid WCAG 2.1 AA.",
+    s1Title: "1. Nalevingsstatus",
+    s1Text: "Deze website voldoet volledig aan niveau AA van de Web Content Accessibility Guidelines (WCAG 2.1).",
+  },
 };
 
 export const mTermsTexts: Record<string, any> = {
@@ -162,5 +240,17 @@ export const mTermsTexts: Record<string, any> = {
     subtitle: "Allgemeine Vertrags- und Nutzungsbedingungen der Website.",
     s1Title: "1. Allgemeine Bedingungen",
     s1Text: "Alle erstellten Angebote sind ab dem Ausstellungsdatum 30 Kalendertage lang gültig.",
+  },
+  fr: {
+    title: "Conditions Générales de Vente (CGV)",
+    subtitle: "Conditions générales de contrat et d'utilisation du site web.",
+    s1Title: "1. Conditions générales",
+    s1Text: "Tous les devis émis sont valables pendant 30 jours calendaires à compter de la date d'émission.",
+  },
+  nl: {
+    title: "Algemene Voorwaarden",
+    subtitle: "Algemene contract- en gebruiksvoorwaarden van de website.",
+    s1Title: "1. Algemene voorwaarden",
+    s1Text: "Alle uitgebrachte offertes zijn 30 kalenderdagen geldig vanaf de datum van afgifte.",
   },
 };

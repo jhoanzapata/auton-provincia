@@ -12,55 +12,60 @@
   },
   "hero": {
     "tagline": "AUTOMATISMOS LA PROVINCIA",
-    "title1": "Metalltüren & Tore",
+    "title1": "Metalltüre & Tore",
     "title2": "in ganz Spanien",
     "bullets": "· Verkauf · Reparatur · Automatisierung",
-    "badge1": "🕐 24h Notdienst",
+    "badge1": "🕐 24/7 Notdienst",
     "badge2": "🛡️ Volle Garantie",
     "badge3": "📍 Service in ganz Spanien",
-    "btnQuote": "💰 Kastenangebot",
+    "btnQuote": "💰 Angebot anfordern",
     "btnProjects": "Projekte ansehen",
     "experience": "⭐ Über 10 Jahre Erfahrung"
   },
   "quote": {
-    "title": "Kostenrechner & Angebot",
-    "subtitle": "Berechnen Sie die geschätzten Kosten für Ihr Metalltor in nur 3 Schritten",
-    "step1": "1. Torart auswählen",
+    "title": "Angebotsrechner",
+    "subtitle": "Berechnen Sie die geschätzten Kosten für Ihr Tor in nur 3 Schritten",
+    "step1": "1. Torauswahl",
     "step2": "2. Maße (Meter)",
-    "step3": "3. Ausführung und Farbe",
+    "step3": "3. Ausführung & Farbe",
     "doorTypes": {
       "sectional": "Sektionaltor",
       "sliding": "Schiebetor",
       "swing": "Flügeltor",
-      "ironwork": "Schlosserarbeiten & Strukturen"
+      "ironwork": "Schlosserarbeiten & Stahlbau"
     },
     "width": "Breite (m)",
     "height": "Höhe (m)",
     "estimatedPrice": "Geschätzter Preis:",
+    "back": "← Zurück",
+    "continue": "Weiter →",
+    "requestQuote": "💬 Angebot anfordern",
+    "reset": "Rechner zurücksetzen",
+    "adjustMeasures": "Maße anpassen",
     "btnSendWa": "📱 Angebot über WhatsApp anfordern",
     "btnReset": "Rechner zurücksetzen",
-    "successMsg": "✅ Angebot bereit. Beim Klicken werden Sie zu WhatsApp weitergeleitet."
+    "successMsg": "✅ Angebot erstellt. Beim Klicken werden Sie zu WhatsApp weitergeleitet."
   },
   "gallery": {
-    "title": "Galerie Realer Projekte",
-    "subtitle": "Echte Fotos unserer Installationen, Reparaturen und Schlosserarbeiten",
+    "title": "Galerie Realisierter Projekte",
+    "subtitle": "Reale Fotos unserer Montage-, Reparatur- und Schlosserarbeiten",
     "close": "Schließen"
   },
   "services": {
-    "title": "Unsere Dienstleistungen",
-    "subtitle": "Komplettlösungen für Metalltore, Automatisierungen und Schlosserarbeiten",
+    "title": "Unsere Leistungen",
+    "subtitle": "Komplettlösungen für Metalltore, Automatisierungen und professionelle Schlosserarbeiten",
     "s1Title": "Sektionaltore",
     "s1Desc": "Installation und Wartung von Sektionaltoren für Wohn- und Industriegebäude mit Premium-Motoren.",
     "s2Title": "Schiebetore",
-    "s2Desc": "Herstellung und Montage von Schiebetoren mit Sandwichpaneelen, Zahnstange und Getriebemotor.",
+    "s2Desc": "Herstellung und Montage von Schiebetoren mit Sandwichpaneelen oder Blech mit Zahnstange und Getriebemotor.",
     "s3Title": "Flügeltore",
     "s3Desc": "1- und 2-flügelige Tore mit Einbrennlackierung, elektromechanischen Antriebsarmen und Sicherheitssteuerung.",
     "s4Title": "Schlosserarbeiten & Stahlbau",
-    "s4Desc": "Allgemeine Bauschlosserei: Pergolen, Selbsttragende Dächer, Gitter, Geländer und Parküberdachungen."
+    "s4Desc": "Bauschlosserei allgemein: Pergolen, Selbsttragende Dächer, Gitter, Geländer und Parküberdachungen."
   },
   "whyUs": {
     "title": "Warum Uns Wählen",
-    "subtitle": "Qualität, Schnelligkeit und Garantie bei jedem Torprojekt",
+    "subtitle": "Qualität, Schnelligkeit und schriftliche Garantie bei jedem Torprojekt",
     "b1Title": "24/7 Notdienst",
     "b1Desc": "Jederzeit erreichbar bei Störungen oder blockierten Toren.",
     "b2Title": "Erstklassige Materialien",
@@ -85,26 +90,27 @@
   "testimonials": {
     "title": "Das Sagen Unsere Kunden",
     "subtitle": "Echte Bewertungen über unseren Service und unsere Qualität",
-    "t1Text": "Sie haben das Sektionaltor meiner Garage in Rekordzeit montiert. Der Motor läuft extrem leise.",
+    "t1Text": "\"Sie haben das Sektionaltor meiner Garage in Rekordzeit montiert. Der Motor läuft extrem leise.\"",
     "t1Author": "José Manuel (Alicante)",
-    "t2Text": "Ich hatte an einem Sonntag einen Notfall mit dem Schiebetor. Sie waren sofort da. Exzellent!",
+    "t2Text": "\"Ich hatte an einem Sonntag einen Notfall mit dem Schiebetor. Sie waren sofort da. Exzellenter Service!\"",
     "t2Author": "Isabel T. (Elche)",
-    "t3Text": "Sie haben ein Carport und Gitter in tadelloser Schlosserqualität angefertigt.",
+    "t3Text": "\"Sie haben ein Carport und Gitter in tadelloser Schlosserqualität angefertigt.\"",
     "t3Author": "Pedro López (Murcia)"
   },
   "faq": {
     "title": "Häufig Gestellte Fragen",
     "subtitle": "Antworten auf Ihre Fragen zu Metalltoren und Antrieben",
     "q1": "Wie lange dauert die Montage eines Sektionaltors?",
-    "a1": "In der Regel dauert die komplette Montage zwischen 4 und 8 Stunden je nach Torgröße.",
+    "a1": "Die komplette Montage dauert je nach Größe in der Regel 4 bis 8 Stunden.",
     "q2": "Bieten Sie Notdienste außerhalb der Geschäftszeiten an?",
-    "a2": "Ja, wir sind 365 Tage im Jahr rund um die Uhr für Notfälle erreichbar.",
+    "a2": "Ja, wir bieten 24-Stunden-Notdienst an 365 Tagen im Jahr für dringende Reparaturen.",
     "q3": "Welche Garantie haben Motoren und Steuerungen?",
-    "a3": "Alle neuen Motoren haben 2 Jahre Herstellergarantie sowie Montagegarantie."
+    "a3": "Alle neuen Motoren haben 2 Jahre Herstellergarantie sowie Garantie auf die Montage."
   },
   "videos": {
     "title": "Videodemonstration",
-    "subtitle": "Sehen Sie unsere automatischen Torsysteme in Aktion"
+    "subtitle": "Sehen Sie unsere automatischen Systeme in Aktion",
+    "noVideoSupport": "Ihr Browser unterstützt keine Videowiedergabe."
   },
   "contact": {
     "title": "Direkter Kontakt",
@@ -125,5 +131,19 @@
   },
   "legal": {
     "backHome": "← Zurück zur Startseite"
+  },
+  "projectsData": {
+    "proj-01": { "title": "Sandwichpaneel-Sektionaltor", "desc": "Montage eines Sandwich-Sektionaltors mit Deckenantrieb und Fernbedienung. Wärmedämmung und Einbrennlackierung." },
+    "proj-02": { "title": "Sandwichpaneel-Schiebetor", "desc": "Schiebetor mit Sandwichpaneel, Getriebemotor, Nylon-Zahnstange und Fernbedienung. Ideal für breite Zufahrten." },
+    "proj-03": { "title": "Lackiertes Flügeltor", "desc": "Herstellung und Montage eines 1-flügeligen Metalltors mit elektromechanischem Antriebsarm und Steuerung." },
+    "proj-04": { "title": "Freistehende Metallpergola", "desc": "Freistehende Metallpergola für Parkplatzbereich. Verzinkter und lackierter Stahl, witterungsbeständig." },
+    "proj-05": { "title": "Treppengeländer für Inneneingang", "desc": "Treppengeländer im Hauseingang. Dekorative Schlosserarbeit mit Epoxidharzlackierung, maßgefertigt nach Norm." },
+    "proj-06": { "title": "Veradadach aus Sandwichpaneelen", "desc": "Überdachung für Metallveranda mit Sandwichpaneelen. Wärmedämmung, verzinkte Stahlkonstruktion, schnelle Montage." },
+    "proj-07": { "title": "Fenstersicherheitsgitter", "desc": "Herstellung und Montage von Sicherheitsfenstergittern. Massivfeuerverzinkt, funktionales und ästhetisches Design." },
+    "proj-08": { "title": "Automatisierung eines bestehenden Tors", "desc": "Nachrüstung eines vorhandenen Tors: Installation von Motor, Steuergerät, Lichtschranken und Handsendern." }
+  },
+  "videosData": {
+    "v1": { "title": "Automatisiertes Sektionaltor", "desc": "Sektionaltor mit hochdichten Dämmpaneelen, leisem Deckenantrieb und Funkempfänger mit Fernbedienung." },
+    "v2": { "title": "Sandwich-Schiebetor", "desc": "Schnelles Schiebetorsystem mit leiser Nylon-Zahnstange, starkem Motor und Sicherheitsverschluss." }
   }
 }
