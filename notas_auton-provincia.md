@@ -20,10 +20,11 @@
 
 - **Repositorio Oficial en GitHub:**
   - URL: https://github.com/jhoanzapata/auton-provincia.git
-  - Último Commit: `seo: integrar clave de verificacion de Google Search Console VcK6qKCqSLKLWqmL8RSZxxR6587zq0ysZo9lY5xVyAo`.
+  - Último Commit: `seo: integrar archivo de verificacion publica google37694f0b0c068f9d.html en public`.
   - Rama Principal: `main`.
 
 - **SEO y Verificación de Google Search Console:**
+  - Integrado archivo de verificación estático en `public/google37694f0b0c068f9d.html`.
   - Clave de verificación integrada en `index.html`: `VcK6qKCqSLKLWqmL8RSZxxR6587zq0ysZo9lY5xVyAo`.
   - URLs canónicas y Open Graph actualizadas a `https://automatismolaprovincia.netlify.app/`.
 
@@ -35,7 +36,7 @@
 
 - **Arquitectura Base y Rendimiento:**
   - Frontend estático con Vite + React 18 + TypeScript + Tailwind v4.
-  - Compilación de producción limpia en 4.61s con 0 errores de TypeScript.
+  - Compilación de producción limpia en 3.63s con 0 errores de TypeScript.
 
 
 -------------------------------------------------------------------------------
