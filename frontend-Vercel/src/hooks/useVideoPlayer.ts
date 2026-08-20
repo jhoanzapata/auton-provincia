@@ -45,8 +45,8 @@ export function useVideoPlayer(plVideos: VideoData[]) {
   }, [vActiveIndex, plVideos.length]);
 
   return { 
-    activeIndex: vActiveIndex, 
-    videoRef: vVideoRef, 
+    vActiveIndex, 
+    vVideoRef, 
     cHandleThumbClick, 
     cHandleVideoEnd 
   };
