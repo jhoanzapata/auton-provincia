@@ -8,12 +8,6 @@ export function useVideoPlayer(plVideos: VideoData[]) {
 
   const cHandleThumbClick = useCallback((index: number) => {
     setVActiveIndex(index);
-    setTimeout(() => {
-      if (vVideoRef.current) {
-        vVideoRef.current.currentTime = 0;
-        vVideoRef.current.play().catch(() => {});
-      }
-    }, 50);
   }, []);
 
   const cHandleVideoEnd = useCallback(() => {
@@ -28,12 +22,13 @@ export function useVideoPlayer(plVideos: VideoData[]) {
     }
   }, [plVideos.length, vActiveIndex]);
 
-  // Reproducir cuando cambia de video por autoplay/ended
+  // Cargar y reproducir cuando conmuta vActiveIndex
   useEffect(() => {
     if (plVideos.length === 0) return;
     const vVideoElement = vVideoRef.current;
     if (!vVideoElement) return;
     vVideoElement.load();
+    vVideoElement.play().catch(() => {});
   }, [vActiveIndex, plVideos.length]);
 
   return { 

@@ -65,8 +65,8 @@ export function VideoGallery() {
       <div className="video-featured">
         <video
           ref={vVideoRef}
-          key={vCurrentVideo.src}
           src={vCurrentVideo.src}
+          poster={vCurrentVideo.poster}
           className="video-featured-player"
           controls
           muted
