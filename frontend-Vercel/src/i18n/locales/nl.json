@@ -1,0 +1,150 @@
+{
+  "navbar": {
+    "home": "Home",
+    "quote": "Offerte",
+    "gallery": "Galerij",
+    "services": "Diensten",
+    "videos": "Video's",
+    "menu": "Menu",
+    "closeMenu": "Menu sluiten",
+    "call": "Bellen",
+    "whatsapp": "WhatsApp"
+  },
+  "hero": {
+    "tagline": "AUTOMATISMOS LA PROVINCIA",
+    "title1": "Metalen Deuren & Poorten",
+    "title2": "in Heel Spanje",
+    "bullets": "· Verkoop · Reparaties · Automatisering",
+    "badge1": "🕐 24/7 Nooddienst",
+    "badge2": "🛡️ Volledige Garantie",
+    "badge3": "📍 Service in Heel Spanje",
+    "btnQuote": "💰 Gratis Offerte",
+    "btnProjects": "Bekijk Projecten",
+    "experience": "⭐ Meer dan 10 Jaar Ervaring"
+  },
+  "quote": {
+    "title": "Offerte Calculator",
+    "subtitle": "Bereken de geschatte kosten van uw metalen deur in slechts 3 stappen",
+    "step1": "1. Kies Type Deur",
+    "step2": "2. Afmetingen (Meter)",
+    "step3": "3. Afwerking & Kleur",
+    "doorTypes": {
+      "sectional": "Sectiepoort",
+      "sliding": "Schuifpoort",
+      "swing": "Klapdeur / Vleugelpoort",
+      "ironwork": "Smeedwerk & Structuren"
+    },
+    "width": "Breedte (m)",
+    "height": "Hoogte (m)",
+    "estimatedPrice": "Geschatte Prijs:",
+    "back": "← Terug",
+    "continue": "Verder →",
+    "requestQuote": "💬 Offerte aanvragen",
+    "reset": "Calculator resetten",
+    "adjustMeasures": "Maten aanpassen",
+    "btnSendWa": "📱 Offerte Aanvragen via WhatsApp",
+    "btnReset": "Calculator Resetten",
+    "successMsg": "✅ Offerte voorbereid. Klik om te worden doorgestuurd naar WhatsApp."
+  },
+  "gallery": {
+    "title": "Galerij Realisaties",
+    "subtitle": "Echte foto's van onze installatie-, reparatie- en smeedwerkprojecten",
+    "close": "Sluiten"
+  },
+  "services": {
+    "title": "Onze Diensten",
+    "subtitle": "Complete oplossingen voor metalen deuren, automatiseringen en professioneel smeedwerk",
+    "s1Title": "Sectiepoorten",
+    "s1Desc": "Installatie en onderhoud van residentiële en industriële sectiepoorten met topklasse motoren.",
+    "s2Title": "Schuifpoorten",
+    "s2Desc": "Fabricage en installatie van schuifpoorten in sandwichpaneel of plaatwerk met nylon tandheugel.",
+    "s3Title": "Klapdeuren & Vleugelpoorten",
+    "s3Desc": "1- en 2-vleugelige poorten, moffellak afwerking met elektromechanische armen en veiligheidscentrale.",
+    "s4Title": "Smeedwerk & Structuren",
+    "s4Desc": "Algemene metaalbewerking: pergola's, zelfdragende overkappingen, traliewerk, leuningen en carportoverkappingen."
+  },
+  "whyUs": {
+    "title": "Waarom Voor Ons Kiezen",
+    "subtitle": "Kwaliteit, snelheid en schriftelijke garantie op elk motoriserings- en smeedwerkproject",
+    "b1Title": "24/7 Dringende Hulp",
+    "b1Desc": "Altijd beschikbaar bij storingen of geblokkeerde poorten.",
+    "b2Title": "Hoogwaardige Materialen",
+    "b2Desc": "Wij gebruiken vooraanstaande merkmotoren, sandwichpanelen en duurzaam moffellak.",
+    "b3Title": "Schriftelijke Garantie",
+    "b3Desc": "Al onze installaties en reparaties bevatten directe garantie.",
+    "b4Title": "Vrijblijvende Offerte",
+    "b4Desc": "Wij adviseren u graag en berekenen de kosten zonder extra kosten."
+  },
+  "process": {
+    "title": "Onze Werkwijze",
+    "subtitle": "Eenvoudig en transparant proces in 4 stappen",
+    "p1Title": "1. Contact",
+    "p1Desc": "Bel ons of stuur een bericht via WhatsApp met uw wensen.",
+    "p2Title": "2. Offerte",
+    "p2Desc": "Wij sturen u een duidelijke prijsopgave zonder verrassingen.",
+    "p3Title": "3. Fabricage / Reparatie",
+    "p3Desc": "Wij voeren het werk uit met maximale technische precisie.",
+    "p4Title": "4. Oplevering & Garantie",
+    "p4Desc": "Wij testen het systeem met de afstandsbediening en overhandigen de garantie."
+  },
+  "testimonials": {
+    "title": "Ervaringen van Klanten",
+    "subtitle": "Echte beoordelingen over onze service en vakmanschap",
+    "t1Text": "\"Ze hebben de garage sectiepoort in rekordtijd geïnstalleerd. De motor werkt heel stil en soepel.\"",
+    "t1Author": "José Manuel (Alicante)",
+    "t2Text": "\"Ik had op een zondag een noodgeval met de schuifpoort en ze kwamen meteen. Uitstekende service!\"",
+    "t2Author": "Isabel T. (Elche)",
+    "t3Text": "\"Ze hebben een carport en raamroosters gemaakt met onberispelijke smeedwerkkwaliteit.\"",
+    "t3Author": "Pedro López (Murcia)"
+  },
+  "faq": {
+    "title": "Veelgestelde Vragen",
+    "subtitle": "Antwoorden op uw vragen over metalen deuren en automatiseringsmotoren",
+    "q1": "Hoe lang duurt de installatie van een sectiepoort?",
+    "a1": "De volledige installatie duurt afhankelijk van de afmetingen meestal tussen de 4 en 8 uur.",
+    "q2": "Biedt u nooddiensten buiten kantooruren aan?",
+    "a2": "Ja, wij bieden 24/7 nooddienst 365 dagen per jaar voor dringende reparaties.",
+    "q3": "Welke garantie zit er op de motoren en automatiseringssystemen?",
+    "a3": "Alle nieuwe motoren hebben 2 jaar fabrieksgarantie en installatiegarantie."
+  },
+  "videos": {
+    "title": "Video Demonstraties",
+    "subtitle": "Bekijk onze automatische systemen in volle werking.",
+    "noVideoSupport": "Uw browser ondersteunt geen videoweergave."
+  },
+  "contact": {
+    "title": "Direct Contact",
+    "subtitle": "Wij staan vandaag nog klaar om u te helpen",
+    "callUs": "Bel ons op:",
+    "whatsappUs": "Stuur een bericht via WhatsApp:",
+    "emailUs": "Stuur ons een e-mail:",
+    "followUs": "Volg ons op sociale media"
+  },
+  "footer": {
+    "legalNotice": "Juridische Kennisgeving",
+    "privacy": "Privacybeleid",
+    "cookies": "Cookiebeleid",
+    "terms": "Algemene Voorwaarden",
+    "accessibility": "Toegankelijkheid",
+    "configCookies": "Cookie-instellingen",
+    "rights": "Alle rechten voorbehouden.",
+    "devNotice": "Webontwikkeling door Jhoan Zapata. De ontwikkelaar staat los van de commerciële diensten van Automatismos La Provincia."
+  },
+  "legal": {
+    "backHome": "← Terug naar Home"
+  },
+  "projectsData": {
+    "proj-01": { "title": "Sandwichpaneel Sectiepoort", "desc": "Installatie van sandwichpaneel sectiepoort met plafondmotor en afstandsbediening. Thermische isolatie en moffellak afwerking." },
+    "proj-02": { "title": "Sandwichpaneel Schuifpoort", "desc": "Schuifpoort met sandwichpaneel, transmissiemotor, nylon tandheugel en afstandsbediening. Ideaal voor brede doorgangen." },
+    "proj-03": { "title": "Gelaakte Metalen Klapdeur", "desc": "Fabricage en installatie van 1-vleugelige klapdeur in plaatwerk met moffellak, elektromechanische arm en sturing." },
+    "proj-04": { "title": "Zelfdragende Metalen Pergola", "desc": "Zelfdragende metalen pergolastructuur voor parkeerzone. Gevuld en gelakt gegalvaniseerd staal, weerbestendig." },
+    "proj-05": { "title": "Trapbalustrade Hal Ingang", "desc": "Trapbalustrade in ingangshal. Decoratief smeedwerk met epoxylak afwerking, op maat gemaakt volgens normen." },
+    "proj-06": { "title": "Sandwichpaneel Veranda Overkapping", "desc": "Overkapping voor metalen veranda met sandwichpaneel. Thermische isolatie, gegalvaniseerde staalstructuur, snelle montage." },
+    "proj-07": { "title": "Raam Veiligheidsrooster", "desc": "Fabricage en installatie van veiligheidsrooster voor raam. Massief ijzer, functioneel en esthetisch moffellak ontwerp." },
+    "proj-08": { "title": "Automatisering Bestaande Poort", "desc": "Automatisering van bestaande poort: installatie van motor, stuurkast, fotocellen en afstandsbedieningen." }
+  },
+  "videosData": {
+    "v1": { "title": "Geautomatiseerde Sectiepoort", "desc": "Sectiepoort met isolatiepanelen van hoge dichtheid, superstille plafondmotor en ontvanger met afstandsbediening." },
+    "v2": { "title": "Sandwichpaneel Schuifpoort", "desc": "Snel schuifautomatiseringssysteem met stille nylon tandheugel, krachtige motor en veiligheidssluiting." }
+  }
+}

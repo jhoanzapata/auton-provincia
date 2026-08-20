@@ -1,0 +1,150 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "quote": "Presupuesto",
+    "gallery": "Galería",
+    "services": "Servicios",
+    "videos": "Videos",
+    "menu": "Menú",
+    "closeMenu": "Cerrar menú",
+    "call": "Llamar",
+    "whatsapp": "WhatsApp"
+  },
+  "hero": {
+    "tagline": "AUTOMATISMOS LA PROVINCIA",
+    "title1": "Puertas Metálicas",
+    "title2": "en Toda España",
+    "bullets": "· Venta · Reparación · Automatización",
+    "badge1": "🕐 Urgencias 24h",
+    "badge2": "🛡️ Garantía total",
+    "badge3": "📍 Servicio en toda España",
+    "btnQuote": "💰 Presupuesto",
+    "btnProjects": "Ver Proyectos",
+    "experience": "⭐ Más de 10 años de experiencia"
+  },
+  "quote": {
+    "title": "Cotizador de Presupuesto",
+    "subtitle": "Calcula el costo estimado de tu puerta metálica en solo 3 pasos",
+    "step1": "1. Tipo de Puerta",
+    "step2": "2. Medidas (Metros)",
+    "step3": "3. Acabado y Color",
+    "doorTypes": {
+      "sectional": "Puerta Seccional",
+      "sliding": "Puerta Corredera",
+      "swing": "Puerta Abatible",
+      "ironwork": "Herrería y Estructuras"
+    },
+    "width": "Ancho (m)",
+    "height": "Alto (m)",
+    "estimatedPrice": "Precio Estimado:",
+    "back": "← Atrás",
+    "continue": "Continuar →",
+    "requestQuote": "💬 Solicitar presupuesto",
+    "reset": "Reiniciar cotizador",
+    "adjustMeasures": "Ajustar medidas",
+    "btnSendWa": "📱 Solicitar Presupuesto en WhatsApp",
+    "btnReset": "Reiniciar Cotizador",
+    "successMsg": "✅ Presupuesto preparado. Al hacer clic serás redirigido a WhatsApp."
+  },
+  "gallery": {
+    "title": "Galería de Proyectos Realizados",
+    "subtitle": "Fotos reales de nuestros trabajos de instalación, reparación y herrería",
+    "close": "Cerrar"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones integrales para puertas metálicas, automatismos y herrería profesional",
+    "s1Title": "Puertas Seccionales",
+    "s1Desc": "Instalación y mantenimiento de puertas seccionales residenciales e industriales con motores de alta gama.",
+    "s2Title": "Puertas Correderas",
+    "s2Desc": "Fabricación e instalación de puertas correderas en panel sándwich o chapa con cremallera de nylon y motor de transmisión.",
+    "s3Title": "Puertas Abatibles",
+    "s3Desc": "Puertas abatibles de 1 y 2 hojas lacadas al horno con brazos electromecánicos y centralitas de seguridad.",
+    "s4Title": "Herrería y Estructuras",
+    "s4Desc": "Carpintería metálica en general: pérgolas, cubiertas autoportantes, rejas, barandillas y zonas de parking."
+  },
+  "whyUs": {
+    "title": "Por Qué Elegirnos",
+    "subtitle": "Calidad, rapidez y garantía en cada proyecto de automatismos y cerrajería",
+    "b1Title": "Atención Urgente 24/7",
+    "b1Desc": "Disponibles a cualquier hora para averías o bloqueos en tu puerta.",
+    "b2Title": "Materiales de Primera",
+    "b2Desc": "Utilizamos paneles sándwich, lacados al horno y motores de marcas líderes.",
+    "b3Title": "Garantía Escrita",
+    "b3Desc": "Todas nuestras instalaciones y reparaciones cuentan con garantía directa.",
+    "b4Title": "Presupuesto Sin Compromiso",
+    "b4Desc": "Te asesoramos y calculamos el importe sin ningún costo adicional."
+  },
+  "process": {
+    "title": "Cómo Trabajamos",
+    "subtitle": "Proceso simple y transparente en 4 pasos",
+    "p1Title": "1. Contacto",
+    "p1Desc": "Nos llamas o nos escribes por WhatsApp con tu necesidad.",
+    "p2Title": "2. Presupuesto",
+    "p2Desc": "Te enviamos una cotización clara y sin sorpresas.",
+    "p3Title": "3. Fabricación / Reparación",
+    "p3Desc": "Ejecutamos el trabajo con máxima precisión técnica.",
+    "p4Title": "4. Entrega y Garantía",
+    "p4Desc": "Comprobamos el correcto funcionamiento con mando y entregamos la garantía."
+  },
+  "testimonials": {
+    "title": "Lo Que Dicen Nuestros Clientes",
+    "subtitle": "Opiniones reales sobre nuestro servicio y calidad",
+    "t1Text": "Instalaron la puerta seccional de mi garaje en tiempo récord. El motor funciona suave y sin ruidos.",
+    "t1Author": "José Manuel (Alicante)",
+    "t2Text": "Tuve una urgencia con la puerta corredera un domingo y vinieron de inmediato. Excelente servicio.",
+    "t2Author": "Isabel T. (Elche)",
+    "t3Text": "Fabricaron unas rejas y una cubierta para el coche con una calidad de herrería impecable.",
+    "t3Author": "Pedro López (Murcia)"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Resolvemos tus dudas sobre puertas metálicas y motores",
+    "q1": "¿Cuánto se tarda en instalar una puerta seccional?",
+    "a1": "Normalmente la instalación completa toma entre 4 y 8 horas dependiendo de la medida.",
+    "q2": "¿Ofrecen servicio de urgencias fuera de horario?",
+    "a2": "Sí, disponemos de atención 24 horas los 365 días del año para averías urgentes.",
+    "q3": "¿Qué garantía tienen los motores y automatismos?",
+    "a3": "Todos los motores nuevos cuentan con 2 años de garantía del fabricante y garantía de instalación."
+  },
+  "videos": {
+    "title": "Demostración en Video",
+    "subtitle": "Mira nuestros sistemas automáticos en pleno funcionamiento",
+    "noVideoSupport": "Tu navegador no soporta reproducción de vídeo."
+  },
+  "contact": {
+    "title": "Contacto Directo",
+    "subtitle": "Estamos listos para atenderte hoy mismo",
+    "callUs": "Llámanos al",
+    "whatsappUs": "Escríbenos por WhatsApp",
+    "emailUs": "Envíanos un Email",
+    "followUs": "Síguenos en redes sociales"
+  },
+  "footer": {
+    "legalNotice": "Aviso Legal",
+    "privacy": "Política de Privacidad",
+    "cookies": "Política de Cookies",
+    "terms": "Términos y Condiciones",
+    "accessibility": "Accesibilidad",
+    "configCookies": "Configurar cookies",
+    "rights": "Todos los derechos reservados.",
+    "devNotice": "Desarrollo web por Jhoan Zapata. El desarrollador es independiente de los servicios comerciales de Automatismos La Provincia."
+  },
+  "legal": {
+    "backHome": "← Volver al Inicio"
+  },
+  "projectsData": {
+    "proj-01": { "title": "Puerta seccional panel sándwich", "desc": "Instalación de puerta seccional en panel sándwich con motor a techo y mando a distancia. Aislamiento térmico y acabado lacado." },
+    "proj-02": { "title": "Puerta corredera panel sándwich", "desc": "Puerta corredera con panel tipo sándwich, motor de transmisión, cremallera en nylon y mando a distancia. Ideal para accesos amplios." },
+    "proj-03": { "title": "Puerta abatible chapa lacada", "desc": "Fabricación e instalación de puerta abatible 1 hoja en chapa metálica, lacado al horno, con brazo electromecánico y centralita." },
+    "proj-04": { "title": "Pérgola metálica autoportante", "desc": "Estructura de pérgola metálica autoportante para zona de parking. Acero galvanizado y lacado, resistente a intemperie." },
+    "proj-05": { "title": "Barandilla escalera portal interior", "desc": "Barandilla de escalera en portal interior. Herrería decorativa con acabado en pintura epoxi, diseño a medida según normativa." },
+    "proj-06": { "title": "Cubierta porche panel sándwich", "desc": "Cubierta para porche metálico con panel sándwich. Aislamiento térmico, estructura de acero galvanizado, instalación rápida." },
+    "proj-07": { "title": "Reja seguridad ventana", "desc": "Fabricación e instalación de reja de seguridad para ventana. Hierro macizo, diseño funcional y estético, lacado al horno." },
+    "proj-08": { "title": "Automatismo puerta existente", "desc": "Automatización de puerta existente: instalación de motor, centralita, fotocélulas y mandos. Puesta en marcha y prueba." }
+  },
+  "videosData": {
+    "v1": { "title": "Puerta Seccional Automatizada", "desc": "Puerta seccional con paneles aislantes de alta densidad, motor a techo ultrasilencioso y receptor con mando a distancia." },
+    "v2": { "title": "Puerta Corredera en Panel Sándwich", "desc": "Sistema corredero de automatización rápida con cremallera de nylon silenciosa, motor de gran potencia y cierre de seguridad." }
+  }
+}
