@@ -62,15 +62,19 @@
   },
   "services": {
     "title": "Els Nostres Serveis",
-    "subtitle": "Solucions integrals per a portes metàl·liques, automatismes i ferreria professional",
-    "s1Title": "Portes Seccionals",
-    "s1Desc": "Instal·lació i manteniment de portes seccionals residencials i industrials amb motors d'alta gamma.",
-    "s2Title": "Portes Corredisses",
-    "s2Desc": "Fabricació i instal·lació de portes corredisses en panell sandvitx o xapa amb cremallera de niló i motor de transmissió.",
-    "s3Title": "Portes Batents",
-    "s3Desc": "Portes batents d'1 i 2 fulles lacades al forn amb braços electromecànics i centraletes de seguretat.",
-    "s4Title": "Ferreria i Estructures",
-    "s4Desc": "Fusteria metàl·lica en general: pèrgoles, cobertes autoportants, reixes, baranes i zones d'aparcament."
+    "subtitle": "Solucions integrals per a portes metàl·liques, automatismes i ferreria professional a Alacant",
+    "s1Title": "Portes Seccionals de Garatge",
+    "s1Desc": "Instal·lació de portes seccionals de garatge a Alacant i Costa Blanca: aïllament tèrmic en panell sandvitx, motors silenciosos Somfy/CAME i obertura amb comandament a distància.",
+    "s2Title": "Portes Corredisses i Cancel·les",
+    "s2Desc": "Fabricació i instal·lació de cancel·les i portes corredisses a Alacant: automatismes d'alt trànsit, cremallera de niló silenciosa i motors electromecànics.",
+    "s3Title": "Portes Batents d'1 i 2 Fulles",
+    "s3Desc": "Portes batents d'1 i 2 fulles a Alacant: lacat al forn d'alta resistència, braços electromecànics amb bloqueig de seguretat i fotocèl·lules anti-aixafament.",
+    "s4Title": "Ferreria i Estructures Metàl·liques",
+    "s4Desc": "Ferrer professional a Alacant: disseny i muntatge a mida de pèrgoles per a pàrquing, cobertes en panell sandvitx, reixes de seguretat per a finestres i baranes.",
+    "s5Title": "Reparació Urgent 24h de Portes i Motors",
+    "s5Desc": "Servei tècnic urgent a Alacant: desbloqueig de portes encallades, substitució de cables/molls trencats i reparació immediata de motors en el mateix dia.",
+    "s6Title": "Manteniment i Comandaments per a Comunitats",
+    "s6Desc": "Manteniment preventiu i normatiu per a portes de garatge comunitàries a Alacant, subministrament i codificació de comandaments rolling-code i contractes de revisió periòdica."
   },
   "whyUs": {
     "title": "Per Què Triar-nos",

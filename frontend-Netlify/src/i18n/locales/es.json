@@ -62,15 +62,19 @@
   },
   "services": {
     "title": "Nuestros Servicios",
-    "subtitle": "Soluciones integrales para puertas metálicas, automatismos y herrería profesional",
-    "s1Title": "Puertas Seccionales",
-    "s1Desc": "Instalación y mantenimiento de puertas seccionales residenciales e industriales con motores de alta gama.",
-    "s2Title": "Puertas Correderas",
-    "s2Desc": "Fabricación e instalación de puertas correderas en panel sándwich o chapa con cremallera de nylon y motor de transmisión.",
-    "s3Title": "Puertas Abatibles",
-    "s3Desc": "Puertas abatibles de 1 y 2 hojas lacadas al horno con brazos electromecánicos y centralitas de seguridad.",
-    "s4Title": "Herrería y Estructuras",
-    "s4Desc": "Carpintería metálica en general: pérgolas, cubiertas autoportantes, rejas, barandillas y zonas de parking."
+    "subtitle": "Soluciones integrales para puertas metálicas, automatismos y herrería profesional en Alicante",
+    "s1Title": "Puertas Seccionales de Garaje",
+    "s1Desc": "Instalación de puertas seccionales de garaje en Alicante y Costa Blanca: aislamiento térmico en panel sándwich, motores silenciosos Somfy/CAME y apertura con mando a distancia.",
+    "s2Title": "Puertas Correderas y Cancelas",
+    "s2Desc": "Fabricación e instalación de cancelas y puertas correderas en Alicante: automatismos de alto tráfico, cremallera de nylon silenciosa y motores electromecánicos.",
+    "s3Title": "Puertas Abatibles y Batientes",
+    "s3Desc": "Puertas abatibles de 1 y 2 hojas en Alicante: lacado al horno de alta resistencia, brazos electromecánicos con bloqueo de seguridad y fotocélulas anti-aplastamiento.",
+    "s4Title": "Herrería y Estructuras Metálicas",
+    "s4Desc": "Herrero profesional en Alicante: diseño y montaje a medida de pérgolas para parking, cubiertas en panel sándwich, rejas de seguridad para ventanas y barandillas.",
+    "s5Title": "Reparación Urgente 24h de Puertas y Motores",
+    "s5Desc": "Servicio técnico urgente en Alicante: desbloqueo de puertas atascadas, sustitución de cables/muelles rotos y reparación inmediata de motores en el mismo día.",
+    "s6Title": "Mantenimiento y Mandos para Comunidades",
+    "s6Desc": "Mantenimiento preventivo y normativo para puertas de garaje comunitarias en Alicante, suministro y codificación de mandos rolling-code y contratos de revisión periódica."
   },
   "whyUs": {
     "title": "Por Qué Elegirnos",

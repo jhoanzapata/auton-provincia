@@ -62,15 +62,19 @@
   },
   "services": {
     "title": "Onze Diensten",
-    "subtitle": "Complete oplossingen voor metalen deuren, automatiseringen en professioneel smeedwerk",
-    "s1Title": "Sectiepoorten",
-    "s1Desc": "Installatie en onderhoud van residentiële en industriële sectiepoorten met topklasse motoren.",
-    "s2Title": "Schuifpoorten",
-    "s2Desc": "Fabricage en installatie van schuifpoorten in sandwichpaneel of plaatwerk met nylon tandheugel.",
-    "s3Title": "Klapdeuren & Vleugelpoorten",
-    "s3Desc": "1- en 2-vleugelige poorten, moffellak afwerking met elektromechanische armen en veiligheidscentrale.",
-    "s4Title": "Smeedwerk & Structuren",
-    "s4Desc": "Algemene metaalbewerking: pergola's, zelfdragende overkappingen, traliewerk, leuningen en carportoverkappingen."
+    "subtitle": "Integrale oplossingen voor metalen deuren, automatiseringen en professioneel ijzerwerk in Alicante",
+    "s1Title": "Sectionale Garagedeuren",
+    "s1Desc": "Installatie van sectionale garagedeuren in Alicante en Costa Blanca: thermische isolatie met sandwichpanelen, stille Somfy/CAME motoren en afstandsbediening.",
+    "s2Title": "Schuifdeuren en Toegangspoorten",
+    "s2Desc": "Productie en installatie van schuifpoorten in Alicante: zware automatisering, stille nylon tandheugel en krachtige elektromechanische motoren.",
+    "s3Title": "Draaideuren en Vleugelpoorten",
+    "s3Desc": "1- en 2-vleugelige draaipoorten in Alicante: gemoffelde poedercoating, elektromechanische veiligheidsarmen en anti-klem fotocellen.",
+    "s4Title": "Smeedwerk & Metaalconstructies",
+    "s4Desc": "Professionele smid in Alicante: op maat gemaakte parkeerpergola's, sandwichpaneel overkappingen, veiligheidstralies en balustrades.",
+    "s5Title": "24/7 Spoedreparatie Deuren en Motoren",
+    "s5Desc": "Technische spoeddienst in Alicante: deblokkeren van vastgelopen deuren, vervanging van gebroken kabels/veren en directe motorreparatie op dezelfde dag.",
+    "s6Title": "Onderhoud & Handzenders voor VvE / Appartementen",
+    "s6Desc": "Preventief onderhoud van gemeenschappelijke garagedeuren in Alicante, levering en programmering van rolling-code handzenders en periodieke inspectiecontracten."
   },
   "whyUs": {
     "title": "Waarom Voor Ons Kiezen",

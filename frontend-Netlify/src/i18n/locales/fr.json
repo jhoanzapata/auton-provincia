@@ -62,15 +62,19 @@
   },
   "services": {
     "title": "Nos Services",
-    "subtitle": "Solutions intégrales pour portes métalliques, automatismes et serrurerie professionnelle",
-    "s1Title": "Portes Sectionnelles",
-    "s1Desc": "Installation et entretien de portes sectionnelles résidentielles et industrielles avec moteurs haut de gamme.",
+    "subtitle": "Solutions complètes pour portes métalliques, automatismes et métallerie professionnelle à Alicante",
+    "s1Title": "Portes de Garage Sectionnelles",
+    "s1Desc": "Installation de portes sectionnelles à Alicante et sur la Costa Blanca : isolation thermique en panneaux sandwich, moteurs silencieux Somfy/CAME et télécommande.",
     "s2Title": "Portails Coulissants",
-    "s2Desc": "Fabrication et installation de portails coulissants en panneau sandwich ou tôle avec crémaillère en nylon et moteur puissant.",
-    "s3Title": "Portes Battantes",
-    "s3Desc": "Portes battantes à 1 et 2 vantaux thermolaquées avec bras électromécaniques et centrales de sécurité.",
-    "s4Title": "Serrurerie et Structures",
-    "s4Desc": "Serrurerie métallique générale : pergolas, toitures autoportantes, grilles de sécurité, garde-corps et carports."
+    "s2Desc": "Fabrication et installation de portails coulissants à Alicante : automatismes pour trafic intense, crémaillère en nylon silencieuse et moteurs puissants.",
+    "s3Title": "Portes Battantes 1 et 2 Vantaux",
+    "s3Desc": "Portes battantes à Alicante : thermolaquage haute résistance, bras électromécaniques avec verrouillage de sécurité et cellules anti-écrasement.",
+    "s4Title": "Métallerie & Structures Métalliques",
+    "s4Desc": "Ferronnerie professionnelle à Alicante : pergolas sur mesure pour parking, toitures en panneaux sandwich, grilles de sécurité et garde-corps.",
+    "s5Title": "Dépannage d'Urgence 24h/24 Portes et Moteurs",
+    "s5Desc": "Service technique d'urgence à Alicante : déblocage de portes coincées, remplacement de câbles/ressorts cassés et réparation immédiate de moteurs le jour même.",
+    "s6Title": "Maintenance & Télécommandes pour Copropriétés",
+    "s6Desc": "Entretien préventif et réglementaire de portes de garage collectives à Alicante, copie de télécommandes rolling-code et contrats de révision périodique."
   },
   "whyUs": {
     "title": "Pourquoi Nous Choisir",

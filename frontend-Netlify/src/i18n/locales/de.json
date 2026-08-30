@@ -61,16 +61,20 @@
     "close": "Schließen"
   },
   "services": {
-    "title": "Unsere Leistungen",
-    "subtitle": "Komplettlösungen für Metalltore, Automatisierungen und professionelle Schlosserarbeiten",
-    "s1Title": "Sektionaltore",
-    "s1Desc": "Installation und Wartung von Sektionaltoren für Wohn- und Industriegebäude mit Premium-Motoren.",
-    "s2Title": "Schiebetore",
-    "s2Desc": "Herstellung und Montage von Schiebetoren mit Sandwichpaneelen oder Blech mit Zahnstange und Getriebemotor.",
-    "s3Title": "Flügeltore",
-    "s3Desc": "1- und 2-flügelige Tore mit Einbrennlackierung, elektromechanischen Antriebsarmen und Sicherheitssteuerung.",
-    "s4Title": "Schlosserarbeiten & Stahlbau",
-    "s4Desc": "Bauschlosserei allgemein: Pergolen, Selbsttragende Dächer, Gitter, Geländer und Parküberdachungen."
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Ganzheitliche Lösungen für Metalltore, Automatisation und professionelle Schlosserarbeiten in Alicante",
+    "s1Title": "Sektionaltore für Garagen",
+    "s1Desc": "Installation von Sektionaltoren in Alicante und an der Costa Blanca: Wärmedämmung mit Sandwichpaneelen, leise Somfy/CAME-Motoren und Funkfernbedienung.",
+    "s2Title": "Schiebetore und Einfahrtstore",
+    "s2Desc": "Herstellung und Montage von Schiebetoren in Alicante: Hochfrequenz-Antriebe, geräuscharme Nylon-Zahnstange und leistungsstarke Elektromotoren.",
+    "s3Title": "Drehtore und Flügeltore",
+    "s3Desc": "1- und 2-flügelige Drehtore in Alicante: einbrennlackiert, elektromechanische Sicherheitsarme und Einklemmschutz-Lichtschranken.",
+    "s4Title": "Schlosserei & Metallkonstruktionen",
+    "s4Desc": "Professioneller Schlosser in Alicante: maßgefertigte Parkplatz-Pergolen, Sandwich-Überdachungen, Sicherheitsgitter und Geländer.",
+    "s5Title": "24/7 Notfall-Reparatur für Tore und Antriebe",
+    "s5Desc": "Technischer Notdienst in Alicante: Notöffnung blockierter Tore, Austausch gerissener Seile/Federn und sofortige Antriebsreparatur am selben Tag.",
+    "s6Title": "Wartung & Handsender für Wohnanlagen",
+    "s6Desc": "Normgerechte Wartung von Tiefgaragentoren für Eigentümergemeinschaften in Alicante, Rolling-Code-Handsender und regelmäßige Serviceverträge."
   },
   "whyUs": {
     "title": "Warum Uns Wählen",

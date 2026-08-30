@@ -62,15 +62,19 @@
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Complete solutions for metal doors, automation, and professional ironwork",
-    "s1Title": "Sectional Doors",
-    "s1Desc": "Installation and maintenance of residential and industrial sectional doors with premium motors.",
-    "s2Title": "Sliding Gates",
-    "s2Desc": "Manufacture and installation of sandwich panel or sheet metal sliding gates with nylon rack.",
-    "s3Title": "Swing Gates",
-    "s3Desc": "1 and 2-leaf swing gates, oven-lacquered with electromechanical arms and safety units.",
-    "s4Title": "Ironwork & Structures",
-    "s4Desc": "General metalwork: pergolas, self-supporting roofs, window guards, railings, and parking carports."
+    "subtitle": "Comprehensive solutions for metal doors, automations, and professional ironwork in Alicante",
+    "s1Title": "Sectional Garage Doors",
+    "s1Desc": "Sectional garage door installation in Alicante and Costa Blanca: thermal insulation sandwich panels, silent Somfy/CAME motors, and remote control access.",
+    "s2Title": "Sliding Doors & Gates",
+    "s2Desc": "Fabrication and installation of sliding gates in Alicante: high-traffic automation, silent nylon rack, and powerful electromechanical motors.",
+    "s3Title": "Swing & Hinged Doors",
+    "s3Desc": "1 and 2 leaf swing gates in Alicante: high-durability oven baked finish, electromechanical safety arms, and anti-crush safety photocells.",
+    "s4Title": "Custom Ironwork & Metal Structures",
+    "s4Desc": "Professional metalwork in Alicante: bespoke parking pergolas, sandwich panel canopies, window security grilles, and staircase railings.",
+    "s5Title": "24/7 Emergency Door & Motor Repair",
+    "s5Desc": "Emergency repair service across Alicante: jammed door unlocking, broken cable/spring replacement, and same-day motor troubleshooting.",
+    "s6Title": "Community Garage Maintenance & Remotes",
+    "s6Desc": "Preventive and regulatory maintenance for residential community garage doors in Alicante, rolling-code remote duplication, and service contracts."
   },
   "whyUs": {
     "title": "Why Choose Us",

@@ -30,6 +30,16 @@ export function ServicesSection() {
           <h3>{t("services.s4Title")}</h3>
           <p>{t("services.s4Desc")}</p>
         </div>
+        <div className="feature-card">
+          <div className="feature-icon">🚨</div>
+          <h3>{t("services.s5Title")}</h3>
+          <p>{t("services.s5Desc")}</p>
+        </div>
+        <div className="feature-card">
+          <div className="feature-icon">🏢</div>
+          <h3>{t("services.s6Title")}</h3>
+          <p>{t("services.s6Desc")}</p>
+        </div>
       </div>
     </section>
   );
