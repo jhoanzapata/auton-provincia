@@ -25,6 +25,12 @@
   "brands": {
     "title": "Trabajamos con las Mejores Marcas Homologadas de Automatismos y Motores"
   },
+  "coverage": {
+    "badge": "Área de Servicio",
+    "title": "Zona de Cobertura y Servicio Técnico en Alicante",
+    "subtitle": "Instalación, automatización, reparación urgente y mantenimiento de puertas metálicas en toda la provincia de Alicante y Costa Blanca.",
+    "cta": "Consultar desplazamiento a mi municipio"
+  },
   "quote": {
     "title": "Cotizador de Presupuesto",
     "subtitle": "Calcula el costo estimado de tu puerta metálica en solo 3 pasos",

@@ -11,6 +11,7 @@ import { ContactSection } from "./sections/ContactSection";
 import { FooterSection } from "./sections/FooterSection";
 import { ProjectGallery } from "../components/ProjectGallery";
 import { VideoGallery } from "../components/VideoGallery";
+import { CoverageSection } from "./sections/CoverageSection";
 import { WhatsAppBtn } from "../components/WhatsAppBtn";
 
 export function Landing() {
@@ -27,6 +28,7 @@ export function Landing() {
       <TestimonialsSection />
       <FAQSection />
       <VideoGallery />
+      <CoverageSection />
       <ContactSection />
       <FooterSection />
       <WhatsAppBtn />

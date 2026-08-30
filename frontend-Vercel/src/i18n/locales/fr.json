@@ -23,7 +23,13 @@
     "experience": "⭐ Plus de 10 ans d'expérience"
   },
   "brands": {
-    "title": "Nous Travaillons Avec Les Plus Grandes Marques Homologuées d'Automatismes et Moteurs"
+    "title": "Nous Travaillons avec les Meilleures Marques Homologuées de Moteurs et Automatismes"
+  },
+  "coverage": {
+    "badge": "Zone d'Intervention",
+    "title": "Zone de Couverture et Service Technique à Alicante",
+    "subtitle": "Installation, automatisation, dépannage d'urgence et maintenance de portes métalliques dans toute la province d'Alicante et la Costa Blanca.",
+    "cta": "Vérifier la disponibilité pour ma commune"
   },
   "quote": {
     "title": "Calculateur de Devis",

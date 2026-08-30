@@ -23,7 +23,13 @@
     "experience": "⭐ Over 10 years of experience"
   },
   "brands": {
-    "title": "We Work With The Industry's Leading Approved Motor & Automation Brands"
+    "title": "We Work with the Best Approved Brands of Automations and Motors"
+  },
+  "coverage": {
+    "badge": "Service Area",
+    "title": "Service Coverage & Technical Support in Alicante",
+    "subtitle": "Installation, automation, emergency repairs, and maintenance of metal doors across the entire Alicante province and Costa Blanca.",
+    "cta": "Check service availability in my area"
   },
   "quote": {
     "title": "Instant Quote Calculator",
