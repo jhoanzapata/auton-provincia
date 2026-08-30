@@ -13,14 +13,14 @@ import ru from "./locales/ru.json";
 export const lSupportedLanguages = ["es", "va", "en", "de", "fr", "nl", "ru"] as const;
 export type TLanguageCode = (typeof lSupportedLanguages)[number];
 
-export const lLanguageOptions: Array<{ code: TLanguageCode; label: string; flag: string }> = [
-  { code: "es", label: "ES", flag: "🇪🇸" },
-  { code: "va", label: "VA", flag: "🟡" },
-  { code: "en", label: "EN", flag: "🇬🇧" },
-  { code: "de", label: "DE", flag: "🇩🇪" },
-  { code: "fr", label: "FR", flag: "🇫🇷" },
-  { code: "nl", label: "NL", flag: "🇳🇱" },
-  { code: "ru", label: "RU", flag: "🇷🇺" },
+export const lLanguageOptions: Array<{ code: TLanguageCode; label: string; name: string; flag: string }> = [
+  { code: "es", label: "ES", name: "Español", flag: "🇪🇸" },
+  { code: "va", label: "VA", name: "Valencià", flag: "🟡" },
+  { code: "en", label: "EN", name: "English", flag: "🇬🇧" },
+  { code: "de", label: "DE", name: "Deutsch", flag: "🇩🇪" },
+  { code: "fr", label: "FR", name: "Français", flag: "🇫🇷" },
+  { code: "nl", label: "NL", name: "Nederlands", flag: "🇳🇱" },
+  { code: "ru", label: "RU", name: "Русский", flag: "🇷🇺" },
 ];
 
 const STORAGE_KEY = "auton-provincia-language";

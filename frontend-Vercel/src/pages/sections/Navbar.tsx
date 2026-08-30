@@ -71,19 +71,19 @@ export function Navbar() {
         >
           🎥 {t("navbar.videos")}
         </a>
-        <div className="lang-switcher" role="group" aria-label={t("language.label")}>
-          {lLanguageOptions.map((vOption) => (
-            <button
-              key={vOption.code}
-              type="button"
-              className={`lang-option ${vCurrentLanguage === vOption.code ? "active" : ""}`}
-              onClick={() => { void cHandleLanguageChange(vOption.code); }}
-              aria-pressed={vCurrentLanguage === vOption.code}
-            >
-              <span aria-hidden="true">{vOption.flag}</span>
-              <span>{vOption.label}</span>
-            </button>
-          ))}
+        <div className="lang-select-wrapper flex items-center">
+          <select
+            value={vCurrentLanguage}
+            onChange={(e) => { void cHandleLanguageChange(e.target.value as TLanguageCode); }}
+            className="px-2.5 py-1.5 rounded-lg text-xs font-bold bg-[#1e1e1e] text-amber-200 border border-amber-500/40 hover:border-amber-400 outline-none transition-all cursor-pointer shadow-sm"
+            aria-label="Seleccionar idioma"
+          >
+            {lLanguageOptions.map((vOption) => (
+              <option key={vOption.code} value={vOption.code} className="bg-[#292929] text-white">
+                {vOption.flag} {vOption.name} ({vOption.label})
+              </option>
+            ))}
+          </select>
         </div>
         <a
           href="tel:+34694917083"
