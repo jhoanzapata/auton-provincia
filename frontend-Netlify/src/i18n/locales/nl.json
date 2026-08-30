@@ -61,20 +61,74 @@
     "close": "Sluiten"
   },
   "services": {
+    "badge": "Gespecialiseerde Catalogus",
     "title": "Onze Diensten",
     "subtitle": "Integrale oplossingen voor metalen deuren, automatiseringen en professioneel ijzerwerk in Alicante",
+    "brandsTitle": "GECERTIFICEERDE MOTOREN & AUTOMATISERINGSMERKEN",
+    "btnDetailsShow": "Inhoud & technische specificaties bekijken ▾",
+    "btnDetailsHide": "Specificaties verbergen ▴",
+    "includesTitle": "Wat deze dienst inhoudt:",
+    "btnQuote": "Gratis Offerte Aanvragen",
+    "s1Badge": "MEEST GEVRAAGD",
     "s1Title": "Sectionale Garagedeuren",
     "s1Desc": "Installatie van sectionale garagedeuren in Alicante en Costa Blanca: thermische isolatie met sandwichpanelen, stille Somfy/CAME motoren en afstandsbediening.",
+    "s1Includes": [
+      "40mm sandwichpaneel met hoge thermische en akoestische isolatie",
+      "Directe aandrijving Somfy of CAME motor met 2 handzenders",
+      "Veerbreukbeveiliging en veiligheidsfotocellen",
+      "Handmatige noodontgrendeling bij stroomuitval"
+    ],
+    "s1Warranty": "2 Jaar volledige fabrieksgarantie + gratis inmeten en advies op locatie",
+    "s2Badge": "HOGE VEILIGHEID",
     "s2Title": "Schuifdeuren en Toegangspoorten",
     "s2Desc": "Productie en installatie van schuifpoorten in Alicante: zware automatisering, stille nylon tandheugel en krachtige elektromechanische motoren.",
+    "s2Includes": [
+      "Vervaardigd uit geïsoleerd sandwichpaneel of versterkt verzinkt plaatstaal",
+      "Geluidsarme nylon tandheugel of stalen tandheugel voor intensief gebruik",
+      "Motor met magnetische eindschakelaars en digitale sturing",
+      "Knipperende waarschuwingslamp en doorgangsfotocellen"
+    ],
+    "s2Warranty": "Weerbestendige anticorrosiebehandeling en 2 jaar garantie",
+    "s3Badge": "RESIDENTIEEL & VILLA",
     "s3Title": "Draaideuren en Vleugelpoorten",
     "s3Desc": "1- en 2-vleugelige draaipoorten in Alicante: gemoffelde poedercoating, elektromechanische veiligheidsarmen en anti-klem fotocellen.",
+    "s3Includes": [
+      "Telescopische of knikarm-elektromechanische aandrijfarmen",
+      "Intelligente besturingseenheid met obstakeldetectie",
+      "Elektrohydraulisch slot en set van 2 rolling-code handzenders",
+      "Hoogwaardige gemoffelde poedercoating in RAL-kleur naar keuze"
+    ],
+    "s3Warranty": "Strikte naleving van de Europese veiligheidsnorm EN 13241-1",
+    "s4Badge": "MAATWERK SMID",
     "s4Title": "Smeedwerk & Metaalconstructies",
     "s4Desc": "Professionele smid in Alicante: op maat gemaakte parkeerpergola's, sandwichpaneel overkappingen, veiligheidstralies en balustrades.",
+    "s4Includes": [
+      "Constructieve kokerprofielen in zwaar gewalst staal",
+      "Professioneel TIG/MIG laswerk met vlakgeslepen verbindingen",
+      "Dakbedekking met sandwichpanelen of polycarbonaat kanaalplaten",
+      "Chemische zwaarlastverankering met hoge structurele sterkte"
+    ],
+    "s4Warranty": "Exclusief maatontwerp en maximale weerbestendigheid",
+    "s5Badge": "24/7 SPOEDDIENST",
     "s5Title": "24/7 Spoedreparatie Deuren en Motoren",
     "s5Desc": "Technische spoeddienst in Alicante: deblokkeren van vastgelopen deuren, vervanging van gebroken kabels/veren en directe motorreparatie op dezelfde dag.",
+    "s5Includes": [
+      "Prioritaire interventie en directe diagnose ter plaatse",
+      "Onmiddellijke vervanging van gebroken staalkabels, poelies en veren",
+      "Spoedherstel of vervanging van stuurkaarten en motoren",
+      "Uitlijning, afstelling en hogedruksmering van looprails en wielen"
+    ],
+    "s5Warranty": "Vooraf duidelijke prijsopgave zonder verborgen toeslagen",
+    "s6Badge": "VvE & APPARTEMENTEN",
     "s6Title": "Onderhoud & Handzenders voor VvE / Appartementen",
-    "s6Desc": "Preventief onderhoud van gemeenschappelijke garagedeuren in Alicante, levering en programmering van rolling-code handzenders en periodieke inspectiecontracten."
+    "s6Desc": "Preventief onderhoud van gemeenschappelijke garagedeuren in Alicante, levering en programmering van rolling-code handzenders en periodieke inspectiecontracten.",
+    "s6Includes": [
+      "Verplichte periodieke inspecties inclusief officieel onderhoudslogboek",
+      "Grootschalige levering en encryptie van kopieerbeveiligde handzenders",
+      "CE-veiligheidsaanpassing met actieve contactlijsten",
+      "Prioritaire VIP-telefonische ondersteuning voor gebouwbeheerders"
+    ],
+    "s6Warranty": "Maatwerk onderhoudscontracten met voordeeltarief voor VvE's"
   },
   "whyUs": {
     "title": "Waarom Voor Ons Kiezen",

@@ -61,20 +61,74 @@
     "close": "Fermer"
   },
   "services": {
+    "badge": "Catalogue Spécialisé",
     "title": "Nos Services",
     "subtitle": "Solutions complètes pour portes métalliques, automatismes et métallerie professionnelle à Alicante",
+    "brandsTitle": "MOTEURS ET AUTOMATISMES CERTIFIÉS",
+    "btnDetailsShow": "Voir les détails & fiche technique ▾",
+    "btnDetailsHide": "Masquer la fiche technique ▴",
+    "includesTitle": "Ce que comprend ce service :",
+    "btnQuote": "Demander un Devis Gratuit",
+    "s1Badge": "LE PLUS DEMANDÉ",
     "s1Title": "Portes de Garage Sectionnelles",
     "s1Desc": "Installation de portes sectionnelles à Alicante et sur la Costa Blanca : isolation thermique en panneaux sandwich, moteurs silencieux Somfy/CAME et télécommande.",
+    "s1Includes": [
+      "Panneau sandwich 40 mm à haute isolation thermique et acoustique",
+      "Moteur Somfy ou CAME à entraînement direct avec 2 télécommandes",
+      "Système de sécurité anti-rupture de ressorts et cellules photoélectriques",
+      "Poignée de déverrouillage manuel intérieur en cas de coupure de courant"
+    ],
+    "s1Warranty": "Garantie totale constructeur 2 ans + visite et prise de mesures gratuites",
+    "s2Badge": "HAUTE SÉCURITÉ",
     "s2Title": "Portails Coulissants",
     "s2Desc": "Fabrication et installation de portails coulissants à Alicante : automatismes pour trafic intense, crémaillère en nylon silencieuse et moteurs puissants.",
+    "s2Includes": [
+      "Fabrication en panneau sandwich ou tôle galvanisée renforcée",
+      "Crémaillère en nylon silencieuse ou en acier pour usage intensif",
+      "Moteur avec fins de course magnétiques et coffret de commande",
+      "Feu clignotant de signalisation et cellules de passage"
+    ],
+    "s2Warranty": "Traitement anticorrosion pour extérieur et garantie 2 ans",
+    "s3Badge": "RÉSIDENTIEL & VILLA",
     "s3Title": "Portes Battantes 1 et 2 Vantaux",
     "s3Desc": "Portes battantes à Alicante : thermolaquage haute résistance, bras électromécaniques avec verrouillage de sécurité et cellules anti-écrasement.",
+    "s3Includes": [
+      "Bras électromécaniques télescopiques ou articulés",
+      "Centrale électronique intelligente avec détection d'obstacles",
+      "Serrure électrohydraulique et jeu de 2 émetteurs rolling-code",
+      "Peinture thermolaquée au four au coloris RAL de votre choix"
+    ],
+    "s3Warranty": "Conformité stricte à la norme européenne de sécurité EN 13241-1",
+    "s4Badge": "MÉTALLERIE SUR MESURE",
     "s4Title": "Métallerie & Structures Métalliques",
     "s4Desc": "Ferronnerie professionnelle à Alicante : pergolas sur mesure pour parking, toitures en panneaux sandwich, grilles de sécurité et garde-corps.",
+    "s4Includes": [
+      "Profils tubulaires en acier laminé de forte épaisseur",
+      "Soudure professionnelle TIG/MIG avec meulage soigné des raccords",
+      "Toitures en panneaux sandwich ou polycarbonate alvéolaire",
+      "Scellement chimique haute résistance structurelle"
+    ],
+    "s4Warranty": "Design exclusif et durabilité maximale face aux intempéries",
+    "s5Badge": "URGENCE 24H/24",
     "s5Title": "Dépannage d'Urgence 24h/24 Portes et Moteurs",
     "s5Desc": "Service technique d'urgence à Alicante : déblocage de portes coincées, remplacement de câbles/ressorts cassés et réparation immédiate de moteurs le jour même.",
+    "s5Includes": [
+      "Déplacement prioritaire et diagnostic complet sur place",
+      "Remplacement immédiat de câbles, poulies et ressorts rompus",
+      "Réparation ou remplacement urgent de cartes de commande et moteurs",
+      "Réglage, alignement et lubrification haute pression des rails"
+    ],
+    "s5Warranty": "Devis préalable transparent sans surcoûts cachés",
+    "s6Badge": "COPROPRIÉTÉS & VvE",
     "s6Title": "Maintenance & Télécommandes pour Copropriétés",
-    "s6Desc": "Entretien préventif et réglementaire de portes de garage collectives à Alicante, copie de télécommandes rolling-code et contrats de révision périodique."
+    "s6Desc": "Entretien préventif et réglementaire de portes de garage collectives à Alicante, copie de télécommandes rolling-code et contrats de révision périodique.",
+    "s6Includes": [
+      "Visites de maintenance périodiques obligatoires avec livret d'entretien",
+      "Fourniture et codage groupé de télécommandes anti-copie",
+      "Mise aux normes de sécurité CE avec barres palpeuses actives",
+      "Assistance téléphonique prioritaire pour syndics et gestionnaires"
+    ],
+    "s6Warranty": "Contrats sur mesure avec forfait avantageux pour copropriétés"
   },
   "whyUs": {
     "title": "Pourquoi Nous Choisir",

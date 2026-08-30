@@ -61,20 +61,74 @@
     "close": "Close"
   },
   "services": {
+    "badge": "Specialized Catalog",
     "title": "Our Services",
     "subtitle": "Comprehensive solutions for metal doors, automations, and professional ironwork in Alicante",
+    "brandsTitle": "CERTIFIED MOTORS & AUTOMATION BRANDS",
+    "btnDetailsShow": "View what's included & tech specs ▾",
+    "btnDetailsHide": "Hide tech specs ▴",
+    "includesTitle": "What's included in this service:",
+    "btnQuote": "Request Free Quote",
+    "s1Badge": "MOST REQUESTED",
     "s1Title": "Sectional Garage Doors",
     "s1Desc": "Sectional garage door installation in Alicante and Costa Blanca: thermal insulation sandwich panels, silent Somfy/CAME motors, and remote control access.",
+    "s1Includes": [
+      "40mm sandwich panel with thermal and acoustic insulation",
+      "Direct-drive Somfy or CAME motor with 2 remote controls",
+      "Anti-spring breakage safety system and safety photocells",
+      "Manual emergency release handle for power outages"
+    ],
+    "s1Warranty": "2-Year comprehensive manufacturer warranty + free on-site measurement",
+    "s2Badge": "HIGH SECURITY",
     "s2Title": "Sliding Doors & Gates",
     "s2Desc": "Fabrication and installation of sliding gates in Alicante: high-traffic automation, silent nylon rack, and powerful electromechanical motors.",
+    "s2Includes": [
+      "Sandwich panel or reinforced galvanized sheet fabrication",
+      "Silent nylon or heavy-duty steel rack for intensive use",
+      "Motor with magnetic limit switches and electronic control unit",
+      "Flashing safety warning light and pedestrian pass photocells"
+    ],
+    "s2Warranty": "Outdoor anti-corrosion treatment and 2-year warranty",
+    "s3Badge": "RESIDENTIAL & VILLA",
     "s3Title": "Swing & Hinged Doors",
     "s3Desc": "1 and 2 leaf swing gates in Alicante: high-durability oven baked finish, electromechanical safety arms, and anti-crush safety photocells.",
+    "s3Includes": [
+      "Telescopic or articulated electromechanical safety arms",
+      "Smart control board with obstruction obstacle detection",
+      "Electrohydraulic lock and pair of 2 rolling-code transmitters",
+      "Thermosetting powder coat in RAL color of your choice"
+    ],
+    "s3Warranty": "Strict European safety standard EN 13241-1 compliance",
+    "s4Badge": "BESPOKE METALWORK",
     "s4Title": "Custom Ironwork & Metal Structures",
     "s4Desc": "Professional metalwork in Alicante: bespoke parking pergolas, sandwich panel canopies, window security grilles, and staircase railings.",
+    "s4Includes": [
+      "Heavy-gauge rolled steel tubular structural framework",
+      "Professional TIG/MIG welding with seamless joint grinding",
+      "Insulated sandwich panel or multiwall polycarbonate roofing",
+      "Heavy-duty high-load chemical anchoring hardware"
+    ],
+    "s4Warranty": "Custom architectural design and maximum weatherproof durability",
+    "s5Badge": "24/7 EMERGENCY",
     "s5Title": "24/7 Emergency Door & Motor Repair",
     "s5Desc": "Emergency repair service across Alicante: jammed door unlocking, broken cable/spring replacement, and same-day motor troubleshooting.",
+    "s5Includes": [
+      "Priority dispatch and comprehensive on-site diagnosis",
+      "Immediate replacement of snapped cables, pulleys, and springs",
+      "Same-day repair or swap of control boards and motors",
+      "Track alignment, roller tuning, and high-pressure lubrication"
+    ],
+    "s5Warranty": "Clear upfront pricing with no hidden overtime fees",
+    "s6Badge": "COMMUNITIES & HOAs",
     "s6Title": "Community Garage Maintenance & Remotes",
-    "s6Desc": "Preventive and regulatory maintenance for residential community garage doors in Alicante, rolling-code remote duplication, and service contracts."
+    "s6Desc": "Preventive and regulatory maintenance for residential community garage doors in Alicante, rolling-code remote duplication, and service contracts.",
+    "s6Includes": [
+      "Mandatory periodic safety inspections and logbook certification",
+      "Bulk supply and encryption of anti-clone rolling-code remotes",
+      "CE compliance upgrade with active safety edges and sensors",
+      "Priority VIP phone dispatch for property administrators"
+    ],
+    "s6Warranty": "Custom flat-rate service contracts with community discounts"
   },
   "whyUs": {
     "title": "Why Choose Us",

@@ -61,20 +61,74 @@
     "close": "Tancar"
   },
   "services": {
+    "badge": "Catàleg Especialitzat",
     "title": "Els Nostres Serveis",
     "subtitle": "Solucions integrals per a portes metàl·liques, automatismes i ferreria professional a Alacant",
+    "brandsTitle": "MOTORS I AUTOMATISMES HOMOLOGATS",
+    "btnDetailsShow": "Veure què inclou i fitxa tècnica ▾",
+    "btnDetailsHide": "Amagar fitxa tècnica ▴",
+    "includesTitle": "Què inclou aquest servei:",
+    "btnQuote": "Demanar Pressupost De franc",
+    "s1Badge": "MÉS SOL·LICITAT",
     "s1Title": "Portes Seccionals de Garatge",
     "s1Desc": "Instal·lació de portes seccionals de garatge a Alacant i Costa Blanca: aïllament tèrmic en panell sandvitx, motors silenciosos Somfy/CAME i obertura amb comandament a distància.",
+    "s1Includes": [
+      "Panell sandvitx de 40mm amb aïllament tèrmic i acústic",
+      "Motor Somfy o CAME de tir directe amb 2 comandaments",
+      "Sistema de seguretat anti-trencament de molls i fotocèl·lules",
+      "Tirador i desbloqueig manual interior per a talls de llum"
+    ],
+    "s1Warranty": "2 Anys de garantia total del fabricant + mesurament i visita gratuïta",
+    "s2Badge": "ALTA SEGURETAT",
     "s2Title": "Portes Corredisses i Cancel·les",
     "s2Desc": "Fabricació i instal·lació de cancel·les i portes corredisses a Alacant: automatismes d'alt trànsit, cremallera de niló silenciosa i motors electromecànics.",
+    "s2Includes": [
+      "Fabricació en panell sandvitx o xapa galvanitzada reforçada",
+      "Cremallera de niló silenciosa o d'acer per a ús intensiu",
+      "Motor amb finals de carrera magnètics i quadre electrònic",
+      "Llum de senyalització intermitent i fotocèl·lules de pas"
+    ],
+    "s2Warranty": "Tractament anticorrosiu per a exterior i garantia de 2 anys",
+    "s3Badge": "RESIDENCIAL & XALET",
     "s3Title": "Portes Batents d'1 i 2 Fulles",
     "s3Desc": "Portes batents d'1 i 2 fulles a Alacant: lacat al forn d'alta resistència, braços electromecànics amb bloqueig de seguretat i fotocèl·lules anti-aixafament.",
+    "s3Includes": [
+      "Braços electromecànics de carrera telescòpica o articulats",
+      "Centraleta intel·ligent amb detecció d'obstacles",
+      "Pany electrohidràulic i joc de 2 emissors rolling-code",
+      "Pintura termoendurida en color a elecció de la carta RAL"
+    ],
+    "s3Warranty": "Compliment normatiu europeu de seguretat EN 13241-1",
+    "s4Badge": "FERRER A MIDA",
     "s4Title": "Ferreria i Estructures Metàl·liques",
     "s4Desc": "Ferrer professional a Alacant: disseny i muntatge a mida de pèrgoles per a pàrquing, cobertes en panell sandvitx, reixes de seguretat per a finestres i baranes.",
+    "s4Includes": [
+      "Estructures en tubs d'acer laminat d'alt calibre",
+      "Soldadura professional TIG/MIG amb repassat d'unions",
+      "Cobertes en panell sandvitx o policarbonat cel·lular",
+      "Ancoratge químic d'alta resistència estructural"
+    ],
+    "s4Warranty": "Disseny exclusiu i màxima durabilitat estructural a la intempèrie",
+    "s5Badge": "URGÈNCIA 24 HORES",
     "s5Title": "Reparació Urgent 24h de Portes i Motors",
     "s5Desc": "Servei tècnic urgent a Alacant: desbloqueig de portes encallades, substitució de cables/molls trencats i reparació immediata de motors en el mateix dia.",
+    "s5Includes": [
+      "Desplaçament prioritari i diagnòstic in situ",
+      "Substitució immediata de cables, corrioles i molls partits",
+      "Reparació o canvi urgent de quadres de maniobra i motors",
+      "Ajust i greixatge de guies i rodaments de desplaçament"
+    ],
+    "s5Warranty": "Pressupost previ sense sorpreses ni sobrecostos ocults",
+    "s6Badge": "COMUNITATS & VvE",
     "s6Title": "Manteniment i Comandaments per a Comunitats",
-    "s6Desc": "Manteniment preventiu i normatiu per a portes de garatge comunitàries a Alacant, subministrament i codificació de comandaments rolling-code i contractes de revisió periòdica."
+    "s6Desc": "Manteniment preventiu i normatiu per a portes de garatge comunitàries a Alacant, subministrament i codificació de comandaments rolling-code i contractes de revisió periòdica.",
+    "s6Includes": [
+      "Revisions periòdiques obligatòries amb llibre de manteniment",
+      "Subministrament i codificació massiva de comandaments amb protecció anticòpia",
+      "Adequació a la normativa CE amb bandes de seguretat actives",
+      "Servei d'atenció preferent per a administradors de finques"
+    ],
+    "s6Warranty": "Contractes personalitzats amb tarifa plana i descomptes per a comunitats"
   },
   "whyUs": {
     "title": "Per Què Triar-nos",

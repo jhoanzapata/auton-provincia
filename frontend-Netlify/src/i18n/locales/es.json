@@ -61,20 +61,74 @@
     "close": "Cerrar"
   },
   "services": {
+    "badge": "Catálogo Especializado",
     "title": "Nuestros Servicios",
     "subtitle": "Soluciones integrales para puertas metálicas, automatismos y herrería profesional en Alicante",
+    "brandsTitle": "MOTORES Y AUTOMATISMOS HOMOLOGADOS",
+    "btnDetailsShow": "Ver qué incluye y ficha técnica ▾",
+    "btnDetailsHide": "Ocultar ficha técnica ▴",
+    "includesTitle": "Qué incluye este servicio:",
+    "btnQuote": "Pedir Presupuesto Gratis",
+    "s1Badge": "MÁS SOLICITADO",
     "s1Title": "Puertas Seccionales de Garaje",
     "s1Desc": "Instalación de puertas seccionales de garaje en Alicante y Costa Blanca: aislamiento térmico en panel sándwich, motores silenciosos Somfy/CAME y apertura con mando a distancia.",
+    "s1Includes": [
+      "Panel sándwich de 40mm con aislamiento térmico y acústico",
+      "Motor Somfy o CAME de tiro directo con 2 mandos",
+      "Sistema de seguridad anti-rotura de muelles y fotocélulas",
+      "Tirador y desbloqueo manual interior para cortes de luz"
+    ],
+    "s1Warranty": "2 Años de garantía total del fabricante + medición y visita gratuita",
+    "s2Badge": "ALTA SEGURIDAD",
     "s2Title": "Puertas Correderas y Cancelas",
     "s2Desc": "Fabricación e instalación de cancelas y puertas correderas en Alicante: automatismos de alto tráfico, cremallera de nylon silenciosa y motores electromecánicos.",
+    "s2Includes": [
+      "Fabricación en panel sándwich o chapa galvanizada reforzada",
+      "Cremallera de nylon silenciosa o de acero para uso intensivo",
+      "Motor con finales de carrera magnéticos y cuadro electrónico",
+      "Lámpara destellante de aviso y fotocélulas de paso"
+    ],
+    "s2Warranty": "Tratamiento anticorrosivo para exterior y garantía de 2 años",
+    "s3Badge": "RESIDENCIAL & CHALET",
     "s3Title": "Puertas Abatibles y Batientes",
     "s3Desc": "Puertas abatibles de 1 y 2 hojas en Alicante: lacado al horno de alta resistencia, brazos electromecánicos con bloqueo de seguridad y fotocélulas anti-aplastamiento.",
+    "s3Includes": [
+      "Brazos electromecánicos de carrera telescópica o articulados",
+      "Centralita inteligente con detección de obstáculos",
+      "Cerradura electrohidráulica y juego de 2 emisores rolling-code",
+      "Pintura termoendurecida en color a elección de la carta RAL"
+    ],
+    "s3Warranty": "Cumplimiento normativo europeo de seguridad EN 13241-1",
+    "s4Badge": "HERRERO A MEDIDA",
     "s4Title": "Herrería y Estructuras Metálicas",
     "s4Desc": "Herrero profesional en Alicante: diseño y montaje a medida de pérgolas para parking, cubiertas en panel sándwich, rejas de seguridad para ventanas y barandillas.",
+    "s4Includes": [
+      "Estructuras en tubos de acero laminado de alto calibre",
+      "Soldadura profesional TIG/MIG con repasado de uniones",
+      "Cubiertas en panel sándwich o policarbonato celular",
+      "Anclaje químico de alta resistencia estructural"
+    ],
+    "s4Warranty": "Diseño exclusivo y máxima durabilidad estructural a la intemperie",
+    "s5Badge": "URGENCIA 24 HORAS",
     "s5Title": "Reparación Urgente 24h de Puertas y Motores",
     "s5Desc": "Servicio técnico urgente en Alicante: desbloqueo de puertas atascadas, sustitución de cables/muelles rotos y reparación inmediata de motores en el mismo día.",
+    "s5Includes": [
+      "Desplazamiento prioritario y diagnóstico in situ",
+      "Sustitución inmediata de cables, poleas y muelles partidos",
+      "Reparación o cambio urgente de cuadros de maniobra y motores",
+      "Ajuste y engrase de guías y rodamientos de desplazamiento"
+    ],
+    "s5Warranty": "Presupuesto previo sin sorpresas ni sobrecostes ocultos",
+    "s6Badge": "COMUNIDADES & VvE",
     "s6Title": "Mantenimiento y Mandos para Comunidades",
-    "s6Desc": "Mantenimiento preventivo y normativo para puertas de garaje comunitarias en Alicante, suministro y codificación de mandos rolling-code y contratos de revisión periódica."
+    "s6Desc": "Mantenimiento preventivo y normativo para puertas de garaje comunitarias en Alicante, suministro y codificación de mandos rolling-code y contratos de revisión periódica.",
+    "s6Includes": [
+      "Revisiones periódicas obligatorias con libro de mantenimiento",
+      "Suministro y codificación masiva de mandos con protección anticopia",
+      "Adecuación a la normativa CE con bandas de seguridad activas",
+      "Servicio de atención preferente para administradores de fincas"
+    ],
+    "s6Warranty": "Contratos personalizados con tarifa plana y descuentos para comunidades"
   },
   "whyUs": {
     "title": "Por Qué Elegirnos",
