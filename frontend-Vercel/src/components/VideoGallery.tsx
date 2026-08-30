@@ -64,6 +64,7 @@ export function VideoGallery() {
 
       <div className="video-featured">
         <video
+          key={vCurrentVideo.src}
           ref={vVideoRef}
           src={vCurrentVideo.src}
           poster={vCurrentVideo.poster}

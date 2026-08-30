@@ -20,7 +20,10 @@
     "badge3": "📍 Nationwide Service",
     "btnQuote": "💰 Free Quote",
     "btnProjects": "View Projects",
-    "experience": "⭐ Over 10 Years of Experience"
+    "experience": "⭐ Over 10 years of experience"
+  },
+  "brands": {
+    "title": "We Work With The Industry's Leading Approved Motor & Automation Brands"
   },
   "quote": {
     "title": "Instant Quote Calculator",

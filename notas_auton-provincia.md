@@ -7,11 +7,11 @@
 -------------------------------------------------------------------------------
 
 - **Protección Legal y Deslinde del Desarrollador Web:**
-  - **`DEVELOPER_NOTICE.md`:** Creado archivo legal formal en el repositorio deslindando al desarrollador web técnico (**Jhoan Felipe Zapata Arboleda / Zapata Labs**) de las responsabilidades comerciales, mecánicas, garantías e instalaciones de Automatismos La Provincia.
+  - **`DEVELOPER_NOTICE.md`:** Creado archivo legal formal en el repositorio deslindando al desarrollador web técnico (**Ing. Jhoan Felipe Zapata Arboleda / Zapata Labs**) de las responsabilidades comerciales, mecánicas, garantías e instalaciones de Automatismos La Provincia.
   - **Nota Discreta en el Pie de Página:** Incorporada nota de desarrollo independiente en 5 idiomas (`t("footer.devNotice")`) al final del footer en ambos entornos (`frontend-Netlify` y `frontend-Vercel`).
 
 - **Cumplimiento Normativo Multilingüe en 5 Idiomas (España / UE):**
-  - **Traducción Integral de Leyes:** Los 5 documentos legales (`LegalNotice.tsx`, `PrivacyPolicy.tsx`, `CookiePolicy.tsx`, `TermsConditions.tsx`, `Accessibility.tsx`) traducen íntegramente todo su contenido al **Español**, **Inglés**, **Alemán**, **Francés** y **Neerlandés (`🇳🇱 NL`)**.
+  - **Traducción Integral de Leyes:** Los 5 documentos legales (`LegalNotice.tsx`, `PrivacyPolicy.tsx`, `CookiePolicy.tsx`, `TermsConditions.tsx`, `Accessibility.tsx`) traducen íntegramente todo su contenido al **Español (`🇪🇸 ES`)**, **Inglés (`🇬🇧 EN`)**, **Alemán (`🇩🇪 DE`)**, **Francés (`🇫🇷 FR`)** y **Neerlandés (`🇳🇱 NL`)**.
 
 
 -------------------------------------------------------------------------------
@@ -19,25 +19,28 @@
 -------------------------------------------------------------------------------
 
 - **Estructura en Espejo Sincronizada:**
-  - **[frontend-Netlify](file:///E:/Proyectos_Develoment/auton-provincia/frontend-Netlify):** Ajustado para Netlify (`https://automatismolaprovincia.netlify.app`, `public/_redirects`, `netlify.toml` con `base = "frontend-Netlify"`).
-  - **[frontend-Vercel](file:///E:/Proyectos_Develoment/auton-provincia/frontend-Vercel):** Ajustado para Vercel (`https://auton-provincia.vercel.app`, `vercel.json` con `rewrites`).
+  - **frontend-Netlify:** Ajustado para Netlify (`https://automatismolaprovincia.netlify.app`, `public/_redirects`, `netlify.toml` con `base = "frontend-Netlify"`).
+  - **frontend-Vercel:** Ajustado para Vercel (`https://auton-provincia.vercel.app`, `vercel.json` con `rewrites`).
 
 - **Corrección del Reproductor de Vídeos (Fix en Espejo):**
   - Eliminada la propiedad `key` dinámica en la etiqueta `<video>` de `VideoGallery.tsx` para mantener estable la referencia del nodo DOM en React.
   - Conectada la recarga `.load()` y reproducción instantánea `.play()` reactiva en `useVideoPlayer.ts` en ambos entornos.
   - Al hacer clic en las miniaturas de vídeo, el reproductor conmuta e intercambia de inmediato entre la Puerta Seccional y la Puerta Corredera en ambos sitios.
 
+- **Banda de Marcas Homologadas (Mejora Aprendida de la Competencia):**
+  - Incorporada la sección `BrandsSection.tsx` en ambos entornos con marcas oficiales: `Somfy`, `FAAC`, `BFT`, `CAME`, `Erreka`, `Clemsa`, `Nice`, `Pujol`, traducida en los 5 idiomas.
+
 - **Repositorio Oficial en GitHub:**
   - URL: https://github.com/jhoanzapata/auton-provincia.git
   - Configuración de Firma: `user.name = Zapata Labs`, `user.email = jhoan.zapata@cun.edu.co`.
   - Rama Principal: `main`.
 
-- **5 Idiomas Oficiales Soportados (`ES`, `DE`, `EN`, `FR`, `NL`):**
-  - `🇪🇸 ES` (Español), `🇩🇪 DE` (Alemán), `🇬🇧 EN` (Inglés), `🇫🇷 FR` (Francés), `🇳🇱 NL` (Neerlandés).
+- **5 Idiomas Oficiales Soportados:**
+  - `🇪🇸 ES` (Español), `🇬🇧 EN` (Inglés), `🇩🇪 DE` (Alemán), `🇫🇷 FR` (Francés), `🇳🇱 NL` (Neerlandés).
 
 - **Arquitectura Base y Rendimiento:**
-  - Frontend estático con Vite + React 18 + TypeScript + Tailwind v4.
-  - Compilación de producción limpia en ~3.30s con 0 errores de TypeScript.
+  - Frontend estático con Vite + React 18 + TypeScript + Tailwind.
+  - Compilación de producción limpia en ~4.5s con **0 errores de TypeScript**.
 
 
 -------------------------------------------------------------------------------
@@ -49,18 +52,20 @@
 
 
 -------------------------------------------------------------------------------
-4. PENDIENTES BLOQUEADOS POR DATOS REALES DEFINITIVOS DEL TITULAR
+4. DATOS REALES DEFINITIVOS DEL TITULAR (VERIFICADOS Y APLICADOS)
 -------------------------------------------------------------------------------
 
-- Datos finales a actualizar cuando el titular los facilite en `companyData.ts`:
-  - NIF / CIF definitivo.
-  - Domicilio físico completo con número de calle.
-  - Registro Mercantil / Adscripción societaria oficial.
+- **Datos Oficiales de Duban Dario Zapata Arboleda (Aplicados en companyData.ts & Schema.org):**
+  - **Titular / Representante:** Duban Dario Zapata Arboleda
+  - **NIF Oficial:** Z4570064S
+  - **Domicilio Físico:** Pasaje Campoamor 4, Entresuelo B, 03010 Alicante, España
+  - **Correo Oficial:** automatismolaprovincia@gmail.com
+  - **Teléfono Oficial:** +34 694 91 70 83
 
 
 -------------------------------------------------------------------------------
 5. PENDIENTES DE DECISIÓN DE NEGOCIO Y PRODUCCIÓN DEFINITIVA
 -------------------------------------------------------------------------------
 
-- Dominio propio definitivo (reemplazar vercel.app / netlify.app por automatismoslaprovincia.es en index.html y companyData.ts).
+- Dominio propio definitivo (reemplazar vercel.app / netlify.app por dominio comercial oficial en index.html y companyData.ts).
 - Testimonios reales de clientes en TestimonialsSection.tsx.

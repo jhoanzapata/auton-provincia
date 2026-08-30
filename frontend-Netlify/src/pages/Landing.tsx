@@ -1,5 +1,6 @@
 import { Navbar } from "./sections/Navbar";
 import { HeroSection } from "./sections/HeroSection";
+import { BrandsSection } from "./sections/BrandsSection";
 import { QuoteSection } from "./sections/QuoteSection";
 import { ServicesSection } from "./sections/ServicesSection";
 import { WhyUsSection } from "./sections/WhyUsSection";
@@ -17,6 +18,7 @@ export function Landing() {
     <div className="landing-content">
       <Navbar />
       <HeroSection />
+      <BrandsSection />
       <QuoteSection />
       <ProjectGallery />
       <ServicesSection />

@@ -19,8 +19,11 @@
     "badge2": "🛡️ Garantie totale",
     "badge3": "📍 Service dans toute l'Espagne",
     "btnQuote": "💰 Devis Gratuit",
-    "btnProjects": "Voir Réalisations",
+    "btnProjects": "Voir les Projets",
     "experience": "⭐ Plus de 10 ans d'expérience"
+  },
+  "brands": {
+    "title": "Nous Travaillons Avec Les Plus Grandes Marques Homologuées d'Automatismes et Moteurs"
   },
   "quote": {
     "title": "Calculateur de Devis",
