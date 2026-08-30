@@ -1,0 +1,165 @@
+{
+  "navbar": {
+    "home": "Inici",
+    "quote": "Pressupost",
+    "gallery": "Galeria",
+    "services": "Serveis",
+    "videos": "Vídeos",
+    "menu": "Menú",
+    "closeMenu": "Tancar menú",
+    "call": "Telefonar",
+    "whatsapp": "WhatsApp"
+  },
+  "hero": {
+    "tagline": "AUTOMATISMOS LA PROVINCIA",
+    "title1": "Portes Metàl·liques",
+    "title2": "a Tota Espanya",
+    "bullets": "· Venda · Reparació · Automatització",
+    "badge1": "🕐 Urgències 24h",
+    "badge2": "🛡️ Garantia total",
+    "badge3": "📍 Servei a tota Espanya",
+    "btnQuote": "💰 Pressupost",
+    "btnProjects": "Veure Projectes",
+    "experience": "⭐ Més de 10 anys d'experiència"
+  },
+  "brands": {
+    "title": "Treballem amb les Millors Marques Homologades d'Automatismes i Motors"
+  },
+  "coverage": {
+    "badge": "Àrea de Servei",
+    "title": "Zona de Cobertura i Servei Tècnic a Alacant",
+    "subtitle": "Instal·lació, automatització, reparació urgent i manteniment de portes metàl·liques a tota la província d'Alacant i Costa Blanca.",
+    "cta": "Consultar desplaçament al meu municipi"
+  },
+  "quote": {
+    "title": "Cotitzador de Pressupost",
+    "subtitle": "Calcula el cost estimat de la teua porta metàl·lica en només 3 passos",
+    "step1": "1. Tipus de Porta",
+    "step2": "2. Mesures (Metres)",
+    "step3": "3. Acabat i Color",
+    "doorTypes": {
+      "sectional": "Porta Seccional",
+      "sliding": "Porta Corredissa",
+      "swing": "Porta Batent",
+      "ironwork": "Ferreria i Estructures"
+    },
+    "width": "Amplada (m)",
+    "height": "Alçada (m)",
+    "estimatedPrice": "Preu Estimat:",
+    "back": "← Enrere",
+    "continue": "Continuar →",
+    "requestQuote": "💬 Sol·licitar pressupost",
+    "reset": "Reiniciar cotitzador",
+    "adjustMeasures": "Ajustar mesures",
+    "btnSendWa": "📱 Sol·licitar Pressupost per WhatsApp",
+    "btnReset": "Reiniciar Cotitzador",
+    "successMsg": "✅ Pressupost preparat. En fer clic seràs redirigit a WhatsApp."
+  },
+  "gallery": {
+    "title": "Galeria de Projectes Realitzats",
+    "subtitle": "Fotos reals dels nostres treballs d'instal·lació, reparació i ferreria",
+    "close": "Tancar"
+  },
+  "services": {
+    "title": "Els Nostres Serveis",
+    "subtitle": "Solucions integrals per a portes metàl·liques, automatismes i ferreria professional",
+    "s1Title": "Portes Seccionals",
+    "s1Desc": "Instal·lació i manteniment de portes seccionals residencials i industrials amb motors d'alta gamma.",
+    "s2Title": "Portes Corredisses",
+    "s2Desc": "Fabricació i instal·lació de portes corredisses en panell sandvitx o xapa amb cremallera de niló i motor de transmissió.",
+    "s3Title": "Portes Batents",
+    "s3Desc": "Portes batents d'1 i 2 fulles lacades al forn amb braços electromecànics i centraletes de seguretat.",
+    "s4Title": "Ferreria i Estructures",
+    "s4Desc": "Fusteria metàl·lica en general: pèrgoles, cobertes autoportants, reixes, baranes i zones d'aparcament."
+  },
+  "whyUs": {
+    "title": "Per Què Triar-nos",
+    "subtitle": "Qualitat, rapidesa i garantia en cada projecte d'automatismes i serralleria",
+    "b1Title": "Atenció Urgent 24/7",
+    "b1Desc": "Disponibles a qualsevol hora per a avaries o bloquejos a la teua porta.",
+    "b2Title": "Materials de Primera",
+    "b2Desc": "Utilitzem panells sandvitx, lacats al forn i motors de marques líders.",
+    "b3Title": "Garantia Escrita",
+    "b3Desc": "Totes les nostres instal·lacions i reparacions compten amb garantia directa.",
+    "b4Title": "Pressupost Sense Compromís",
+    "b4Desc": "T'assessorem i calculem l'import sense cap cost addicional."
+  },
+  "process": {
+    "title": "Com Treballem",
+    "subtitle": "Procés simple i transparent en 4 passos",
+    "p1Title": "1. Contacte",
+    "p1Desc": "Ens telefones o ens escrius per WhatsApp amb la teua necessitat.",
+    "p2Title": "2. Pressupost",
+    "p2Desc": "T'enviem una cotització clara i sense sorpreses.",
+    "p3Title": "3. Fabricació / Reparació",
+    "p3Desc": "Executem el treball amb màxima precisió tècnica.",
+    "p4Title": "4. Lliurament i Garantia",
+    "p4Desc": "Comprovem el correcte funcionament amb comandament i lliurem la garantia."
+  },
+  "testimonials": {
+    "title": "El Que Diuen Els Nostres Clients",
+    "subtitle": "Opinions reals sobre el nostre servei i qualitat",
+    "t1Text": "Van instal·lar la porta seccional del meu garatge en temps rècord. El motor funciona suau i sense sorolls.",
+    "t1Author": "José Manuel (Alacant)",
+    "t2Text": "Vaig tindre una urgència amb la porta corredissa un diumenge i van vindre immediatament. Excel·lent servei.",
+    "t2Author": "Isabel T. (Elx)",
+    "t3Text": "Van fabricar unes reixes i una coberta per al cotxe amb una qualitat de ferreria impecable.",
+    "t3Author": "Pedro López (Múrcia)"
+  },
+  "faq": {
+    "title": "Preguntes Freqüents",
+    "subtitle": "Resolem els teus dubtes sobre portes metàl·liques i motors",
+    "q1": "Quant es tarda a instal·lar una porta seccional?",
+    "a1": "Normalment la instal·lació completa pren entre 4 i 8 hores depenent de la mesura.",
+    "q2": "Ofereixen servei d'urgències fora d'horari?",
+    "a2": "Sí, disposem d'atenció 24 hores els 365 dies de l'any per a avaries urgents.",
+    "q3": "Quina garantia tenen els motors i automatismes?",
+    "a3": "Tots els motors nous compten amb 2 anys de garantia del fabricant i garantia d'instal·lació.",
+    "q4": "Es pot motoritzar una porta manual antiga sense canviar-la?",
+    "a4": "Sí, en la gran majoria de casos instal·lem motors homologats (Somfy, CAME, Erreka, FAAC) sobre la teua porta actual sense necessitat d'obres costoses.",
+    "q5": "Té algun cost la visita tècnica o el pressupost?",
+    "a5": "El pressupost és 100% gratuït i sense cap compromís. Inclou assessorament in situ, mesurament exacte i desglossament detallat de materials.",
+    "q6": "Subministren i codifiquen comandaments a distància i fotocèl·lules de seguretat?",
+    "a6": "Sí, codifiquem comandaments amb sistema rolling-code d'alta seguretat i col·loquem fotocèl·lules anti-aixafament segons normativa europea."
+  },
+  "videos": {
+    "title": "Demostració en Vídeo",
+    "subtitle": "Mira els nostres sistemes automàtics en ple funcionament",
+    "noVideoSupport": "El teu navegador no suporta reproducció de vídeo."
+  },
+  "contact": {
+    "title": "Contacte Directe",
+    "subtitle": "Estem preparats per atendre't hui mateix",
+    "callUs": "Telefona'ns al",
+    "whatsappUs": "Escriu-nos per WhatsApp",
+    "emailUs": "Envia'ns un Email",
+    "followUs": "Segueix-nos a xarxes socials"
+  },
+  "footer": {
+    "legalNotice": "Avís Legal",
+    "privacy": "Política de Privacitat",
+    "cookies": "Política de Cookies",
+    "terms": "Termes i Condicions",
+    "accessibility": "Accessibilitat",
+    "configCookies": "Configurar cookies",
+    "rights": "Tots els drets reservats.",
+    "devNotice": "Desenvolupament web per Jhoan Zapata. El desenvolupador és independent dels serveis comercials d'Automatismos La Provincia."
+  },
+  "legal": {
+    "backHome": "← Tornar a l'Inici"
+  },
+  "projectsData": {
+    "proj-01": { "title": "Porta seccional panell sandvitx", "desc": "Instal·lació de porta seccional en panell sandvitx amb motor a sostre i comandament a distància. Aïllament tèrmic i acabat lacat." },
+    "proj-02": { "title": "Porta corredissa panell sandvitx", "desc": "Porta corredissa amb panell tipus sandvitx, motor de transmissió, cremallera en niló i comandament a distància. Ideal per a accessos amplis." },
+    "proj-03": { "title": "Porta batent xapa lacada", "desc": "Fabricació i instal·lació de porta batent 1 fulla en xapa metàl·lica, lacat al forn, amb braç electromecànic i centraleta." },
+    "proj-04": { "title": "Pèrgola metàl·lica autoportant", "desc": "Estructura de pèrgola metàl·lica autoportant per a zona de pàrquing. Acer galvanitzat i lacat, resistent a intempèrie." },
+    "proj-05": { "title": "Barana escala portal interior", "desc": "Barana d'escala en portal interior. Ferreria decorativa amb acabat en pintura epoxi, disseny a mida segons normativa." },
+    "proj-06": { "title": "Coberta porxo panell sandvitx", "desc": "Coberta per a porxo metàl·lic amb panell sandvitx. Aïllament tèrmic, estructura d'acer galvanitzat, instal·lació ràpida." },
+    "proj-07": { "title": "Reixa seguretat finestra", "desc": "Fabricació i instal·lació de reixa de seguretat per a finestra. Ferro massís, disseny funcional i estètic, lacat al forn." },
+    "proj-08": { "title": "Automatisme porta existent", "desc": "Automatització de porta existent: instal·lació de motor, centraleta, fotocèl·lules i comandaments. Posada en marxa i prova." }
+  },
+  "videosData": {
+    "v1": { "title": "Porta Seccional Automatitzada", "desc": "Porta seccional amb panells aïllants d'alta densitat, motor a sostre ultrasilenciós i receptor amb comandament a distància." },
+    "v2": { "title": "Porta Corredissa en Panell Sandvitx", "desc": "Sistema corredís d'automatització ràpida amb cremallera de niló silenciosa, motor de gran potència i tancament de seguretat." }
+  }
+}

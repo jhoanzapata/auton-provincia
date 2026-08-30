@@ -3,20 +3,24 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 
 import es from "./locales/es.json";
+import va from "./locales/va.json";
 import de from "./locales/de.json";
 import en from "./locales/en.json";
 import fr from "./locales/fr.json";
 import nl from "./locales/nl.json";
+import ru from "./locales/ru.json";
 
-export const lSupportedLanguages = ["es", "de", "en", "fr", "nl"] as const;
+export const lSupportedLanguages = ["es", "va", "en", "de", "fr", "nl", "ru"] as const;
 export type TLanguageCode = (typeof lSupportedLanguages)[number];
 
 export const lLanguageOptions: Array<{ code: TLanguageCode; label: string; flag: string }> = [
   { code: "es", label: "ES", flag: "🇪🇸" },
-  { code: "de", label: "DE", flag: "🇩🇪" },
+  { code: "va", label: "VA", flag: "🟡" },
   { code: "en", label: "EN", flag: "🇬🇧" },
+  { code: "de", label: "DE", flag: "🇩🇪" },
   { code: "fr", label: "FR", flag: "🇫🇷" },
   { code: "nl", label: "NL", flag: "🇳🇱" },
+  { code: "ru", label: "RU", flag: "🇷🇺" },
 ];
 
 const STORAGE_KEY = "auton-provincia-language";
@@ -27,10 +31,12 @@ void i18n
   .init({
     resources: {
       es: { translation: es },
-      de: { translation: de },
+      va: { translation: va },
       en: { translation: en },
+      de: { translation: de },
       fr: { translation: fr },
       nl: { translation: nl },
+      ru: { translation: ru },
     },
     supportedLngs: lSupportedLanguages,
     fallbackLng: "es",
@@ -58,8 +64,8 @@ i18n.on("languageChanged", (vLanguage) => {
   document.documentElement.lang = vLanguage;
   try {
     localStorage.setItem(STORAGE_KEY, vLanguage);
-  } catch {
-    // ignore storage failures
+  } catch (error) {
+    console.error("No se pudo guardar el idioma en localStorage:", error);
   }
 });
 

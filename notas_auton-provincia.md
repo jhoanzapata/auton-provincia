@@ -35,8 +35,13 @@
   - Configuración de Firma: `user.name = Zapata Labs`, `user.email = jhoan.zapata@cun.edu.co`.
   - Rama Principal: `main`.
 
-- **5 Idiomas Oficiales Soportados:**
-  - `🇪🇸 ES` (Español), `🇬🇧 EN` (Inglés), `🇩🇪 DE` (Alemán), `🇫🇷 FR` (Francés), `🇳🇱 NL` (Neerlandés).
+- **7 Idiomas Oficiales Soportados:**
+  - `🇪🇸 ES` (Español), `🟡 VA` (Valencià), `🇬🇧 EN` (Inglés), `🇩🇪 DE` (Alemán), `🇫🇷 FR` (Francés), `🇳🇱 NL` (Neerlandés), `🇷🇺 RU` (Ruso).
+
+- **Mejoras Homologadas con Arboleda Multiservicios:**
+  - **Zona de Cobertura:** 16 municipios de Alicante indexables (`CoverageSection.tsx`).
+  - **Horarios Comerciales en Schema.org:** Lun-Sáb 08:00-20:00 para Google Rich Snippets.
+  - **FAQs de Alta Conversión:** 6 preguntas con palabras clave de urgencia, motorización y mandos.
 
 - **Arquitectura Base y Rendimiento:**
   - Frontend estático con Vite + React 18 + TypeScript + Tailwind.
