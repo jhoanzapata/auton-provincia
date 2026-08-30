@@ -114,7 +114,13 @@
     "q2": "¿Ofrecen servicio de urgencias fuera de horario?",
     "a2": "Sí, disponemos de atención 24 horas los 365 días del año para averías urgentes.",
     "q3": "¿Qué garantía tienen los motores y automatismos?",
-    "a3": "Todos los motores nuevos cuentan con 2 años de garantía del fabricante y garantía de instalación."
+    "a3": "Todos los motores nuevos cuentan con 2 años de garantía del fabricante y garantía de instalación.",
+    "q4": "¿Se puede motorizar una puerta manual antigua sin cambiarla?",
+    "a4": "Sí, en la gran mayoría de casos instalamos motores homologados (Somfy, CAME, Erreka, FAAC) sobre tu puerta actual sin necesidad de obras costosas.",
+    "q5": "¿Tiene algún costo la visita técnica o el presupuesto?",
+    "a5": "El presupuesto es 100% gratuito y sin ningún compromiso. Incluye asesoramiento in situ, medición exacta y desglose detallado de materiales.",
+    "q6": "¿Suministran y codifican mandos a distancia y fotocélulas de seguridad?",
+    "a6": "Sí, codificamos mandos con sistema rolling-code de alta seguridad y colocamos fotocélulas anti-aplastamiento según normativa europea."
   },
   "videos": {
     "title": "Demostración en Video",

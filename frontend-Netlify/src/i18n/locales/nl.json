@@ -114,7 +114,13 @@
     "q2": "Biedt u nooddiensten buiten kantooruren aan?",
     "a2": "Ja, wij bieden 24/7 nooddienst 365 dagen per jaar voor dringende reparaties.",
     "q3": "Welke garantie zit er op de motoren en automatiseringssystemen?",
-    "a3": "Alle nieuwe motoren hebben 2 jaar fabrieksgarantie en installatiegarantie."
+    "a3": "Alle nieuwe motoren hebben 2 jaar fabrieksgarantie en installatiegarantie.",
+    "q4": "Kan een bestaande handmatige deur gemotoriseerd worden zonder deze te vervangen?",
+    "a4": "Ja, in de meeste gevallen kunnen we gecertificeerde motoren (Somfy, CAME, Erreka, FAAC) op uw bestaande deur installeren zonder dure verbouwingen.",
+    "q5": "Zijn er kosten verbonden aan het technisch bezoek of de offerte?",
+    "a5": "De offerte is 100% gratis en vrijblijvend. Dit omvat advies ter plaatse, exacte metingen en een gedetailleerd overzicht van materialen.",
+    "q6": "Levert en programmeert u afstandsbedieningen en veiligheidsfotocellen?",
+    "a6": "Ja, wij programmeren rolling-code afstandsbedieningen met hoge beveiliging en plaatsen klembeveiligingsfotocellen volgens de Europese normen."
   },
   "videos": {
     "title": "Video Demonstraties",

@@ -113,8 +113,14 @@
     "a1": "Complete installation usually takes between 4 and 8 hours depending on dimensions.",
     "q2": "Do you offer emergency service outside business hours?",
     "a2": "Yes, we provide 24/7 emergency service 365 days a year for urgent breakdowns.",
-    "q3": "What warranty comes with motors and automation?",
-    "a3": "All new motors come with a 2-year manufacturer warranty and installation warranty."
+    "q3": "What warranty is included with the motors and systems?",
+    "a3": "All new motors include a 2-year manufacturer warranty plus our professional installation warranty.",
+    "q4": "Can an existing manual door be automated without replacing it?",
+    "a4": "Yes, in most cases we can install certified motors (Somfy, CAME, Erreka, FAAC) onto your existing door without costly remodeling.",
+    "q5": "Is there any cost for the technical visit or quote?",
+    "a5": "The quote is 100% free with no obligation. It includes on-site technical consultation, precise measurements, and a detailed material breakdown.",
+    "q6": "Do you supply and program remote controls and safety photocells?",
+    "a6": "Yes, we program high-security rolling-code remotes and install anti-crush safety photocells compliant with European safety regulations."
   },
   "videos": {
     "title": "Video Demonstration",

@@ -113,8 +113,14 @@
     "a1": "L'installation complète prend généralement entre 4 et 8 heures selon les dimensions.",
     "q2": "Proposez-vous un service d'urgence en dehors des heures d'ouverture ?",
     "a2": "Oui, nous disposons d'une assistance 24h/24 et 365 jours par an pour les pannes urgentes.",
-    "q3": "Quelle est la garantie des moteurs et automatismes ?",
-    "a3": "Tous les nouveaux moteurs bénéficient d'une garantie fabricant de 2 ans et d'une garantie d'installation."
+    "q3": "Quelle est la garantie sur les moteurs et automatismes ?",
+    "a3": "Tous les moteurs neufs bénéficient d'une garantie fabricant de 2 ans et de notre garantie d'installation.",
+    "q4": "Peut-on motoriser une porte manuelle existante sans la remplacer ?",
+    "a4": "Oui, dans la plupart des cas, nous pouvons installer des moteurs homologués (Somfy, CAME, Erreka, FAAC) sur votre porte actuelle sans travaux coûteux.",
+    "q5": "La visite technique ou le devis sont-ils payants ?",
+    "a5": "Le devis est 100% gratuit et sans engagement. Il comprend des conseils techniques sur place, des mesures précises et le détail des matériaux.",
+    "q6": "Fournissez-vous et programmez-vous des télécommandes et des cellules de sécurité ?",
+    "a6": "Oui, nous codons des télécommandes à code tournant haute sécurité et installons des photocellules anti-écrasement conformes aux normes européennes."
   },
   "videos": {
     "title": "Démonstration Vidéo",

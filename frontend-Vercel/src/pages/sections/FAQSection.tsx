@@ -22,6 +22,18 @@ export function FAQSection() {
           <summary className="faq-question">{t("faq.q3")}</summary>
           <p className="faq-answer">{t("faq.a3")}</p>
         </details>
+        <details className="faq-item">
+          <summary className="faq-question">{t("faq.q4")}</summary>
+          <p className="faq-answer">{t("faq.a4")}</p>
+        </details>
+        <details className="faq-item">
+          <summary className="faq-question">{t("faq.q5")}</summary>
+          <p className="faq-answer">{t("faq.a5")}</p>
+        </details>
+        <details className="faq-item">
+          <summary className="faq-question">{t("faq.q6")}</summary>
+          <p className="faq-answer">{t("faq.a6")}</p>
+        </details>
       </div>
     </section>
   );
