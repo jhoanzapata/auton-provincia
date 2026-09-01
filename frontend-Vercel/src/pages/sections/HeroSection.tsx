@@ -26,43 +26,23 @@ export function HeroSection() {
             marginBottom: "2rem",
           }}
         >
-          <span
-            style={{
-              background: "rgba(184, 115, 51, 0.15)",
-              color: "#fff",
-              padding: "0.35rem 1rem",
-              borderRadius: 50,
-              fontSize: "0.8rem",
-              fontWeight: 600,
-            }}
-          >
-            {t("hero.badge1")}
-          </span>
-          <span
-            style={{
-              background: "rgba(184, 115, 51, 0.15)",
-              color: "#fff",
-              padding: "0.35rem 1rem",
-              borderRadius: 50,
-              fontSize: "0.8rem",
-              fontWeight: 600,
-            }}
-          >
-            {t("hero.badge2")}
-          </span>
-          <span
-            style={{
-              background: "rgba(184, 115, 51, 0.15)",
-              color: "#fff",
-              padding: "0.35rem 1rem",
-              borderRadius: 50,
-              fontSize: "0.8rem",
-              fontWeight: 600,
-            }}
-          >
-            {t("hero.badge3")}
-          </span>
+          {[t("hero.badge1"), t("hero.badge2"), t("hero.badge3")].map((badgeText, idx) => (
+            <span
+              key={idx}
+              style={{
+                background: "rgba(184, 115, 51, 0.15)",
+                color: "#fff",
+                padding: "0.35rem 1rem",
+                borderRadius: 50,
+                fontSize: "0.8rem",
+                fontWeight: 600,
+              }}
+            >
+              {badgeText}
+            </span>
+          ))}
         </div>
+
 
         <div className="hero-actions" style={{ gap: "1rem" }}>
           <a href="#presupuesto" className="btn-primary">
