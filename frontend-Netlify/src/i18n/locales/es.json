@@ -207,17 +207,66 @@
     "backHome": "← Volver al Inicio"
   },
   "projectsData": {
-    "proj-01": { "title": "Puerta seccional panel sándwich", "desc": "Instalación de puerta seccional en panel sándwich con motor a techo y mando a distancia. Aislamiento térmico y acabado lacado." },
-    "proj-02": { "title": "Puerta corredera panel sándwich", "desc": "Puerta corredera con panel tipo sándwich, motor de transmisión, cremallera en nylon y mando a distancia. Ideal para accesos amplios." },
-    "proj-03": { "title": "Puerta abatible chapa lacada", "desc": "Fabricación e instalación de puerta abatible 1 hoja en chapa metálica, lacado al horno, con brazo electromecánico y centralita." },
-    "proj-04": { "title": "Pérgola metálica autoportante", "desc": "Estructura de pérgola metálica autoportante para zona de parking. Acero galvanizado y lacado, resistente a intemperie." },
-    "proj-05": { "title": "Barandilla escalera portal interior", "desc": "Barandilla de escalera en portal interior. Herrería decorativa con acabado en pintura epoxi, diseño a medida según normativa." },
-    "proj-06": { "title": "Cubierta porche panel sándwich", "desc": "Cubierta para porche metálico con panel sándwich. Aislamiento térmico, estructura de acero galvanizado, instalación rápida." },
-    "proj-07": { "title": "Reja seguridad ventana", "desc": "Fabricación e instalación de reja de seguridad para ventana. Hierro macizo, diseño funcional y estético, lacado al horno." },
-    "proj-08": { "title": "Automatismo puerta existente", "desc": "Automatización de puerta existente: instalación de motor, centralita, fotocélulas y mandos. Puesta en marcha y prueba." }
+    "proj-01": {
+      "title": "Puerta seccional panel sándwich",
+      "desc": "Instalación de puerta seccional en panel sándwich con motor a techo y mando a distancia. Aislamiento térmico y acabado lacado."
+    },
+    "proj-02": {
+      "title": "Puerta corredera panel sándwich",
+      "desc": "Puerta corredera con panel tipo sándwich, motor de transmisión, cremallera en nylon y mando a distancia. Ideal para accesos amplios."
+    },
+    "proj-03": {
+      "title": "Puerta abatible chapa lacada",
+      "desc": "Fabricación e instalación de puerta abatible 1 hoja en chapa metálica, lacado al horno, con brazo electromecánico y centralita."
+    },
+    "proj-04": {
+      "title": "Pérgola metálica autoportante",
+      "desc": "Estructura de pérgola metálica autoportante para zona de parking. Acero galvanizado y lacado, resistente a intemperie."
+    },
+    "proj-05": {
+      "title": "Barandilla escalera portal interior",
+      "desc": "Barandilla de escalera en portal interior. Herrería decorativa con acabado en pintura epoxi, diseño a medida según normativa."
+    },
+    "proj-06": {
+      "title": "Cubierta porche panel sándwich",
+      "desc": "Cubierta para porche metálico con panel sándwich. Aislamiento térmico, estructura de acero galvanizado, instalación rápida."
+    },
+    "proj-07": {
+      "title": "Reja seguridad ventana",
+      "desc": "Fabricación e instalación de reja de seguridad para ventana. Hierro macizo, diseño funcional y estético, lacado al horno."
+    },
+    "proj-08": {
+      "title": "Automatismo puerta existente",
+      "desc": "Automatización de puerta existente: instalación de motor, centralita, fotocélulas y mandos. Puesta en marcha y prueba."
+    }
   },
   "videosData": {
-    "v1": { "title": "Puerta Seccional Automatizada", "desc": "Puerta seccional con paneles aislantes de alta densidad, motor a techo ultrasilencioso y receptor con mando a distancia." },
-    "v2": { "title": "Puerta Corredera en Panel Sándwich", "desc": "Sistema corredero de automatización rápida con cremallera de nylon silenciosa, motor de gran potencia y cierre de seguridad." }
+    "v1": {
+      "title": "Puerta Seccional Automatizada",
+      "desc": "Puerta seccional con paneles aislantes de alta densidad, motor a techo ultrasilencioso y receptor con mando a distancia."
+    },
+    "v2": {
+      "title": "Puerta Corredera en Panel Sándwich",
+      "desc": "Sistema corredero de automatización rápida con cremallera de nylon silenciosa, motor de gran potencia y cierre de seguridad."
+    }
+  },
+  "cookies": {
+    "title": "🍪 Usamos cookies",
+    "desc": "Utilizamos cookies propias y de terceros para mejorar tu experiencia, analizar el tráfico y personalizar contenido. Puedes aceptar todas, rechazarlas o configurar tus preferencias.",
+    "moreInfo": "Más información en nuestra Política de Cookies",
+    "btnAcceptAll": "Aceptar todo",
+    "btnRejectAll": "Rechazar no esenciales",
+    "btnConfigure": "Configurar",
+    "footerNotice": "Puedes cambiar tus preferencias en cualquier momento desde el enlace «Configurar cookies» en el footer.",
+    "settingsTitle": "Configurar cookies",
+    "settingsDesc": "Elige qué categorías de cookies permitir. Las cookies necesarias son obligatorias para el funcionamiento del sitio.",
+    "necessaryTitle": "Cookies necesarias",
+    "necessaryDesc": "Imprescindibles para la navegación y funcionamiento básico. No se pueden desactivar.",
+    "analyticsTitle": "Cookies analíticas",
+    "analyticsDesc": "Nos ayudan a entender cómo interactúas con la web (páginas visitadas, tiempo, errores). Anónimas.",
+    "marketingTitle": "Cookies de marketing",
+    "marketingDesc": "Permiten mostrar anuncios personalizados y medir campañas (Facebook Pixel, etc.).",
+    "btnBack": "Volver",
+    "btnSave": "Guardar preferencias"
   }
 }

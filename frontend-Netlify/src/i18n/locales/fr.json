@@ -207,17 +207,66 @@
     "backHome": "← Retour à l'Accueil"
   },
   "projectsData": {
-    "proj-01": { "title": "Porte sectionnelle panneau sandwich", "desc": "Installation de porte sectionnelle en panneau sandwich avec moteur au plafond et télécommande. Isolation thermique et finition thermolaquée." },
-    "proj-02": { "title": "Portail coulissant panneau sandwich", "desc": "Portail coulissant avec panneau sandwich, moteur de transmission, crémaillère en nylon et télécommande. Idéal pour accès larges." },
-    "proj-03": { "title": "Porte battante en tôle laquée", "desc": "Fabrication et installation de porte battante 1 vantail en tôle métallique thermolaquée avec bras électromécanique." },
-    "proj-04": { "title": "Pergola métallique autoportante", "desc": "Structure de pergola métallique autoportante pour zone de parking. Acier galvanisé et laqué, résistant aux intempéries." },
-    "proj-05": { "title": "Garde-corps escalier hall d'entrée", "desc": "Garde-corps d'escalier dans le hall d'entrée. Serrurerie décorative finition peinture époxy, conception sur mesure." },
-    "proj-06": { "title": "Toiture porche panneau sandwich", "desc": "Couverture de porche métallique en panneau sandwich. Isolation thermique, structure en acier galvanisé, pose rapide." },
-    "proj-07": { "title": "Grille de sécurité fenêtre", "desc": "Fabrication et pose de grille de sécurité pour fenêtre. Fer massif, design fonctionnel et esthétique thermolaqué." },
-    "proj-08": { "title": "Motorisation de porte existante", "desc": "Automatisation d'une porte existante : pose moteur, centrale de commande, cellules et télécommandes. Essai et mise en service." }
+    "proj-01": {
+      "title": "Porte sectionnelle panneau sandwich",
+      "desc": "Installation de porte sectionnelle en panneau sandwich avec moteur au plafond et télécommande. Isolation thermique et finition thermolaquée."
+    },
+    "proj-02": {
+      "title": "Portail coulissant panneau sandwich",
+      "desc": "Portail coulissant avec panneau sandwich, moteur de transmission, crémaillère en nylon et télécommande. Idéal pour accès larges."
+    },
+    "proj-03": {
+      "title": "Porte battante en tôle laquée",
+      "desc": "Fabrication et installation de porte battante 1 vantail en tôle métallique thermolaquée avec bras électromécanique."
+    },
+    "proj-04": {
+      "title": "Pergola métallique autoportante",
+      "desc": "Structure de pergola métallique autoportante pour zone de parking. Acier galvanisé et laqué, résistant aux intempéries."
+    },
+    "proj-05": {
+      "title": "Garde-corps escalier hall d'entrée",
+      "desc": "Garde-corps d'escalier dans le hall d'entrée. Serrurerie décorative finition peinture époxy, conception sur mesure."
+    },
+    "proj-06": {
+      "title": "Toiture porche panneau sandwich",
+      "desc": "Couverture de porche métallique en panneau sandwich. Isolation thermique, structure en acier galvanisé, pose rapide."
+    },
+    "proj-07": {
+      "title": "Grille de sécurité fenêtre",
+      "desc": "Fabrication et pose de grille de sécurité pour fenêtre. Fer massif, design fonctionnel et esthétique thermolaqué."
+    },
+    "proj-08": {
+      "title": "Motorisation de porte existante",
+      "desc": "Automatisation d'une porte existante : pose moteur, centrale de commande, cellules et télécommandes. Essai et mise en service."
+    }
   },
   "videosData": {
-    "v1": { "title": "Porte Sectionnelle Automatisée", "desc": "Porte sectionnelle avec panneaux isolants haute densité, moteur silencieux au plafond et récepteur avec télécommande." },
-    "v2": { "title": "Portail Coulissant en Panneau Sandwich", "desc": "Système coulissant à motorisation rapide avec crémaillère nylon silencieuse, moteur puissant et fermeture de sécurité." }
+    "v1": {
+      "title": "Porte Sectionnelle Automatisée",
+      "desc": "Porte sectionnelle avec panneaux isolants haute densité, moteur silencieux au plafond et récepteur avec télécommande."
+    },
+    "v2": {
+      "title": "Portail Coulissant en Panneau Sandwich",
+      "desc": "Système coulissant à motorisation rapide avec crémaillère nylon silencieuse, moteur puissant et fermeture de sécurité."
+    }
+  },
+  "cookies": {
+    "title": "🍪 Nous utilisons des cookies",
+    "desc": "Nous utilisons des cookies propres et tiers pour améliorer votre expérience, analyser le trafic et personnaliser le contenu. Vous pouvez tout accepter, refuser les cookies non essentiels ou personnaliser vos préférences.",
+    "moreInfo": "En savoir plus dans notre Politique de Cookies",
+    "btnAcceptAll": "Tout accepter",
+    "btnRejectAll": "Refuser non essentiels",
+    "btnConfigure": "Configurer",
+    "footerNotice": "Vous pouvez modifier vos préférences à tout moment depuis le lien « Paramètres des cookies » en bas de page.",
+    "settingsTitle": "Paramètres des cookies",
+    "settingsDesc": "Choisissez les catégories de cookies que vous autorisez. Les cookies nécessaires sont obligatoires au bon fonctionnement du site.",
+    "necessaryTitle": "Cookies nécessaires",
+    "necessaryDesc": "Indispensables à la navigation et aux fonctionnalités de base. Ne peuvent pas être désactivés.",
+    "analyticsTitle": "Cookies analytiques",
+    "analyticsDesc": "Nous aident à comprendre comment vous interagissez avec le site (pages visitées, temps passé, erreurs). Anonymes.",
+    "marketingTitle": "Cookies marketing",
+    "marketingDesc": "Permettent d'afficher des publicités personnalisées et de mesurer les campagnes marketing.",
+    "btnBack": "Retour",
+    "btnSave": "Enregistrer les préférences"
   }
 }

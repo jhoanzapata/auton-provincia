@@ -207,17 +207,66 @@
     "backHome": "← Tornar a l'Inici"
   },
   "projectsData": {
-    "proj-01": { "title": "Porta seccional panell sandvitx", "desc": "Instal·lació de porta seccional en panell sandvitx amb motor a sostre i comandament a distància. Aïllament tèrmic i acabat lacat." },
-    "proj-02": { "title": "Porta corredissa panell sandvitx", "desc": "Porta corredissa amb panell tipus sandvitx, motor de transmissió, cremallera en niló i comandament a distància. Ideal per a accessos amplis." },
-    "proj-03": { "title": "Porta batent xapa lacada", "desc": "Fabricació i instal·lació de porta batent 1 fulla en xapa metàl·lica, lacat al forn, amb braç electromecànic i centraleta." },
-    "proj-04": { "title": "Pèrgola metàl·lica autoportant", "desc": "Estructura de pèrgola metàl·lica autoportant per a zona de pàrquing. Acer galvanitzat i lacat, resistent a intempèrie." },
-    "proj-05": { "title": "Barana escala portal interior", "desc": "Barana d'escala en portal interior. Ferreria decorativa amb acabat en pintura epoxi, disseny a mida segons normativa." },
-    "proj-06": { "title": "Coberta porxo panell sandvitx", "desc": "Coberta per a porxo metàl·lic amb panell sandvitx. Aïllament tèrmic, estructura d'acer galvanitzat, instal·lació ràpida." },
-    "proj-07": { "title": "Reixa seguretat finestra", "desc": "Fabricació i instal·lació de reixa de seguretat per a finestra. Ferro massís, disseny funcional i estètic, lacat al forn." },
-    "proj-08": { "title": "Automatisme porta existent", "desc": "Automatització de porta existent: instal·lació de motor, centraleta, fotocèl·lules i comandaments. Posada en marxa i prova." }
+    "proj-01": {
+      "title": "Porta seccional panell sandvitx",
+      "desc": "Instal·lació de porta seccional en panell sandvitx amb motor a sostre i comandament a distància. Aïllament tèrmic i acabat lacat."
+    },
+    "proj-02": {
+      "title": "Porta corredissa panell sandvitx",
+      "desc": "Porta corredissa amb panell tipus sandvitx, motor de transmissió, cremallera en niló i comandament a distància. Ideal per a accessos amplis."
+    },
+    "proj-03": {
+      "title": "Porta batent xapa lacada",
+      "desc": "Fabricació i instal·lació de porta batent 1 fulla en xapa metàl·lica, lacat al forn, amb braç electromecànic i centraleta."
+    },
+    "proj-04": {
+      "title": "Pèrgola metàl·lica autoportant",
+      "desc": "Estructura de pèrgola metàl·lica autoportant per a zona de pàrquing. Acer galvanitzat i lacat, resistent a intempèrie."
+    },
+    "proj-05": {
+      "title": "Barana escala portal interior",
+      "desc": "Barana d'escala en portal interior. Ferreria decorativa amb acabat en pintura epoxi, disseny a mida segons normativa."
+    },
+    "proj-06": {
+      "title": "Coberta porxo panell sandvitx",
+      "desc": "Coberta per a porxo metàl·lic amb panell sandvitx. Aïllament tèrmic, estructura d'acer galvanitzat, instal·lació ràpida."
+    },
+    "proj-07": {
+      "title": "Reixa seguretat finestra",
+      "desc": "Fabricació i instal·lació de reixa de seguretat per a finestra. Ferro massís, disseny funcional i estètic, lacat al forn."
+    },
+    "proj-08": {
+      "title": "Automatisme porta existent",
+      "desc": "Automatització de porta existent: instal·lació de motor, centraleta, fotocèl·lules i comandaments. Posada en marxa i prova."
+    }
   },
   "videosData": {
-    "v1": { "title": "Porta Seccional Automatitzada", "desc": "Porta seccional amb panells aïllants d'alta densitat, motor a sostre ultrasilenciós i receptor amb comandament a distància." },
-    "v2": { "title": "Porta Corredissa en Panell Sandvitx", "desc": "Sistema corredís d'automatització ràpida amb cremallera de niló silenciosa, motor de gran potència i tancament de seguretat." }
+    "v1": {
+      "title": "Porta Seccional Automatitzada",
+      "desc": "Porta seccional amb panells aïllants d'alta densitat, motor a sostre ultrasilenciós i receptor amb comandament a distància."
+    },
+    "v2": {
+      "title": "Porta Corredissa en Panell Sandvitx",
+      "desc": "Sistema corredís d'automatització ràpida amb cremallera de niló silenciosa, motor de gran potència i tancament de seguretat."
+    }
+  },
+  "cookies": {
+    "title": "🍪 Utilitzem cookies",
+    "desc": "Utilitzem cookies pròpies i de tercers per a millorar la teua experiència, analitzar el trànsit i personalitzar contingut. Pots acceptar-les totes, rebutjar-les o configurar les teues preferències.",
+    "moreInfo": "Més informació en la nostra Política de Cookies",
+    "btnAcceptAll": "Acceptar tot",
+    "btnRejectAll": "Rebutjar no essencials",
+    "btnConfigure": "Configurar",
+    "footerNotice": "Pots canviar les teues preferències en qualsevol moment des de l'enllaç «Configurar cookies» en el peu de pàgina.",
+    "settingsTitle": "Configurar cookies",
+    "settingsDesc": "Tria quines categories de cookies permetre. Les cookies necessàries són obligatòries per al funcionament del lloc.",
+    "necessaryTitle": "Cookies necessàries",
+    "necessaryDesc": "Imprescindibles per a la navegació i funcionament bàsic. No es poden desactivar.",
+    "analyticsTitle": "Cookies analítiques",
+    "analyticsDesc": "Ens ajuden a entendre com interactues amb la web (pàgines visitades, temps, errors). Anònimes.",
+    "marketingTitle": "Cookies de màrqueting",
+    "marketingDesc": "Permeten mostrar anuncis personalitzats i mesurar campanyes (Facebook Pixel, etc.).",
+    "btnBack": "Tornar",
+    "btnSave": "Guardar preferències"
   }
 }

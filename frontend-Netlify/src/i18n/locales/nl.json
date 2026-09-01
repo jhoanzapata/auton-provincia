@@ -207,17 +207,66 @@
     "backHome": "← Terug naar Home"
   },
   "projectsData": {
-    "proj-01": { "title": "Sandwichpaneel Sectiepoort", "desc": "Installatie van sandwichpaneel sectiepoort met plafondmotor en afstandsbediening. Thermische isolatie en moffellak afwerking." },
-    "proj-02": { "title": "Sandwichpaneel Schuifpoort", "desc": "Schuifpoort met sandwichpaneel, transmissiemotor, nylon tandheugel en afstandsbediening. Ideaal voor brede doorgangen." },
-    "proj-03": { "title": "Gelaakte Metalen Klapdeur", "desc": "Fabricage en installatie van 1-vleugelige klapdeur in plaatwerk met moffellak, elektromechanische arm en sturing." },
-    "proj-04": { "title": "Zelfdragende Metalen Pergola", "desc": "Zelfdragende metalen pergolastructuur voor parkeerzone. Gevuld en gelakt gegalvaniseerd staal, weerbestendig." },
-    "proj-05": { "title": "Trapbalustrade Hal Ingang", "desc": "Trapbalustrade in ingangshal. Decoratief smeedwerk met epoxylak afwerking, op maat gemaakt volgens normen." },
-    "proj-06": { "title": "Sandwichpaneel Veranda Overkapping", "desc": "Overkapping voor metalen veranda met sandwichpaneel. Thermische isolatie, gegalvaniseerde staalstructuur, snelle montage." },
-    "proj-07": { "title": "Raam Veiligheidsrooster", "desc": "Fabricage en installatie van veiligheidsrooster voor raam. Massief ijzer, functioneel en esthetisch moffellak ontwerp." },
-    "proj-08": { "title": "Automatisering Bestaande Poort", "desc": "Automatisering van bestaande poort: installatie van motor, stuurkast, fotocellen en afstandsbedieningen." }
+    "proj-01": {
+      "title": "Sandwichpaneel Sectiepoort",
+      "desc": "Installatie van sandwichpaneel sectiepoort met plafondmotor en afstandsbediening. Thermische isolatie en moffellak afwerking."
+    },
+    "proj-02": {
+      "title": "Sandwichpaneel Schuifpoort",
+      "desc": "Schuifpoort met sandwichpaneel, transmissiemotor, nylon tandheugel en afstandsbediening. Ideaal voor brede doorgangen."
+    },
+    "proj-03": {
+      "title": "Gelaakte Metalen Klapdeur",
+      "desc": "Fabricage en installatie van 1-vleugelige klapdeur in plaatwerk met moffellak, elektromechanische arm en sturing."
+    },
+    "proj-04": {
+      "title": "Zelfdragende Metalen Pergola",
+      "desc": "Zelfdragende metalen pergolastructuur voor parkeerzone. Gevuld en gelakt gegalvaniseerd staal, weerbestendig."
+    },
+    "proj-05": {
+      "title": "Trapbalustrade Hal Ingang",
+      "desc": "Trapbalustrade in ingangshal. Decoratief smeedwerk met epoxylak afwerking, op maat gemaakt volgens normen."
+    },
+    "proj-06": {
+      "title": "Sandwichpaneel Veranda Overkapping",
+      "desc": "Overkapping voor metalen veranda met sandwichpaneel. Thermische isolatie, gegalvaniseerde staalstructuur, snelle montage."
+    },
+    "proj-07": {
+      "title": "Raam Veiligheidsrooster",
+      "desc": "Fabricage en installatie van veiligheidsrooster voor raam. Massief ijzer, functioneel en esthetisch moffellak ontwerp."
+    },
+    "proj-08": {
+      "title": "Automatisering Bestaande Poort",
+      "desc": "Automatisering van bestaande poort: installatie van motor, stuurkast, fotocellen en afstandsbedieningen."
+    }
   },
   "videosData": {
-    "v1": { "title": "Geautomatiseerde Sectiepoort", "desc": "Sectiepoort met isolatiepanelen van hoge dichtheid, superstille plafondmotor en ontvanger met afstandsbediening." },
-    "v2": { "title": "Sandwichpaneel Schuifpoort", "desc": "Snel schuifautomatiseringssysteem met stille nylon tandheugel, krachtige motor en veiligheidssluiting." }
+    "v1": {
+      "title": "Geautomatiseerde Sectiepoort",
+      "desc": "Sectiepoort met isolatiepanelen van hoge dichtheid, superstille plafondmotor en ontvanger met afstandsbediening."
+    },
+    "v2": {
+      "title": "Sandwichpaneel Schuifpoort",
+      "desc": "Snel schuifautomatiseringssysteem met stille nylon tandheugel, krachtige motor en veiligheidssluiting."
+    }
+  },
+  "cookies": {
+    "title": "🍪 Wij gebruiken cookies",
+    "desc": "Wij gebruiken eigen cookies en cookies van derden om uw ervaring te verbeteren, websiteverkeer te analyseren en inhoud te personaliseren. U kunt alle cookies accepteren, niet-essentiële cookies weigeren of uw voorkeuren aanpassen.",
+    "moreInfo": "Meer informatie in ons Cookiebeleid",
+    "btnAcceptAll": "Alles accepteren",
+    "btnRejectAll": "Niet-essentiële weigeren",
+    "btnConfigure": "Instellen",
+    "footerNotice": "U kunt uw voorkeuren op elk gewenst moment wijzigen via de link «Cookie-instellingen» in de footer.",
+    "settingsTitle": "Cookie-instellingen",
+    "settingsDesc": "Kies welke categorieën cookies u wilt toestaan. Noodzakelijke cookies zijn verplicht voor de goede werking van de website.",
+    "necessaryTitle": "Noodzakelijke cookies",
+    "necessaryDesc": "Essentieel voor navigatie en basisfuncties van de website. Kunnen niet worden uitgeschakeld.",
+    "analyticsTitle": "Analytische cookies",
+    "analyticsDesc": "Helpen ons te begrijpen hoe u de website gebruikt (bezochte pagina's, verblijfsduur, fouten). Anoniem.",
+    "marketingTitle": "Marketingcookies",
+    "marketingDesc": "Maken het mogelijk om gepersonaliseerde advertenties te tonen en campagnes te meten.",
+    "btnBack": "Terug",
+    "btnSave": "Voorkeuren opslaan"
   }
 }

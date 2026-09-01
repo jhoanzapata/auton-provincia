@@ -207,17 +207,66 @@
     "backHome": "← Back to Home"
   },
   "projectsData": {
-    "proj-01": { "title": "Sandwich Panel Sectional Door", "desc": "Installation of sandwich panel sectional door with overhead motor and remote control. Thermal insulation and lacquered finish." },
-    "proj-02": { "title": "Sandwich Panel Sliding Gate", "desc": "Sliding gate with sandwich panel, gear motor, nylon rack, and remote control. Ideal for wide access areas." },
-    "proj-03": { "title": "Lacquered Sheet Swing Gate", "desc": "Manufacture and installation of 1-leaf metal sheet swing gate with electromechanical arm and control unit." },
-    "proj-04": { "title": "Self-Supporting Metal Pergola", "desc": "Self-supporting metal pergola structure for parking area. Galvanized and lacquered steel, weather resistant." },
-    "proj-05": { "title": "Interior Entrance Stair Railing", "desc": "Staircase railing in building entrance. Decorative ironwork with epoxy paint finish, custom-designed to standards." },
-    "proj-06": { "title": "Sandwich Panel Porch Roof", "desc": "Metal porch roofing with sandwich panel. Thermal insulation, galvanized steel structure, fast installation." },
-    "proj-07": { "title": "Window Security Guard", "desc": "Manufacture and installation of window security guards. Solid iron, functional and aesthetic design, oven-lacquered." },
-    "proj-08": { "title": "Existing Gate Automation", "desc": "Automation of existing gate: motor installation, control unit, photocells, and remotes. Testing and commissioning." }
+    "proj-01": {
+      "title": "Sandwich Panel Sectional Door",
+      "desc": "Installation of sandwich panel sectional door with overhead motor and remote control. Thermal insulation and lacquered finish."
+    },
+    "proj-02": {
+      "title": "Sandwich Panel Sliding Gate",
+      "desc": "Sliding gate with sandwich panel, gear motor, nylon rack, and remote control. Ideal for wide access areas."
+    },
+    "proj-03": {
+      "title": "Lacquered Sheet Swing Gate",
+      "desc": "Manufacture and installation of 1-leaf metal sheet swing gate with electromechanical arm and control unit."
+    },
+    "proj-04": {
+      "title": "Self-Supporting Metal Pergola",
+      "desc": "Self-supporting metal pergola structure for parking area. Galvanized and lacquered steel, weather resistant."
+    },
+    "proj-05": {
+      "title": "Interior Entrance Stair Railing",
+      "desc": "Staircase railing in building entrance. Decorative ironwork with epoxy paint finish, custom-designed to standards."
+    },
+    "proj-06": {
+      "title": "Sandwich Panel Porch Roof",
+      "desc": "Metal porch roofing with sandwich panel. Thermal insulation, galvanized steel structure, fast installation."
+    },
+    "proj-07": {
+      "title": "Window Security Guard",
+      "desc": "Manufacture and installation of window security guards. Solid iron, functional and aesthetic design, oven-lacquered."
+    },
+    "proj-08": {
+      "title": "Existing Gate Automation",
+      "desc": "Automation of existing gate: motor installation, control unit, photocells, and remotes. Testing and commissioning."
+    }
   },
   "videosData": {
-    "v1": { "title": "Automated Sectional Door", "desc": "Sectional door with high-density insulating panels, ultra-quiet overhead motor, and remote control receiver." },
-    "v2": { "title": "Sandwich Panel Sliding Gate", "desc": "Fast sliding automation system with quiet nylon rack, high-power motor, and safety locking mechanism." }
+    "v1": {
+      "title": "Automated Sectional Door",
+      "desc": "Sectional door with high-density insulating panels, ultra-quiet overhead motor, and remote control receiver."
+    },
+    "v2": {
+      "title": "Sandwich Panel Sliding Gate",
+      "desc": "Fast sliding automation system with quiet nylon rack, high-power motor, and safety locking mechanism."
+    }
+  },
+  "cookies": {
+    "title": "🍪 We use cookies",
+    "desc": "We use our own and third-party cookies to enhance your browsing experience, analyze traffic, and personalize content. You can accept all, reject non-essential cookies, or manage your preferences.",
+    "moreInfo": "More information in our Cookie Policy",
+    "btnAcceptAll": "Accept All",
+    "btnRejectAll": "Reject Non-Essential",
+    "btnConfigure": "Customize",
+    "footerNotice": "You can change your preferences at any time from the 'Cookie Settings' link in the footer.",
+    "settingsTitle": "Cookie Settings",
+    "settingsDesc": "Choose which categories of cookies to allow. Necessary cookies are required for the website to function properly.",
+    "necessaryTitle": "Necessary Cookies",
+    "necessaryDesc": "Essential for website navigation and core functionality. Cannot be disabled.",
+    "analyticsTitle": "Analytics Cookies",
+    "analyticsDesc": "Help us understand how you interact with our website (pages visited, time spent, errors). Completely anonymous.",
+    "marketingTitle": "Marketing Cookies",
+    "marketingDesc": "Used to display personalized advertisements and measure marketing campaigns.",
+    "btnBack": "Back",
+    "btnSave": "Save Preferences"
   }
 }

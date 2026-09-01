@@ -207,17 +207,66 @@
     "backHome": "← Zurück zur Startseite"
   },
   "projectsData": {
-    "proj-01": { "title": "Sandwichpaneel-Sektionaltor", "desc": "Montage eines Sandwich-Sektionaltors mit Deckenantrieb und Fernbedienung. Wärmedämmung und Einbrennlackierung." },
-    "proj-02": { "title": "Sandwichpaneel-Schiebetor", "desc": "Schiebetor mit Sandwichpaneel, Getriebemotor, Nylon-Zahnstange und Fernbedienung. Ideal für breite Zufahrten." },
-    "proj-03": { "title": "Lackiertes Flügeltor", "desc": "Herstellung und Montage eines 1-flügeligen Metalltors mit elektromechanischem Antriebsarm und Steuerung." },
-    "proj-04": { "title": "Freistehende Metallpergola", "desc": "Freistehende Metallpergola für Parkplatzbereich. Verzinkter und lackierter Stahl, witterungsbeständig." },
-    "proj-05": { "title": "Treppengeländer für Inneneingang", "desc": "Treppengeländer im Hauseingang. Dekorative Schlosserarbeit mit Epoxidharzlackierung, maßgefertigt nach Norm." },
-    "proj-06": { "title": "Veradadach aus Sandwichpaneelen", "desc": "Überdachung für Metallveranda mit Sandwichpaneelen. Wärmedämmung, verzinkte Stahlkonstruktion, schnelle Montage." },
-    "proj-07": { "title": "Fenstersicherheitsgitter", "desc": "Herstellung und Montage von Sicherheitsfenstergittern. Massivfeuerverzinkt, funktionales und ästhetisches Design." },
-    "proj-08": { "title": "Automatisierung eines bestehenden Tors", "desc": "Nachrüstung eines vorhandenen Tors: Installation von Motor, Steuergerät, Lichtschranken und Handsendern." }
+    "proj-01": {
+      "title": "Sandwichpaneel-Sektionaltor",
+      "desc": "Montage eines Sandwich-Sektionaltors mit Deckenantrieb und Fernbedienung. Wärmedämmung und Einbrennlackierung."
+    },
+    "proj-02": {
+      "title": "Sandwichpaneel-Schiebetor",
+      "desc": "Schiebetor mit Sandwichpaneel, Getriebemotor, Nylon-Zahnstange und Fernbedienung. Ideal für breite Zufahrten."
+    },
+    "proj-03": {
+      "title": "Lackiertes Flügeltor",
+      "desc": "Herstellung und Montage eines 1-flügeligen Metalltors mit elektromechanischem Antriebsarm und Steuerung."
+    },
+    "proj-04": {
+      "title": "Freistehende Metallpergola",
+      "desc": "Freistehende Metallpergola für Parkplatzbereich. Verzinkter und lackierter Stahl, witterungsbeständig."
+    },
+    "proj-05": {
+      "title": "Treppengeländer für Inneneingang",
+      "desc": "Treppengeländer im Hauseingang. Dekorative Schlosserarbeit mit Epoxidharzlackierung, maßgefertigt nach Norm."
+    },
+    "proj-06": {
+      "title": "Veradadach aus Sandwichpaneelen",
+      "desc": "Überdachung für Metallveranda mit Sandwichpaneelen. Wärmedämmung, verzinkte Stahlkonstruktion, schnelle Montage."
+    },
+    "proj-07": {
+      "title": "Fenstersicherheitsgitter",
+      "desc": "Herstellung und Montage von Sicherheitsfenstergittern. Massivfeuerverzinkt, funktionales und ästhetisches Design."
+    },
+    "proj-08": {
+      "title": "Automatisierung eines bestehenden Tors",
+      "desc": "Nachrüstung eines vorhandenen Tors: Installation von Motor, Steuergerät, Lichtschranken und Handsendern."
+    }
   },
   "videosData": {
-    "v1": { "title": "Automatisiertes Sektionaltor", "desc": "Sektionaltor mit hochdichten Dämmpaneelen, leisem Deckenantrieb und Funkempfänger mit Fernbedienung." },
-    "v2": { "title": "Sandwich-Schiebetor", "desc": "Schnelles Schiebetorsystem mit leiser Nylon-Zahnstange, starkem Motor und Sicherheitsverschluss." }
+    "v1": {
+      "title": "Automatisiertes Sektionaltor",
+      "desc": "Sektionaltor mit hochdichten Dämmpaneelen, leisem Deckenantrieb und Funkempfänger mit Fernbedienung."
+    },
+    "v2": {
+      "title": "Sandwich-Schiebetor",
+      "desc": "Schnelles Schiebetorsystem mit leiser Nylon-Zahnstange, starkem Motor und Sicherheitsverschluss."
+    }
+  },
+  "cookies": {
+    "title": "🍪 Wir verwenden Cookies",
+    "desc": "Wir verwenden eigene Cookies und Cookies von Drittanbietern, um Ihr Nutzungserlebnis zu verbessern, den Datenverkehr zu analysieren und Inhalte anzupassen. Sie können alle akzeptieren, nicht erforderliche Cookies ablehnen oder Ihre Einstellungen anpassen.",
+    "moreInfo": "Weitere Informationen in unserer Cookie-Richtlinie",
+    "btnAcceptAll": "Alle akzeptieren",
+    "btnRejectAll": "Nicht erforderliche ablehnen",
+    "btnConfigure": "Einstellungen",
+    "footerNotice": "Sie können Ihre Einstellungen jederzeit über den Link «Cookie-Einstellungen» in der Fußzeile ändern.",
+    "settingsTitle": "Cookie-Einstellungen",
+    "settingsDesc": "Wählen Sie, welche Cookie-Kategorien Sie zulassen möchten. Notwendige Cookies sind für die Funktion der Website erforderlich.",
+    "necessaryTitle": "Notwendige Cookies",
+    "necessaryDesc": "Unerlässlich für die Navigation und Basisfunktionen der Website. Können nicht deaktiviert werden.",
+    "analyticsTitle": "Analyse-Cookies",
+    "analyticsDesc": "Helfen uns zu verstehen, wie Sie mit der Website interagieren (besuchte Seiten, Verweildauer, Fehler). Anonym.",
+    "marketingTitle": "Marketing-Cookies",
+    "marketingDesc": "Ermöglichen personalisierte Werbung und die Messung von Marketingkampagnen.",
+    "btnBack": "Zurück",
+    "btnSave": "Einstellungen speichern"
   }
 }

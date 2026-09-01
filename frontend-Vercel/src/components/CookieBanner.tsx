@@ -1,7 +1,9 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useCookieConsent } from '../hooks/useCookieConsent';
 
 export function CookieBanner() {
+  const { t } = useTranslation();
   const { vShowBanner, acceptAll, rejectAll, saveCustom } = useCookieConsent();
   const [vShowSettings, setVShowSettings] = useState(false);
   const [vAnalytics, setVAnalytics] = useState(false);
@@ -21,14 +23,13 @@ export function CookieBanner() {
         {!vShowSettings ? (
           <>
             <h3 id="cookie-title" className="cookie-banner-title">
-              🍪 Usamos cookies
+              {t("cookies.title", "🍪 Usamos cookies")}
             </h3>
             <p id="cookie-desc" className="cookie-banner-desc">
-              Utilizamos cookies propias y de terceros para mejorar tu experiencia, analizar el tráfico y personalizar contenido.
-              Puedes aceptar todas, rechazarlas o configurar tus preferencias.
+              {t("cookies.desc", "Utilizamos cookies propias y de terceros para mejorar tu experiencia, analizar el tráfico y personalizar contenido. Puedes aceptar todas, rechazarlas o configurar tus preferencias.")}
               <br />
               <a href="/politica-cookies" style={{ color: 'var(--color-accent)', textDecoration: 'underline', fontWeight: 500 }}>
-                Más información en nuestra Política de Cookies
+                {t("cookies.moreInfo", "Más información en nuestra Política de Cookies")}
               </a>
             </p>
             <div className="cookie-banner-actions">
@@ -36,40 +37,40 @@ export function CookieBanner() {
                 onClick={() => { acceptAll(); }}
                 className="btn-cookie-accept"
               >
-                Aceptar todo
+                {t("cookies.btnAcceptAll", "Aceptar todo")}
               </button>
               <button
                 onClick={() => { rejectAll(); }}
                 className="btn-cookie-secondary"
               >
-                Rechazar no esenciales
+                {t("cookies.btnRejectAll", "Rechazar no esenciales")}
               </button>
               <button
                 onClick={() => setVShowSettings(true)}
                 className="btn-cookie-secondary"
               >
-                Configurar
+                {t("cookies.btnConfigure", "Configurar")}
               </button>
             </div>
             <p style={{ marginTop: '1rem', fontSize: '0.75rem', color: 'var(--color-text-muted)' }}>
-              Puedes cambiar tus preferencias en cualquier momento desde el enlace «Configurar cookies» en el footer.
+              {t("cookies.footerNotice", "Puedes cambiar tus preferencias en cualquier momento desde el enlace «Configurar cookies» en el footer.")}
             </p>
           </>
         ) : (
           <>
             <h3 id="cookie-title" style={{ margin: '0 0 0.5rem', fontSize: '1.1rem' }}>
-              Configurar cookies
+              {t("cookies.settingsTitle", "Configurar cookies")}
             </h3>
             <p style={{ margin: '0 0 1.5rem', color: 'var(--color-text-dim)', fontSize: '0.9rem' }}>
-              Elige qué categorías de cookies permitir. Las cookies necesarias son obligatorias para el funcionamiento del sitio.
+              {t("cookies.settingsDesc", "Elige qué categorías de cookies permitir. Las cookies necesarias son obligatorias para el funcionamiento del sitio.")}
             </p>
 
             <div style={{ marginBottom: '1.5rem', padding: '1rem', background: 'var(--color-bg-dark)', borderRadius: 8 }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
                 <div>
-                  <strong style={{ color: 'var(--color-text)' }}>Cookies necesarias</strong>
+                  <strong style={{ color: 'var(--color-text)' }}>{t("cookies.necessaryTitle", "Cookies necesarias")}</strong>
                   <p style={{ margin: '0.25rem 0 0', fontSize: '0.8rem', color: 'var(--color-text-dim)' }}>
-                    Imprescindibles para la navegación y funcionamiento básico. No se pueden desactivar.
+                    {t("cookies.necessaryDesc", "Imprescindibles para la navegación y funcionamiento básico. No se pueden desactivar.")}
                   </p>
                 </div>
                 <input
@@ -84,9 +85,9 @@ export function CookieBanner() {
             <div style={{ marginBottom: '1.5rem', padding: '1rem', background: 'var(--color-bg-dark)', borderRadius: 8 }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
                 <div>
-                  <strong style={{ color: 'var(--color-text)' }}>Cookies analíticas</strong>
+                  <strong style={{ color: 'var(--color-text)' }}>{t("cookies.analyticsTitle", "Cookies analíticas")}</strong>
                   <p style={{ margin: '0.25rem 0 0', fontSize: '0.8rem', color: 'var(--color-text-dim)' }}>
-                    Nos ayudan a entender cómo interactúas con la web (páginas visitadas, tiempo, errores). Anónimas.
+                    {t("cookies.analyticsDesc", "Nos ayudan a entender cómo interactúas con la web (páginas visitadas, tiempo, errores). Anónimas.")}
                   </p>
                 </div>
                 <label style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer' }}>
@@ -105,9 +106,9 @@ export function CookieBanner() {
             <div style={{ marginBottom: '1.5rem', padding: '1rem', background: 'var(--color-bg-dark)', borderRadius: 8 }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
                 <div>
-                  <strong style={{ color: 'var(--color-text)' }}>Cookies de marketing</strong>
+                  <strong style={{ color: 'var(--color-text)' }}>{t("cookies.marketingTitle", "Cookies de marketing")}</strong>
                   <p style={{ margin: '0.25rem 0 0', fontSize: '0.8rem', color: 'var(--color-text-dim)' }}>
-                    Permiten mostrar anuncios personalizados y medir campañas (Facebook Pixel, etc.).
+                    {t("cookies.marketingDesc", "Permiten mostrar anuncios personalizados y medir campañas (Facebook Pixel, etc.).")}
                   </p>
                 </div>
                 <label style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer' }}>
@@ -136,7 +137,7 @@ export function CookieBanner() {
                   cursor: 'pointer',
                 }}
               >
-                Volver
+                {t("cookies.btnBack", "Volver")}
               </button>
               <button
                 onClick={() => { saveCustom(vAnalytics, vMarketing); }}
@@ -150,7 +151,7 @@ export function CookieBanner() {
                   cursor: 'pointer',
                 }}
               >
-                Guardar preferencias
+                {t("cookies.btnSave", "Guardar preferencias")}
               </button>
             </div>
           </>
