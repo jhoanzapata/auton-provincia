@@ -29,6 +29,19 @@ export const mLegalNoticeTexts: Record<string, any> = {
     s5Title: "5. Legislación aplicable",
     s5Text: "El presente Aviso Legal se rige por la legislación española. Para cualquier controversia, las partes se someten a los Tribunales de España.",
   },
+  va: {
+    title: "Avís Legal",
+    subtitle: "Informació legal i condicions d'ús del lloc web d'Automatismos La Provincia.",
+    s1Title: "1. Dades identificatives del titular",
+    s2Title: "2. Objecte i àmbit d'aplicació",
+    s2Text: `El present Avís Legal regula l'accés i ús del lloc web ${companyInfo.website}, que Automatismos La Provincia posa a disposició dels usuaris d'Internet.\nL'accés al Lloc Web implica l'acceptació plena i sense reserves de totes les disposicions incloses en este Avís Legal, la Política de Privacitat i la Política de Cookies.`,
+    s3Title: "3. Condicions d'accés i ús",
+    s3Text: "L'usuari es compromet a fer un ús adequat, lícit i diligent del Lloc Web de conformitat amb la legislació vigent i la bona fe.",
+    s4Title: "4. Propietat intel·lectual i industrial",
+    s4Text: "Tots els continguts del Lloc Web (textos, imatges, dissenys, marques) són propietat d'Automatismos La Provincia o de tercers autoritzats.",
+    s5Title: "5. Legislació aplicable",
+    s5Text: "El present Avís Legal es regix per la legislació espanyola. Per a qualsevol controvèrsia, les parts se sotmeten als Tribunals d'Espanya.",
+  },
   en: {
     title: "Legal Notice",
     subtitle: "Legal information and terms of use for the Automatismos La Provincia website.",
@@ -81,6 +94,19 @@ export const mLegalNoticeTexts: Record<string, any> = {
     s5Title: "5. Toepasselijk recht",
     s5Text: "Deze Juridische Kennisgeving wordt beheerst door de Spaanse wetgeving. Voor geschillen onderwerpen partijen zich aan de Spaanse rechtbanken.",
   },
+  ru: {
+    title: "Правовая Информация",
+    subtitle: "Юридическая информация и условия использования веб-сайта Automatismos La Provincia.",
+    s1Title: "1. Идентификационные данные владельца",
+    s2Title: "2. Предмет и сфера применения",
+    s2Text: `Настоящее Правовое уведомление регулирует доступ и использование веб-сайта ${companyInfo.website}, предоставляемого Automatismos La Provincia.\nДоступ к веб-сайту подразумевает полное и безоговорочное принятие всех положений, включенных в данное уведомление, Политику конфиденциальности и Политику использования файлов cookie.`,
+    s3Title: "3. Условия доступа и использования",
+    s3Text: "Пользователь обязуется использовать веб-сайт законно, добросовестно и надлежащим образом в соответствии с действующим законодательством.",
+    s4Title: "4. Интеллектуальная и промышленная собственность",
+    s4Text: "Все материалы веб-сайта (тексты, изображения, дизайн, товарные знаки) являются собственностью Automatismos La Provincia или уполномоченных третьих лиц.",
+    s5Title: "5. Применимое законодательство",
+    s5Text: "Настоящее уведомление регулируется законодательством Испании. Все споры подлежат разрешению в судах Испании.",
+  },
 };
 
 export const mPrivacyTexts: Record<string, any> = {
@@ -95,6 +121,18 @@ export const mPrivacyTexts: Record<string, any> = {
     s3Text: "La base legal para el tratamiento de sus datos es el consentimiento expreso del usuario al realizar una consulta o solicitar un presupuesto.",
     s4Title: "4. Derechos de los usuarios",
     s4Text: `Puede ejercer sus derechos de acceso, rectificación, supresión, oposición y limitación enviando un correo electrónico a ${companyInfo.email}.`,
+  },
+  va: {
+    title: "Política de Privacitat",
+    subtitle: "Informació sobre el tractament de les teues dades personals segons l'RGPD i la LOPDGDD.",
+    s1Title: "1. Responsable del tractament",
+    s1Text: `Responsable: ${companyInfo.legalName} (${companyInfo.name})\nNIF / CIF: ${companyInfo.nif}\nDomicili: ${companyInfo.address}\nEmail de contacte: ${companyInfo.email}`,
+    s2Title: "2. Finalitat del tractament",
+    s2Text: "Les dades personals facilitades a través de formularis o contacte directe s'utilitzen exclusivament per a atendre consultes, enviar pressupostos i informar sobre l'estat de les comandes de portes metàl·liques.",
+    s3Title: "3. Legitimació",
+    s3Text: "La base legal per al tractament de les seues dades és el consentiment exprés de l'usuari en realitzar una consulta o sol·licitar un pressupost.",
+    s4Title: "4. Drets dels usuaris",
+    s4Text: `Pot exercir els seus drets d'accés, rectificació, supressió, oposició i limitació enviant un correu electrònic a ${companyInfo.email}.`,
   },
   en: {
     title: "Privacy Policy",
@@ -144,6 +182,18 @@ export const mPrivacyTexts: Record<string, any> = {
     s4Title: "4. Rechten van gebruikers",
     s4Text: `U kunt uw rechten op inzage, rectificatie en verwijdering uitoefenen door een e-mail te sturen naar ${companyInfo.email}.`,
   },
+  ru: {
+    title: "Политика Конфиденциальности",
+    subtitle: "Информация об обработке ваших персональных данных в соответствии с GDPR.",
+    s1Title: "1. Оператор персональных данных",
+    s1Text: `Оператор: ${companyInfo.legalName} (${companyInfo.name})\nНалоговый номер (NIF/CIF): ${companyInfo.nif}\nАдрес: ${companyInfo.address}\nЭлектронная почта: ${companyInfo.email}`,
+    s2Title: "2. Цели обработки",
+    s2Text: "Персональные данные, предоставленные через формы или прямые контакты, используются исключительно для обработки запросов, отправки расчетов стоимости и информирования о статусе заказов на металлические ворота.",
+    s3Title: "3. Правовые основания",
+    s3Text: "Правовым основанием для обработки данных является явное согласие пользователя при отправке запроса или заявки на расчет.",
+    s4Title: "4. Права пользователей",
+    s4Text: `Вы можете реализовать свои права на доступ, исправление, удаление и ограничение обработки, отправив письмо на ${companyInfo.email}.`,
+  },
 };
 
 export const mCookieTexts: Record<string, any> = {
@@ -154,6 +204,14 @@ export const mCookieTexts: Record<string, any> = {
     s1Text: "Una cookie es un pequeño archivo de texto que se almacena en su navegador cuando visita nuestro sitio web.",
     s2Title: "2. Gestión del consentimiento",
     s2Text: "Puede configurar sus preferencias de cookies en cualquier momento desde el botón de 'Configurar cookies' situado en el pie de página.",
+  },
+  va: {
+    title: "Política de Cookies",
+    subtitle: "Informació transparent sobre l'ús de cookies en el nostre lloc web.",
+    s1Title: "1. Què és una cookie?",
+    s1Text: "Una cookie és un xicotet arxiu de text que s'emmagatzema en el seu navegador quan visita el nostre lloc web.",
+    s2Title: "2. Gestió del consentiment",
+    s2Text: "Pot configurar les seues preferències de cookies en qualsevol moment des del botó de 'Configurar cookies' situat al peu de pàgina.",
   },
   en: {
     title: "Cookie Policy",
@@ -187,6 +245,14 @@ export const mCookieTexts: Record<string, any> = {
     s2Title: "2. Beheer van toestemming",
     s2Text: "U kunt uw cookievoorkeuren op elk moment aanpassen via de knop 'Cookie-instellingen' in de footer.",
   },
+  ru: {
+    title: "Политика Использования Cookies",
+    subtitle: "Прозрачная информация об использовании файлов cookie на нашем веб-сайте.",
+    s1Title: "1. Что такое cookie?",
+    s1Text: "Файл cookie — это небольшой текстовый файл, сохраняемый в вашем браузере при посещении нашего веб-сайта.",
+    s2Title: "2. Управление согласием",
+    s2Text: "Вы можете настроить параметры файлов cookie в любое время с помощью кнопки 'Настройки cookie' в подвале сайта.",
+  },
 };
 
 export const mAccessibilityTexts: Record<string, any> = {
@@ -195,6 +261,12 @@ export const mAccessibilityTexts: Record<string, any> = {
     subtitle: "Compromiso de Automatismos La Provincia con la accesibilidad web WCAG 2.1 AA.",
     s1Title: "1. Estado de cumplimiento",
     s1Text: "Este sitio web es plenamente conforme con el nivel AA de las Pautas de Accesibilidad al Contenido en la Web (WCAG 2.1).",
+  },
+  va: {
+    title: "Declaració d'Accessibilitat",
+    subtitle: "Compromís d'Automatismos La Provincia amb l'accessibilitat web WCAG 2.1 AA.",
+    s1Title: "1. Estat de compliment",
+    s1Text: "Este lloc web és plenament conforme amb el nivell AA de les Pautes d'Accessibilitat per al Contingut Web (WCAG 2.1).",
   },
   en: {
     title: "Accessibility Statement",
@@ -220,6 +292,12 @@ export const mAccessibilityTexts: Record<string, any> = {
     s1Title: "1. Nalevingsstatus",
     s1Text: "Deze website voldoet volledig aan niveau AA van de Web Content Accessibility Guidelines (WCAG 2.1).",
   },
+  ru: {
+    title: "Заявление о Доступности",
+    subtitle: "Обязательство Automatismos La Provincia по веб-доступности по стандарту WCAG 2.1 AA.",
+    s1Title: "1. Статус соответствия",
+    s1Text: "Настоящий веб-сайт полностью соответствует уровню AA Руководства по доступности веб-контента (WCAG 2.1).",
+  },
 };
 
 export const mTermsTexts: Record<string, any> = {
@@ -228,6 +306,12 @@ export const mTermsTexts: Record<string, any> = {
     subtitle: "Condiciones generales de contratación y uso del sitio web.",
     s1Title: "1. Condiciones generales",
     s1Text: "Todos los presupuestos emitidos tienen una validez de 30 días naturales a partir de la fecha de expedición.",
+  },
+  va: {
+    title: "Termes i Condicions",
+    subtitle: "Condicions generals de contractació i ús del lloc web.",
+    s1Title: "1. Condicions generals",
+    s1Text: "Tots els pressupostos emesos tenen una validesa de 30 dies naturals a partir de la data d'expedició.",
   },
   en: {
     title: "Terms & Conditions",
@@ -252,5 +336,11 @@ export const mTermsTexts: Record<string, any> = {
     subtitle: "Algemene contract- en gebruiksvoorwaarden van de website.",
     s1Title: "1. Algemene voorwaarden",
     s1Text: "Alle uitgebrachte offertes zijn 30 kalenderdagen geldig vanaf de datum van afgifte.",
+  },
+  ru: {
+    title: "Условия и Положения",
+    subtitle: "Общие условия заключения договоров и использования веб-сайта.",
+    s1Title: "1. Общие условия",
+    s1Text: "Все выставленные сметы и коммерческие предложения действительны в течение 30 календарных дней с даты выдачи.",
   },
 };

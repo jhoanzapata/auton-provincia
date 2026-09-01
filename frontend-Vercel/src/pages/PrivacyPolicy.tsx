@@ -34,8 +34,6 @@ export function PrivacyPolicy() {
         <nav aria-label="Navegación">
           <Link to="/">{t("navbar.home")}</Link>
           <span style={{ color: 'var(--color-text-muted)' }}>›</span>
-          <Link to="/aviso-legal">{t("footer.legalNotice")}</Link>
-          <span style={{ color: 'var(--color-text-muted)' }}>›</span>
           <span style={{ color: 'var(--color-text)', fontWeight: 500 }}>{vTexts.title}</span>
         </nav>
 
