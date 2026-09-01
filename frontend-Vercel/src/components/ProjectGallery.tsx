@@ -74,7 +74,7 @@ export function ProjectGallery() {
           ))
         ) : (
           <div className="empty-projects">
-            <p>Preparando nuevos reportajes de obras...</p>
+            <p>{t("gallery.empty", "Preparando nuevos reportajes de obras...")}</p>
           </div>
         )}
       </div>

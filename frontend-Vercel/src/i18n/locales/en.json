@@ -53,12 +53,27 @@
     "adjustMeasures": "Adjust dimensions",
     "btnSendWa": "📱 Request Quote via WhatsApp",
     "btnReset": "Reset Calculator",
-    "successMsg": "✅ Quote prepared. Click to be redirected to WhatsApp."
+    "successMsg": "✅ Quote prepared. Click to be redirected to WhatsApp.",
+    "measuresValidation": "Value between 0.5 and 10 meters",
+    "yourColor": "Your color:",
+    "colorSelected": "Selected color:",
+    "touchColorPrompt": "Tap a color to select it",
+    "colors": {
+      "white": "White",
+      "gray": "Gray",
+      "black": "Black",
+      "brown": "Brown",
+      "green": "Green",
+      "red": "Red",
+      "blue": "Blue",
+      "custom": "Custom"
+    }
   },
   "gallery": {
     "title": "Completed Projects Gallery",
     "subtitle": "Real photos of our installation, repair, and ironwork projects",
-    "close": "Close"
+    "close": "Close",
+    "empty": "Preparing new project showcases..."
   },
   "services": {
     "badge": "Specialized Catalog",

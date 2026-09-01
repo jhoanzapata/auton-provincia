@@ -53,12 +53,27 @@
     "adjustMeasures": "Ajuster les dimensions",
     "btnSendWa": "📱 Demander Devis sur WhatsApp",
     "btnReset": "Réinitialiser le Calculateur",
-    "successMsg": "✅ Devis prêt. Cliquez pour être redirigé vers WhatsApp."
+    "successMsg": "✅ Devis prêt. Cliquez pour être redirigé vers WhatsApp.",
+    "measuresValidation": "Valeur entre 0,5 et 10 mètres",
+    "yourColor": "Votre couleur :",
+    "colorSelected": "Couleur sélectionnée :",
+    "touchColorPrompt": "Touchez une couleur pour la sélectionner",
+    "colors": {
+      "white": "Blanc",
+      "gray": "Gris",
+      "black": "Noir",
+      "brown": "Marron",
+      "green": "Vert",
+      "red": "Rouge",
+      "blue": "Bleu",
+      "custom": "Personnalisé"
+    }
   },
   "gallery": {
     "title": "Galerie de Réalisations",
     "subtitle": "Photos réelles de nos travaux d'installation, réparation et serrurerie",
-    "close": "Fermer"
+    "close": "Fermer",
+    "empty": "Préparation de nouveaux reportages de réalisations..."
   },
   "services": {
     "badge": "Catalogue Spécialisé",

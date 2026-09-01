@@ -53,12 +53,27 @@
     "adjustMeasures": "Ajustar medidas",
     "btnSendWa": "📱 Solicitar Presupuesto en WhatsApp",
     "btnReset": "Reiniciar Cotizador",
-    "successMsg": "✅ Presupuesto preparado. Al hacer clic serás redirigido a WhatsApp."
+    "successMsg": "✅ Presupuesto preparado. Al hacer clic serás redirigido a WhatsApp.",
+    "measuresValidation": "Valor entre 0.5 y 10 metros",
+    "yourColor": "Tu color:",
+    "colorSelected": "Color seleccionado:",
+    "touchColorPrompt": "Toca un color para seleccionarlo",
+    "colors": {
+      "white": "Blanco",
+      "gray": "Gris",
+      "black": "Negro",
+      "brown": "Marrón",
+      "green": "Verde",
+      "red": "Rojo",
+      "blue": "Azul",
+      "custom": "Personalizado"
+    }
   },
   "gallery": {
     "title": "Galería de Proyectos Realizados",
     "subtitle": "Fotos reales de nuestros trabajos de instalación, reparación y herrería",
-    "close": "Cerrar"
+    "close": "Cerrar",
+    "empty": "Preparando nuevos reportajes de obras..."
   },
   "services": {
     "badge": "Catálogo Especializado",

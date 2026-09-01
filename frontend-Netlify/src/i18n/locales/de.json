@@ -53,12 +53,27 @@
     "adjustMeasures": "Maße anpassen",
     "btnSendWa": "📱 Angebot über WhatsApp anfordern",
     "btnReset": "Rechner zurücksetzen",
-    "successMsg": "✅ Angebot erstellt. Beim Klicken werden Sie zu WhatsApp weitergeleitet."
+    "successMsg": "✅ Angebot erstellt. Beim Klicken werden Sie zu WhatsApp weitergeleitet.",
+    "measuresValidation": "Wert zwischen 0,5 und 10 Metern",
+    "yourColor": "Ihre Farbe:",
+    "colorSelected": "Ausgewählte Farbe:",
+    "touchColorPrompt": "Tippen Sie auf eine Farbe zur Auswahl",
+    "colors": {
+      "white": "Weiß",
+      "gray": "Grau",
+      "black": "Schwarz",
+      "brown": "Braun",
+      "green": "Grün",
+      "red": "Rot",
+      "blue": "Blau",
+      "custom": "Individuell"
+    }
   },
   "gallery": {
     "title": "Galerie Realisierter Projekte",
     "subtitle": "Reale Fotos unserer Montage-, Reparatur- und Schlosserarbeiten",
-    "close": "Schließen"
+    "close": "Schließen",
+    "empty": "Neue Projektberichte in Vorbereitung..."
   },
   "services": {
     "badge": "Spezialisierter Katalog",

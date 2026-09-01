@@ -31,15 +31,16 @@ const lDoorTypes: DoorType[] = [
 ];
 
 const lColors = [
-  { name: "Blanco", hex: "#f0f0f0" },
-  { name: "Gris", hex: "#808080" },
-  { name: "Negro", hex: "#2a2a2a" },
-  { name: "Marrón", hex: "#8B4513" },
-  { name: "Verde", hex: "#2d5a27" },
-  { name: "Rojo", hex: "#8B0000" },
-  { name: "Azul", hex: "#1a3a6b" },
-  { name: "Personalizado", hex: "" },
+  { id: "white", key: "quote.colors.white", fallback: "Blanco", hex: "#f0f0f0" },
+  { id: "gray", key: "quote.colors.gray", fallback: "Gris", hex: "#808080" },
+  { id: "black", key: "quote.colors.black", fallback: "Negro", hex: "#2a2a2a" },
+  { id: "brown", key: "quote.colors.brown", fallback: "Marrón", hex: "#8B4513" },
+  { id: "green", key: "quote.colors.green", fallback: "Verde", hex: "#2d5a27" },
+  { id: "red", key: "quote.colors.red", fallback: "Rojo", hex: "#8B0000" },
+  { id: "blue", key: "quote.colors.blue", fallback: "Azul", hex: "#1a3a6b" },
+  { id: "custom", key: "quote.colors.custom", fallback: "Personalizado", hex: "" },
 ];
+
 
 export function QuoteSection() {
   const { t } = useTranslation();
@@ -344,7 +345,7 @@ export function QuoteSection() {
                 />
                 {!vIsWidthValid && vWidthInput !== '' && (
                   <p id="width-error" role="alert" style={{ color: '#e74c3c', fontSize: '0.75rem', marginTop: '0.25rem' }}>
-                    Valor entre 0.5 y 10 metros
+                    {t("quote.measuresValidation", "Valor entre 0.5 y 10 metros")}
                   </p>
                 )}
               </div>
@@ -389,7 +390,7 @@ export function QuoteSection() {
                 />
                 {!vIsHeightValid && vHeightInput !== '' && (
                   <p id="height-error" role="alert" style={{ color: '#e74c3c', fontSize: '0.75rem', marginTop: '0.25rem' }}>
-                    Valor entre 0.5 y 10 metros
+                    {t("quote.measuresValidation", "Valor entre 0.5 y 10 metros")}
                   </p>
                 )}
               </div>
@@ -469,48 +470,50 @@ export function QuoteSection() {
                     marginBottom: "1.5rem",
                   }}
                 >
-                  {lColors.map((vC) => (
-                    <button
-                      key={vC.name}
-                      role="radio"
-                      aria-checked={vColor === vC.name || (vC.name === 'Personalizado' && vShowCustomColor)}
-                      onClick={() => handleColorSelect(vC.name)}
-                      style={{
-                        width: 48,
-                        height: 48,
-                        borderRadius: "50%",
-                        cursor: "pointer",
-                        background:
-                          vC.hex || "linear-gradient(45deg, #f0f0f0, #333)",
-                        border:
-                          (vColor === vC.name || (vC.name === 'Personalizado' && vShowCustomColor))
+                  {lColors.map((vC) => {
+                    const colorLabel = t(vC.key, vC.fallback);
+                    const isSelected = vColor === colorLabel || vColor === vC.fallback || (vC.id === 'custom' && vShowCustomColor);
+                    return (
+                      <button
+                        key={vC.id}
+                        role="radio"
+                        aria-checked={isSelected}
+                        onClick={() => handleColorSelect(colorLabel)}
+                        style={{
+                          width: 48,
+                          height: 48,
+                          borderRadius: "50%",
+                          cursor: "pointer",
+                          background:
+                            vC.hex || "linear-gradient(45deg, #f0f0f0, #333)",
+                          border: isSelected
                             ? "3px solid var(--color-accent)"
                             : "3px solid transparent",
-                        outline:
-                          (vColor === vC.name || (vC.name === 'Personalizado' && vShowCustomColor))
+                          outline: isSelected
                             ? "2px solid var(--color-accent)"
                             : "none",
-                        transition: "all 0.2s ease",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        fontSize: "0.6rem",
-                        color: vC.hex === "#f0f0f0" ? "#333" : "#fff",
-                      }}
-                      title={vC.name}
-                      onFocus={(e) => { e.currentTarget.style.outline = '2px solid var(--color-accent)'; e.currentTarget.style.outlineOffset = '2px'; }}
-                      onBlur={(e) => { e.currentTarget.style.outline = 'none'; }}
-                    >
-                      {vC.name === "Personalizado" ? "?" : ""}
-                    </button>
-                  ))}
+                          transition: "all 0.2s ease",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          fontSize: "0.6rem",
+                          color: vC.hex === "#f0f0f0" ? "#333" : "#fff",
+                        }}
+                        title={colorLabel}
+                        onFocus={(e) => { e.currentTarget.style.outline = '2px solid var(--color-accent)'; e.currentTarget.style.outlineOffset = '2px'; }}
+                        onBlur={(e) => { e.currentTarget.style.outline = 'none'; }}
+                      >
+                        {vC.id === "custom" ? "?" : ""}
+                      </button>
+                    );
+                  })}
                 </div>
 
                 {/* Color personalizado */}
                 {vShowCustomColor && (
                   <div style={{ display: 'flex', justifyContent: 'center', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
                     <label htmlFor="custom-color" style={{ alignSelf: 'center', fontSize: '0.85rem', color: 'var(--color-text-dim)' }}>
-                      Tu color:
+                      {t("quote.yourColor", "Tu color:")}
                     </label>
                     <input
                       id="custom-color"
@@ -518,7 +521,7 @@ export function QuoteSection() {
                       value={vCustomColor}
                       onChange={handleCustomColorChange}
                       style={{ width: 48, height: 48, borderRadius: '50%', border: 'none', cursor: 'pointer' }}
-                      aria-label="Selector de color personalizado"
+                      aria-label={t("quote.yourColor", "Selector de color")}
                     />
                   </div>
                 )}
@@ -534,8 +537,8 @@ export function QuoteSection() {
                   aria-live="polite"
                 >
                   {vColor
-                    ? `Color seleccionado: ${vColor}`
-                    : "Toca un color para seleccionarlo"}
+                    ? `${t("quote.colorSelected", "Color seleccionado:")} ${vColor}`
+                    : t("quote.touchColorPrompt", "Toca un color para seleccionarlo")}
                 </p>
                 <div
                   style={{ display: "flex", justifyContent: "center", gap: "1rem" }}

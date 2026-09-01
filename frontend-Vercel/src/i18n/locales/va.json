@@ -53,12 +53,27 @@
     "adjustMeasures": "Ajustar mesures",
     "btnSendWa": "📱 Sol·licitar Pressupost per WhatsApp",
     "btnReset": "Reiniciar Cotitzador",
-    "successMsg": "✅ Pressupost preparat. En fer clic seràs redirigit a WhatsApp."
+    "successMsg": "✅ Pressupost preparat. En fer clic seràs redirigit a WhatsApp.",
+    "measuresValidation": "Valor entre 0.5 i 10 metres",
+    "yourColor": "El teu color:",
+    "colorSelected": "Color seleccionat:",
+    "touchColorPrompt": "Toca un color per a seleccionar-lo",
+    "colors": {
+      "white": "Blanc",
+      "gray": "Gris",
+      "black": "Negre",
+      "brown": "Marró",
+      "green": "Verd",
+      "red": "Roig",
+      "blue": "Blau",
+      "custom": "Personalitzat"
+    }
   },
   "gallery": {
     "title": "Galeria de Projectes Realitzats",
     "subtitle": "Fotos reals dels nostres treballs d'instal·lació, reparació i ferreria",
-    "close": "Tancar"
+    "close": "Tancar",
+    "empty": "Preparant nous reportatges d'obres..."
   },
   "services": {
     "badge": "Catàleg Especialitzat",

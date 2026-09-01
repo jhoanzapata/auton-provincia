@@ -53,12 +53,27 @@
     "adjustMeasures": "Maten aanpassen",
     "btnSendWa": "📱 Offerte Aanvragen via WhatsApp",
     "btnReset": "Calculator Resetten",
-    "successMsg": "✅ Offerte voorbereid. Klik om te worden doorgestuurd naar WhatsApp."
+    "successMsg": "✅ Offerte voorbereid. Klik om te worden doorgestuurd naar WhatsApp.",
+    "measuresValidation": "Waarde tussen 0,5 en 10 meter",
+    "yourColor": "Uw kleur:",
+    "colorSelected": "Geselecteerde kleur:",
+    "touchColorPrompt": "Tik op een kleur om deze te selecteren",
+    "colors": {
+      "white": "Wit",
+      "gray": "Grijs",
+      "black": "Zwart",
+      "brown": "Bruin",
+      "green": "Groen",
+      "red": "Rood",
+      "blue": "Blauw",
+      "custom": "Aangepast"
+    }
   },
   "gallery": {
     "title": "Galerij Realisaties",
     "subtitle": "Echte foto's van onze installatie-, reparatie- en smeedwerkprojecten",
-    "close": "Sluiten"
+    "close": "Sluiten",
+    "empty": "Nieuwe projectoverzichten worden voorbereid..."
   },
   "services": {
     "badge": "Gespecialiseerde Catalogus",
