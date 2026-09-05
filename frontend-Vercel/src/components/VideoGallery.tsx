@@ -79,6 +79,17 @@ export function VideoGallery() {
         <div className="video-featured-info">
           <h3>{t(`videosData.${vCurrentVideo.id || 'v1'}.title`, vCurrentVideo.title)}</h3>
           <p>{t(`videosData.${vCurrentVideo.id || 'v1'}.desc`, vCurrentVideo.description)}</p>
+          <div style={{ marginTop: "1rem" }}>
+            <a
+              href={`https://wa.me/34694917083?text=${encodeURIComponent(`Hola! He visto el vídeo de "${vCurrentVideo.title}" en su web y me gustaría pedir presupuesto para Alicante/Costa Blanca.`)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+              style={{ fontSize: "0.85rem", padding: "0.5rem 1.25rem", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}
+            >
+              <span>💬</span> Presupuesto para una puerta como esta
+            </a>
+          </div>
         </div>
       </div>
 
