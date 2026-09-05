@@ -1,13 +1,7 @@
 @import "tailwindcss";
 
-/* Fuente local (RGPD: sin llamadas a Google Fonts) */
-@font-face {
-  font-family: "Outfit";
-  font-style: normal;
-  font-weight: 300 700;
-  font-display: swap;
-  src: url("../assets/fonts/outfit-latin.woff2") format("woff2");
-}
+/* Tipografías: Oswald (titulares) y Barlow (cuerpo) — cargadas desde index.html */
+/* Ver: https://fonts.google.com/specimen/Oswald | https://fonts.google.com/specimen/Barlow */
 
 :root {
   scroll-behavior: smooth;
@@ -28,7 +22,7 @@
   --grad-brand: linear-gradient(135deg, #E4571B 0%, #B33F0D 100%);
   --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.3);
   --shadow-strong: 0 8px 30px rgba(0, 0, 0, 0.5);
-  font-family: "Outfit", sans-serif;
+  font-family: "Barlow", sans-serif; /* Cuerpo de texto — Manual de Marca */
   line-height: 1.5;
   font-weight: 400;
   color-scheme: dark light;
@@ -62,7 +56,7 @@ body {
   min-height: 100vh;
   background: var(--color-bg-dark);
   color: var(--color-text-main);
-  font-family: "Outfit", sans-serif;
+  font-family: "Barlow", sans-serif; /* Cuerpo de texto — Manual de Marca */
 }
 
 #root {
@@ -73,8 +67,10 @@ h1,
 h2,
 h3,
 h4 {
+  font-family: "Oswald", sans-serif; /* Titulares — Manual de Marca */
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.01em; /* Oswald condensado: spacing más ajustado */
+  text-transform: uppercase; /* Estilo industrial típico de Oswald */
 }
 
 button {
