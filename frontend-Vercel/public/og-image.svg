@@ -1,18 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a" />
-      <stop offset="50%" stop-color="#182030" />
-      <stop offset="100%" stop-color="#090d16" />
+      <stop offset="0%" stop-color="#14161A" />
+      <stop offset="50%" stop-color="#1c2026" />
+      <stop offset="100%" stop-color="#0e1012" />
     </linearGradient>
-    <linearGradient id="bronze" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#e0a96d" />
-      <stop offset="50%" stop-color="#b87333" />
-      <stop offset="100%" stop-color="#8c4b1d" />
-    </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#2563eb" />
+    <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9633" />
+      <stop offset="50%" stop-color="#E4571B" />
+      <stop offset="100%" stop-color="#B33F0D" />
     </linearGradient>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="12" result="blur" />
@@ -22,7 +18,7 @@
 
   <rect width="1200" height="630" fill="url(#bg)" />
 
-  <g opacity="0.12" stroke="#ffffff" stroke-width="1">
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
     <line x1="100" y1="0" x2="100" y2="630" />
     <line x1="300" y1="0" x2="300" y2="630" />
     <line x1="600" y1="0" x2="600" y2="630" />
@@ -33,56 +29,56 @@
     <line x1="0" y1="530" x2="1200" y2="530" />
   </g>
 
-  <circle cx="1050" cy="150" r="220" fill="#b87333" opacity="0.15" filter="url(#glow)" />
-  <circle cx="150" cy="500" r="180" fill="#2563eb" opacity="0.12" filter="url(#glow)" />
+  <circle cx="1050" cy="150" r="220" fill="#E4571B" opacity="0.16" filter="url(#glow)" />
+  <circle cx="150" cy="500" r="180" fill="#B33F0D" opacity="0.12" filter="url(#glow)" />
 
-  <rect x="0" y="0" width="1200" height="8" fill="url(#bronze)" />
+  <rect x="0" y="0" width="1200" height="8" fill="url(#brand)" />
 
   <g transform="translate(100, 110)">
-    <rect x="0" y="0" width="340" height="38" rx="19" fill="rgba(184, 115, 51, 0.2)" stroke="#b87333" stroke-width="1.5" />
-    <text x="170" y="24" fill="#e0a96d" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" letter-spacing="2" text-anchor="middle">
+    <rect x="0" y="0" width="340" height="38" rx="19" fill="rgba(228, 87, 27, 0.15)" stroke="#E4571B" stroke-width="1.5" />
+    <text x="170" y="24" fill="#FF9633" font-family="'Oswald', sans-serif" font-size="14" font-weight="600" letter-spacing="2" text-anchor="middle">
       ALICANTE &amp; COSTA BLANCA
     </text>
 
-    <text x="0" y="105" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="900" letter-spacing="-0.5">
+    <text x="0" y="105" fill="#ffffff" font-family="'Oswald', sans-serif" font-size="54" font-weight="700" letter-spacing="1">
       AUTOMATISMOS
     </text>
-    <text x="0" y="165" fill="url(#bronze)" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="900" letter-spacing="-0.5">
+    <text x="0" y="165" fill="url(#brand)" font-family="'Oswald', sans-serif" font-size="54" font-weight="700" letter-spacing="1">
       LA PROVINCIA
     </text>
 
-    <text x="0" y="225" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="500">
+    <text x="0" y="225" fill="#A9B2BD" font-family="'Barlow', sans-serif" font-size="22" font-weight="500">
       Fabricación, Instalación, Motorización y Reparación 24H de Puertas Metálicas
     </text>
 
     <g transform="translate(0, 270)">
-      <rect x="0" y="0" width="220" height="46" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
-      <text x="110" y="28" fill="#f1f5f9" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" text-anchor="middle">
+      <rect x="0" y="0" width="220" height="46" rx="10" fill="#2B3038" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5" />
+      <text x="110" y="28" fill="#ffffff" font-family="'Barlow', sans-serif" font-size="15" font-weight="600" text-anchor="middle">
         🚪 Puertas Seccionales
       </text>
 
-      <rect x="235" y="0" width="220" height="46" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
-      <text x="345" y="28" fill="#f1f5f9" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" text-anchor="middle">
+      <rect x="235" y="0" width="220" height="46" rx="10" fill="#2B3038" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5" />
+      <text x="345" y="28" fill="#ffffff" font-family="'Barlow', sans-serif" font-size="15" font-weight="600" text-anchor="middle">
         ⚡ Cancelas y Motores
       </text>
 
-      <rect x="470" y="0" width="220" height="46" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
-      <text x="580" y="28" fill="#f1f5f9" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" text-anchor="middle">
+      <rect x="470" y="0" width="220" height="46" rx="10" fill="#2B3038" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5" />
+      <text x="580" y="28" fill="#ffffff" font-family="'Barlow', sans-serif" font-size="15" font-weight="600" text-anchor="middle">
         🛡️ Servicio Urgente 24H
       </text>
 
-      <rect x="705" y="0" width="220" height="46" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
-      <text x="815" y="28" fill="#f1f5f9" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" text-anchor="middle">
+      <rect x="705" y="0" width="220" height="46" rx="10" fill="#2B3038" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5" />
+      <text x="815" y="28" fill="#ffffff" font-family="'Barlow', sans-serif" font-size="15" font-weight="600" text-anchor="middle">
         📋 Presupuesto Gratis
       </text>
     </g>
 
     <g transform="translate(0, 360)">
       <rect x="0" y="0" width="1000" height="60" rx="14" fill="rgba(37, 211, 102, 0.12)" stroke="#25d366" stroke-width="1.5" />
-      <text x="30" y="37" fill="#25d366" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold">
+      <text x="30" y="37" fill="#25d366" font-family="'Barlow', sans-serif" font-size="20" font-weight="600">
         💬 WhatsApp &amp; Atención Directa: +34 694 91 70 83
       </text>
-      <text x="970" y="37" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" text-anchor="end">
+      <text x="970" y="37" fill="#A9B2BD" font-family="'Oswald', sans-serif" font-size="16" font-weight="500" letter-spacing="1" text-anchor="end">
         auton-provincia.vercel.app
       </text>
     </g>
