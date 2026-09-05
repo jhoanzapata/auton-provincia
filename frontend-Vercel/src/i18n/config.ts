@@ -23,7 +23,7 @@ export const lLanguageOptions: Array<{ code: TLanguageCode; label: string; name:
   { code: "ru", label: "RU", name: "Русский", flag: "🇷🇺" },
 ];
 
-const STORAGE_KEY = "auton-provincia-language";
+export const STORAGE_KEY = "auton-provincia-language";
 
 void i18n
   .use(LanguageDetector)
@@ -45,7 +45,12 @@ void i18n
       order: ["querystring", "localStorage", "navigator", "htmlTag"],
       lookupQuerystring: "lng",
       lookupLocalStorage: STORAGE_KEY,
-      caches: ["localStorage"],
+      caches: [],
+      convertDetectedLanguage: (lng: string) => {
+        const clean = lng.toLowerCase();
+        if (clean.startsWith("ca")) return "va";
+        return lng;
+      },
     },
     interpolation: {
       escapeValue: false,
@@ -62,11 +67,6 @@ document.documentElement.lang = i18n.resolvedLanguage || i18n.language || "es";
 
 i18n.on("languageChanged", (vLanguage) => {
   document.documentElement.lang = vLanguage;
-  try {
-    localStorage.setItem(STORAGE_KEY, vLanguage);
-  } catch (error) {
-    console.error("No se pudo guardar el idioma en localStorage:", error);
-  }
 });
 
 export default i18n;

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import logo from "../../assets/logo.png";
 import { useActiveSection } from "../../hooks/useActiveSection";
-import { lLanguageOptions, type TLanguageCode } from "../../i18n/config";
+import { lLanguageOptions, type TLanguageCode, STORAGE_KEY } from "../../i18n/config";
 
 const lSectionIds = ['', 'presupuesto', 'proyectos', 'servicios', 'videos'];
 
@@ -14,6 +14,11 @@ export function Navbar() {
 
   const handleNavClick = () => setVMenuOpen(false);
   const cHandleLanguageChange = async (vLanguage: TLanguageCode) => {
+    try {
+      localStorage.setItem(STORAGE_KEY, vLanguage);
+    } catch (error) {
+      console.error("No se pudo guardar la preferencia manual de idioma:", error);
+    }
     await i18n.changeLanguage(vLanguage);
     setVMenuOpen(false);
   };
