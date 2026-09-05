@@ -75,11 +75,11 @@ export function Navbar() {
           <select
             value={vCurrentLanguage}
             onChange={(e) => { void cHandleLanguageChange(e.target.value as TLanguageCode); }}
-            className="px-2.5 py-1.5 rounded-lg text-xs font-bold bg-[#1e1e1e] text-amber-200 border border-amber-500/40 hover:border-amber-400 outline-none transition-all cursor-pointer shadow-sm"
+            className="px-2.5 py-1.5 rounded-lg text-xs font-bold bg-[#14161A] text-[#FF9633] border border-[#E4571B]/40 hover:border-[#E4571B] outline-none transition-all cursor-pointer shadow-sm"
             aria-label="Seleccionar idioma"
           >
             {lLanguageOptions.map((vOption) => (
-              <option key={vOption.code} value={vOption.code} className="bg-[#292929] text-white">
+              <option key={vOption.code} value={vOption.code} className="bg-[#14161A] text-white">
                 {vOption.flag} {vOption.name} ({vOption.label})
               </option>
             ))}

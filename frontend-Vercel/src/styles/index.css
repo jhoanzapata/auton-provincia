@@ -54,6 +54,7 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
+  font-size: 16px; /* Mínimo 16px exigido por el manual de marca */
   background: var(--color-bg-dark);
   color: var(--color-text-main);
   font-family: "Barlow", sans-serif; /* Cuerpo de texto — Manual de Marca */
@@ -68,7 +69,7 @@ h2,
 h3,
 h4 {
   font-family: "Oswald", sans-serif; /* Titulares — Manual de Marca */
-  font-weight: 700;
+  font-weight: 600; /* Oswald SemiBold oficial */
   letter-spacing: 0.01em; /* Oswald condensado: spacing más ajustado */
   text-transform: uppercase; /* Estilo industrial típico de Oswald */
 }
@@ -200,7 +201,7 @@ button {
 }
 
 .lang-option:focus-visible {
-  outline: 3px solid #4da3ff;
+  outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
 
@@ -570,7 +571,7 @@ button {
   border-color: rgba(228, 87, 27, 0.4);
 }
 .testimonial-stars {
-  color: #f1c40f;
+  color: var(--color-accent-light); /* Ámbar Chispa oficial */
   font-size: 1.1rem;
   margin-bottom: 1rem;
   letter-spacing: 2px;
@@ -1385,7 +1386,7 @@ details[open] .faq-question::after {
 }
 
 .scroll-to-top:focus-visible {
-  outline: 3px solid #4da3ff;
+  outline: 2px solid var(--color-accent);
   outline-offset: 3px;
 }
 
@@ -1422,7 +1423,7 @@ details[open] .faq-question::after {
 
 /* --- ACCESIBILIDAD --- */
 :focus-visible {
-  outline: 3px solid #4da3ff;
+  outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
 

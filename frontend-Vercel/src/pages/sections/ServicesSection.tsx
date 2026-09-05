@@ -186,7 +186,7 @@ export function ServicesSection() {
             <div
               key={s.id}
               style={{
-                background: "#242424",
+                background: "var(--color-bg-medium)",
                 border: "1px solid rgba(255, 255, 255, 0.08)",
                 borderRadius: "16px",
                 padding: "1.75rem",
@@ -285,8 +285,8 @@ export function ServicesSection() {
                 {isExpanded && (
                   <div
                     style={{
-                      background: "#1c1c1c",
-                      border: "1px solid rgba(210, 138, 74, 0.3)",
+                      background: "var(--color-bg-dark)",
+                      border: "1px solid rgba(228, 87, 27, 0.25)",
                       borderRadius: "12px",
                       padding: "1rem",
                       marginTop: "0.75rem",
@@ -331,7 +331,7 @@ export function ServicesSection() {
                         paddingTop: "0.5rem",
                         fontSize: "0.75rem",
                         fontWeight: 700,
-                        color: "#38bdf8",
+                        color: "var(--color-accent-light)",
                       }}
                     >
                       🛡️ {t(s.warrantyKey)}
