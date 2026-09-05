@@ -18,13 +18,13 @@ export function TermsConditions() {
               alignItems: "center",
               gap: "0.5rem",
               padding: "0.5rem 1.25rem",
-              background: "rgba(184, 115, 51, 0.15)",
+              background: "rgba(228, 87, 27, 0.15)",
               color: "#fff",
               borderRadius: 50,
               textDecoration: "none",
               fontWeight: 600,
               fontSize: "0.9rem",
-              border: "1px solid rgba(184, 115, 51, 0.3)",
+              border: "1px solid rgba(228, 87, 27, 0.3)",
               transition: "all 0.3s ease",
             }}
           >

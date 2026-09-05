@@ -19,8 +19,8 @@ export function BrandsSection() {
       style={{
         padding: "1.5rem 1rem",
         background: "rgba(15, 23, 42, 0.85)",
-        borderTop: "1px solid rgba(184, 115, 51, 0.3)",
-        borderBottom: "1px solid rgba(184, 115, 51, 0.3)",
+        borderTop: "1px solid rgba(228, 87, 27, 0.3)",
+        borderBottom: "1px solid rgba(228, 87, 27, 0.3)",
         textAlign: "center",
       }}
     >
@@ -55,8 +55,8 @@ export function BrandsSection() {
                 gap: "0.5rem",
                 padding: "0.5rem 1.25rem",
                 borderRadius: 12,
-                background: "rgba(184, 115, 51, 0.1)",
-                border: "1px solid rgba(184, 115, 51, 0.25)",
+                background: "rgba(228, 87, 27, 0.1)",
+                border: "1px solid rgba(228, 87, 27, 0.25)",
                 color: "#f8fafc",
                 fontSize: "0.85rem",
                 fontWeight: 700,

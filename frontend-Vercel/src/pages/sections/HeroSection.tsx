@@ -30,7 +30,7 @@ export function HeroSection() {
             <span
               key={idx}
               style={{
-                background: "rgba(184, 115, 51, 0.15)",
+                background: "rgba(228, 87, 27, 0.15)",
                 color: "#fff",
                 padding: "0.35rem 1rem",
                 borderRadius: 50,

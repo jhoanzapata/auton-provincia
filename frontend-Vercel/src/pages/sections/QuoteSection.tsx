@@ -149,7 +149,7 @@ export function QuoteSection() {
           background: "var(--color-bg-medium)",
           borderRadius: 12,
           padding: "2rem",
-          border: "1px solid rgba(184, 115, 51, 0.1)",
+          border: "1px solid rgba(228, 87, 27, 0.1)",
         }}
       >
         {/* Barra de progreso */}
@@ -174,8 +174,8 @@ export function QuoteSection() {
                 fontWeight: 700,
                 fontSize: "0.85rem",
                 background:
-                  vStep >= i ? "var(--grad-bronze)" : "rgba(255,255,255,0.1)",
-                color: vStep >= i ? "#fff" : "var(--color-text-muted)",
+                  vStep >= i ? "var(--grad-brand)" : "rgba(255,255,255,0.1)",
+                color: vStep >= i ? "#14161A" : "var(--color-text-muted)",
                 transition: "all 0.3s ease",
               }}
             >
@@ -218,13 +218,13 @@ export function QuoteSection() {
                     cursor: "pointer",
                     background:
                       vDoorType === vDoor.id
-                        ? "var(--grad-bronze)"
+                        ? "var(--grad-brand)"
                         : "var(--color-bg-dark)",
                     border:
                       vDoorType === vDoor.id
                         ? "none"
-                        : "1px solid rgba(184, 115, 51, 0.2)",
-                    color: "#fff",
+                        : "1px solid rgba(228, 87, 27, 0.2)",
+                    color: vDoorType === vDoor.id ? "#14161A" : "#fff",
                     textAlign: "center",
                     transition: "all 0.3s ease",
                   }}
@@ -235,7 +235,7 @@ export function QuoteSection() {
                   onMouseLeave={(e) => {
                     if (vDoorType !== vDoor.id)
                       e.currentTarget.style.borderColor =
-                        "rgba(184, 115, 51, 0.2)";
+                        "rgba(228, 87, 27, 0.2)";
                   }}
                 >
                   <div style={{ fontSize: "2rem", marginBottom: "0.5rem" }}>
@@ -279,9 +279,9 @@ export function QuoteSection() {
                   textAlign: "center",
                   padding: "1rem",
                   marginBottom: "1.5rem",
-                  background: "rgba(184, 115, 51, 0.15)",
+                  background: "rgba(228, 87, 27, 0.15)",
                   borderRadius: 8,
-                  border: "1px solid rgba(184, 115, 51, 0.3)",
+                  border: "1px solid rgba(228, 87, 27, 0.3)",
                 }}
               >
                 <span style={{ fontSize: "0.9rem", color: "var(--color-text-dim)" }}>
@@ -333,7 +333,7 @@ export function QuoteSection() {
                     borderRadius: 8,
                     border: !vIsWidthValid && vWidthInput !== '' 
                       ? "2px solid #e74c3c" 
-                      : "1px solid rgba(184, 115, 51, 0.2)",
+                      : "1px solid rgba(228, 87, 27, 0.2)",
                     background: "var(--color-bg-dark)",
                     color: "#fff",
                     fontSize: "1.1rem",
@@ -378,7 +378,7 @@ export function QuoteSection() {
                     borderRadius: 8,
                     border: !vIsHeightValid && vHeightInput !== '' 
                       ? "2px solid #e74c3c" 
-                      : "1px solid rgba(184, 115, 51, 0.2)",
+                      : "1px solid rgba(228, 87, 27, 0.2)",
                     background: "var(--color-bg-dark)",
                     color: "#fff",
                     fontSize: "1.1rem",
@@ -447,7 +447,7 @@ export function QuoteSection() {
                   textAlign: "center",
                   padding: "0.75rem",
                   marginBottom: "1rem",
-                  background: "rgba(184, 115, 51, 0.1)",
+                  background: "rgba(228, 87, 27, 0.1)",
                   borderRadius: 8,
                   fontSize: "0.9rem",
                 }}

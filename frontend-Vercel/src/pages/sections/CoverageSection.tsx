@@ -44,8 +44,8 @@ export function CoverageSection() {
               textTransform: "uppercase",
               letterSpacing: "0.15em",
               fontWeight: 800,
-              color: "#d28a4a",
-              background: "rgba(184, 115, 51, 0.15)",
+              color: "var(--color-accent-light)",
+              background: "rgba(228, 87, 27, 0.15)",
               padding: "0.35rem 1rem",
               borderRadius: "9999px",
               border: "1px solid rgba(210, 138, 74, 0.3)",
@@ -109,7 +109,7 @@ export function CoverageSection() {
                 boxShadow: "0 2px 8px rgba(0, 0, 0, 0.2)",
               }}
             >
-              <span style={{ color: "#d28a4a", fontSize: "0.9rem" }}>📍</span>
+              <span style={{ color: "var(--color-accent-light)", fontSize: "0.9rem" }}>📍</span>
               <span style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
                 {city}
               </span>
@@ -128,12 +128,12 @@ export function CoverageSection() {
               gap: "0.6rem",
               padding: "0.85rem 2rem",
               borderRadius: "12px",
-              background: "linear-gradient(135deg, #b87333 0%, #d28a4a 100%)",
-              color: "#ffffff",
+              background: "linear-gradient(135deg, #E4571B 0%, #B33F0D 100%)",
+              color: "#14161A", /* WCAG 2.1: texto negro sobre naranja */
               fontWeight: 800,
               fontSize: "0.9rem",
               textDecoration: "none",
-              boxShadow: "0 6px 20px rgba(184, 115, 51, 0.35)",
+              boxShadow: "0 6px 20px rgba(228, 87, 27, 0.35)",
               transition: "transform 0.2s ease, box-shadow 0.2s ease",
             }}
           >

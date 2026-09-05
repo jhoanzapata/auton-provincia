@@ -96,7 +96,7 @@ export function CookieBanner() {
                     checked={vAnalytics}
                     onChange={(e) => setVAnalytics(e.target.checked)}
                   />
-                  <span style={{ width: 44, height: 24, background: vAnalytics ? 'var(--grad-bronze)' : 'rgba(255,255,255,0.2)', borderRadius: 12, position: 'relative', transition: 'background 0.2s' }}>
+                  <span style={{ width: 44, height: 24, background: vAnalytics ? 'var(--grad-brand)' : 'rgba(255,255,255,0.2)', borderRadius: 12, position: 'relative', transition: 'background 0.2s' }}>
                     <span style={{ position: 'absolute', top: 2, left: vAnalytics ? 22 : 2, width: 20, height: 20, background: '#fff', borderRadius: '50%', transition: 'left 0.2s', boxShadow: '0 1px 3px rgba(0,0,0,0.2)' }} />
                   </span>
                 </label>
@@ -117,7 +117,7 @@ export function CookieBanner() {
                     checked={vMarketing}
                     onChange={(e) => setVMarketing(e.target.checked)}
                   />
-                  <span style={{ width: 44, height: 24, background: vMarketing ? 'var(--grad-bronze)' : 'rgba(255,255,255,0.2)', borderRadius: 12, position: 'relative', transition: 'background 0.2s' }}>
+                  <span style={{ width: 44, height: 24, background: vMarketing ? 'var(--grad-brand)' : 'rgba(255,255,255,0.2)', borderRadius: 12, position: 'relative', transition: 'background 0.2s' }}>
                     <span style={{ position: 'absolute', top: 2, left: vMarketing ? 22 : 2, width: 20, height: 20, background: '#fff', borderRadius: '50%', transition: 'left 0.2s', boxShadow: '0 1px 3px rgba(0,0,0,0.2)' }} />
                   </span>
                 </label>
@@ -130,7 +130,7 @@ export function CookieBanner() {
                 style={{
                   background: 'transparent',
                   color: 'var(--color-text)',
-                  border: '1px solid rgba(184, 115, 51, 0.5)',
+                  border: '1px solid rgba(228, 87, 27, 0.5)',
                   padding: '0.6rem 1.25rem',
                   borderRadius: 8,
                   fontWeight: 600,
@@ -142,8 +142,8 @@ export function CookieBanner() {
               <button
                 onClick={() => { saveCustom(vAnalytics, vMarketing); }}
                 style={{
-                  background: 'var(--grad-bronze)',
-                  color: '#fff',
+                  background: 'var(--grad-brand)',
+                  color: '#14161A', /* WCAG 2.1: texto negro sobre naranja */
                   border: 'none',
                   padding: '0.6rem 1.5rem',
                   borderRadius: 8,

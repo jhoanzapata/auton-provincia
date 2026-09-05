@@ -107,7 +107,7 @@ export function ServicesSection() {
             fontWeight: 800,
             letterSpacing: "0.15em",
             textTransform: "uppercase",
-            color: "#d28a4a",
+            color: "var(--color-accent-light)",
             marginBottom: "0.75rem",
           }}
         >
@@ -150,8 +150,8 @@ export function ServicesSection() {
             textTransform: "uppercase",
             letterSpacing: "0.15em",
             fontWeight: 800,
-            color: "#d28a4a",
-            background: "rgba(184, 115, 51, 0.15)",
+            color: "var(--color-accent-light)",
+            background: "rgba(228, 87, 27, 0.15)",
             padding: "0.35rem 1rem",
             borderRadius: "9999px",
             border: "1px solid rgba(210, 138, 74, 0.3)",
@@ -222,7 +222,7 @@ export function ServicesSection() {
                     style={{
                       fontSize: "0.7rem",
                       fontWeight: 800,
-                      color: "#d28a4a",
+                      color: "var(--color-accent-light)",
                       background: "rgba(210, 138, 74, 0.15)",
                       border: "1px solid rgba(210, 138, 74, 0.3)",
                       padding: "0.25rem 0.6rem",
@@ -264,7 +264,7 @@ export function ServicesSection() {
                     background: "none",
                     border: "none",
                     padding: 0,
-                    color: "#d28a4a",
+                    color: "var(--color-accent-light)",
                     fontWeight: 700,
                     fontSize: "0.85rem",
                     cursor: "pointer",
@@ -297,7 +297,7 @@ export function ServicesSection() {
                     <div
                       style={{
                         fontWeight: 800,
-                        color: "#d28a4a",
+                        color: "var(--color-accent-light)",
                         marginBottom: "0.5rem",
                         textTransform: "uppercase",
                         fontSize: "0.75rem",
@@ -354,12 +354,12 @@ export function ServicesSection() {
                     width: "100%",
                     padding: "0.65rem 1rem",
                     borderRadius: "10px",
-                    background: "linear-gradient(135deg, #b87333 0%, #d28a4a 100%)",
-                    color: "#ffffff",
+                    background: "linear-gradient(135deg, #E4571B 0%, #B33F0D 100%)",
+                    color: "#14161A", /* WCAG 2.1: texto negro sobre naranja */
                     fontWeight: 700,
                     fontSize: "0.85rem",
                     textDecoration: "none",
-                    boxShadow: "0 4px 12px rgba(184, 115, 51, 0.25)",
+                    boxShadow: "0 4px 12px rgba(228, 87, 27, 0.3)",
                     transition: "transform 0.2s ease",
                   }}
                 >
