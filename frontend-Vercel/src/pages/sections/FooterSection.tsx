@@ -14,11 +14,13 @@ export function FooterSection() {
             src={logo}
             alt="Automatismos La Provincia"
             style={{
-              height: "48px",
+              width: "140px",
+              height: "auto",
+              maxHeight: "86px",
               display: "block",
               margin: "0 auto",
               objectFit: "contain",
-              opacity: 0.9,
+              opacity: 0.95,
             }}
           />
         </div>
