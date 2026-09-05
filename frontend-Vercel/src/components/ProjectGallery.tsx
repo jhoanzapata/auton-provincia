@@ -40,7 +40,9 @@ export function ProjectGallery() {
 
   if (vLoading)
     return (
-      <div className="loading-gallery">{t("gallery.subtitle")}</div>
+      <section id="proyectos" className="gallery-section">
+        <div className="loading-gallery">{t("gallery.subtitle")}</div>
+      </section>
     );
 
   return (
