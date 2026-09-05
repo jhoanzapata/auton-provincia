@@ -4,7 +4,6 @@ import type { VideoData } from '../config/staticData';
 export function useVideoPlayer(plVideos: VideoData[]) {
   const [vActiveIndex, setVActiveIndex] = useState(0);
   const vVideoRef = useRef<HTMLVideoElement>(null);
-  const vMountedRef = useRef(true);
 
   const cHandleThumbClick = useCallback((index: number) => {
     setVActiveIndex(index);

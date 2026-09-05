@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { companyInfo } from "../../config/companyData";
 
 interface ServiceItem {
   id: number;

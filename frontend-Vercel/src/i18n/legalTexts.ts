@@ -15,7 +15,7 @@ export interface ILegalContent {
   s5Text: string;
 }
 
-export const mLegalNoticeTexts: Record<string, any> = {
+export const mLegalNoticeTexts: Record<string, Record<string, string>> = {
   es: {
     title: "Aviso Legal",
     subtitle: "Información legal y condiciones de uso del sitio web de Automatismos La Provincia.",
@@ -109,7 +109,7 @@ export const mLegalNoticeTexts: Record<string, any> = {
   },
 };
 
-export const mPrivacyTexts: Record<string, any> = {
+export const mPrivacyTexts: Record<string, Record<string, string>> = {
   es: {
     title: "Política de Privacidad",
     subtitle: "Información sobre el tratamiento de tus datos personales según RGPD y LOPDGDD.",
@@ -196,7 +196,7 @@ export const mPrivacyTexts: Record<string, any> = {
   },
 };
 
-export const mCookieTexts: Record<string, any> = {
+export const mCookieTexts: Record<string, Record<string, string>> = {
   es: {
     title: "Política de Cookies",
     subtitle: "Información transparente sobre el uso de cookies en nuestro sitio web.",
@@ -255,7 +255,7 @@ export const mCookieTexts: Record<string, any> = {
   },
 };
 
-export const mAccessibilityTexts: Record<string, any> = {
+export const mAccessibilityTexts: Record<string, Record<string, string>> = {
   es: {
     title: "Declaración de Accesibilidad",
     subtitle: "Compromiso de Automatismos La Provincia con la accesibilidad web WCAG 2.1 AA.",
@@ -300,7 +300,7 @@ export const mAccessibilityTexts: Record<string, any> = {
   },
 };
 
-export const mTermsTexts: Record<string, any> = {
+export const mTermsTexts: Record<string, Record<string, string>> = {
   es: {
     title: "Términos y Condiciones",
     subtitle: "Condiciones generales de contratación y uso del sitio web.",

@@ -69,7 +69,6 @@ export function QuoteSection() {
   const [vCustomColor, setVCustomColor] = useState<string>('#ff0000');
   const [vShowCustomColor, setVShowCustomColor] = useState(false);
   const [vQuoteSent, setVQuoteSent] = useState(false);
-  const vSelectedDoor = lDoorTypes.find((vDoor) => vDoor.id === vDoorType);
 
   // Sincronizar inputs con estado del hook
   useEffect(() => {

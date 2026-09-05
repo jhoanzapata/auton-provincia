@@ -43,7 +43,7 @@ export function useActiveSection(plSectionIds: string[]) {
       vObserver.disconnect();
       window.removeEventListener('scroll', vHandleScroll);
     };
-  }, [vKey]);
+  }, [vKey, plSectionIds]);
 
   return vActiveSection;
 }

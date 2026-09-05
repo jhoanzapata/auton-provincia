@@ -4,13 +4,13 @@ Sitio web oficial multilingüe (ES, DE, EN, FR, NL) para **Automatismos La Provi
 
 ## Enlaces Oficiales
 
-- **Producción Oficial (Netlify UE - Frankfurt):** [https://automatismolaprovincia.netlify.app](https://automatismolaprovincia.netlify.app)
+- **Producción Oficial (Vercel):** [https://auton-provincia.vercel.app](https://auton-provincia.vercel.app)
 - **Repositorio de Código en GitHub:** [https://github.com/jhoanzapata/auton-provincia](https://github.com/jhoanzapata/auton-provincia)
 
 ## Características Técnicas
 
 - **Frontend:** React 18, TypeScript, Vite, Tailwind CSS.
-- **Internacionalización (i18n):** 5 Idiomas espejo (`🇪🇸 ES`, `🇩🇪 DE`, `🇬🇧 EN`, `🇫🇷 FR`, `🇳🇱 NL`).
+- **Internacionalización (i18n):** 7 Idiomas oficiales (`🇪🇸 ES`, `🟡 VA`, `🇩🇪 DE`, `🇬🇧 EN`, `🇫🇷 FR`, `🇳🇱 NL`, `🇷🇺 RU`).
 - **Simulador / Cotizador:** Calculadora interactiva de presupuestos aproximados en 3 pasos.
 - **Galerías Dinámicas:** Fotos y reproductor de vídeos con descripciones traducidas dinámicamente.
 - **Cumplimiento Legal:** Aviso legal, política de privacidad, banner de cookies y accesibilidad según RGPD / LSSI.
@@ -19,7 +19,7 @@ Sitio web oficial multilingüe (ES, DE, EN, FR, NL) para **Automatismos La Provi
 ## Ejecución Local
 
 ```bash
-cd frontend
+cd frontend-Vercel
 npm install
 npm run dev
 ```
@@ -27,6 +27,6 @@ npm run dev
 ## Compilación de Producción
 
 ```bash
-cd frontend
+cd frontend-Vercel
 npm run build
 ```
