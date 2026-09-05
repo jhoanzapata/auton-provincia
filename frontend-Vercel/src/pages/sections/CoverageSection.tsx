@@ -3,16 +3,19 @@ import { companyInfo } from "../../config/companyData";
 
 const CITIES = [
   "Alicante",
+  "San Juan de Alicante",
+  "San Vicente del Raspeig",
   "Elche / Elx",
   "Torrevieja",
   "Benidorm",
-  "Orihuela",
-  "Santa Pola",
-  "Guardamar del Segura",
-  "San Vicente del Raspeig",
-  "Villena",
+  "Elda",
   "Petrer",
   "Novelda",
+  "Santa Pola",
+  "Guardamar del Segura",
+  "Orihuela",
+  "Tibi",
+  "Villena",
   "Crevillent",
   "Mutxamel",
   "El Campello",
@@ -28,7 +31,7 @@ export function CoverageSection() {
       className="coverage-section"
       id="cobertura"
       style={{
-        background: "linear-gradient(180deg, #222222 0%, #1a1a1a 100%)",
+        background: "var(--color-bg-dark)",
         borderTop: "1px solid rgba(255, 255, 255, 0.08)",
         borderBottom: "1px solid rgba(255, 255, 255, 0.08)",
         padding: "4.5rem 1.5rem 5rem 1.5rem",
@@ -94,14 +97,14 @@ export function CoverageSection() {
             <div
               key={city}
               style={{
-                background: "#2a2a2a",
+                background: "var(--color-bg-medium)",
                 border: "1px solid rgba(255, 255, 255, 0.08)",
                 borderRadius: "10px",
                 padding: "0.75rem 1rem",
                 textAlign: "center",
                 fontSize: "0.85rem",
                 fontWeight: 600,
-                color: "#e6e6e6",
+                color: "var(--color-text-main)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
