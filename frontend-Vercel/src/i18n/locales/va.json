@@ -12,12 +12,12 @@
   },
   "hero": {
     "tagline": "AUTOMATISMOS LA PROVINCIA",
-    "title1": "Portes Metàl·liques",
-    "title2": "a Tota Espanya",
+    "title1": "Portes Metàl·liques i Automatismes",
+    "title2": "a Alacant i Costa Blanca",
     "bullets": "· Venda · Reparació · Automatització",
     "badge1": "🕐 Urgències 24h",
     "badge2": "🛡️ Garantia total",
-    "badge3": "📍 Servei a tota Espanya",
+    "badge3": "📍 Alacant i Província",
     "btnQuote": "💰 Pressupost",
     "btnProjects": "Veure Projectes",
     "experience": "⭐ Més de 10 anys d'experiència"
@@ -177,7 +177,11 @@
     "t2Text": "Vaig tindre una urgència amb la porta corredissa un diumenge i van vindre immediatament. Excel·lent servei.",
     "t2Author": "Isabel T. (Elx)",
     "t3Text": "Van fabricar unes reixes i una coberta per al cotxe amb una qualitat de ferreria impecable.",
-    "t3Author": "Pedro López (Múrcia)"
+    "t3Author": "Pedro López (Múrcia)",
+    "googleBadge": "VALORACIONS EN GOOGLE",
+    "googleDesc": "Hem instal·lat o automatitzat la teua porta? La teua opinió ens ajuda a continuar sent el referent a Alacant i província.",
+    "googleBtn": "⭐ Deixar ressenya en Google",
+    "waBtn": "📲 Demanar ressenya per WhatsApp"
   },
   "faq": {
     "title": "Preguntes Freqüents",

@@ -12,12 +12,12 @@
   },
   "hero": {
     "tagline": "AUTOMATISMOS LA PROVINCIA",
-    "title1": "Metalen Deuren & Poorten",
-    "title2": "in Heel Spanje",
+    "title1": "Metalen Deuren & Automatiseringen",
+    "title2": "in Alicante & Costa Blanca",
     "bullets": "· Verkoop · Reparaties · Automatisering",
     "badge1": "🕐 24/7 Nooddienst",
     "badge2": "🛡️ Volledige Garantie",
-    "badge3": "📍 Service in Heel Spanje",
+    "badge3": "📍 Alicante en Provincie",
     "btnQuote": "💰 Gratis Offerte",
     "btnProjects": "Bekijk Projecten",
     "experience": "⭐ Meer dan 10 jaar ervaring"
@@ -177,7 +177,11 @@
     "t2Text": "\"Ik had op een zondag een noodgeval met de schuifpoort en ze kwamen meteen. Uitstekende service!\"",
     "t2Author": "Isabel T. (Elche)",
     "t3Text": "\"Ze hebben een carport en raamroosters gemaakt met onberispelijke smeedwerkkwaliteit.\"",
-    "t3Author": "Pedro López (Murcia)"
+    "t3Author": "Pedro López (Murcia)",
+    "googleBadge": "GOOGLE REVIEWS",
+    "googleDesc": "Hebben we uw poort geïnstalleerd of geautomatiseerd? Uw mening helpt ons dé referentie in Alicante en omstreken te blijven.",
+    "googleBtn": "⭐ Plaats een review op Google",
+    "waBtn": "📲 Review vragen via WhatsApp"
   },
   "faq": {
     "title": "Veelgestelde Vragen",

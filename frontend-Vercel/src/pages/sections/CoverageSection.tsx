@@ -21,6 +21,11 @@ const CITIES = [
   "El Campello",
   "Altea",
   "Calpe / Calp",
+  "Jávea / Xàbia",
+  "Dénia",
+  "Villajoyosa / La Vila Joiosa",
+  "Ibi",
+  "Alcoy / Alcoi",
 ];
 
 export function CoverageSection() {
@@ -119,6 +124,22 @@ export function CoverageSection() {
             </div>
           ))}
         </div>
+
+        <p
+          style={{
+            textAlign: "center",
+            color: "var(--color-text-dim)",
+            fontSize: "0.9rem",
+            margin: "1.5rem auto 1rem",
+            maxWidth: "600px",
+            lineHeight: 1.5,
+          }}
+        >
+          {t(
+            "coverage.provinceNotice",
+            "¿Tu localidad no figura en la lista? Damos servicio y realizamos desplazamientos e instalaciones a los 141 municipios de la provincia de Alicante bajo cita previa.",
+          )}
+        </p>
 
         <div style={{ textAlign: "center", paddingTop: "0.5rem" }}>
           <a

@@ -12,12 +12,12 @@
   },
   "hero": {
     "tagline": "AUTOMATISMOS LA PROVINCIA",
-    "title1": "Metalltüre & Tore",
-    "title2": "in ganz Spanien",
+    "title1": "Metalltore & Automatische Antriebe",
+    "title2": "in Alicante & an der Costa Blanca",
     "bullets": "· Verkauf · Reparatur · Automatisierung",
     "badge1": "🕐 24/7 Notdienst",
     "badge2": "🛡️ Volle Garantie",
-    "badge3": "📍 Service in ganz Spanien",
+    "badge3": "📍 Alicante und Provinz",
     "btnQuote": "💰 Angebot anfordern",
     "btnProjects": "Projekte ansehen",
     "experience": "⭐ Über 10 Jahre Erfahrung"
@@ -177,7 +177,11 @@
     "t2Text": "\"Ich hatte an einem Sonntag einen Notfall mit dem Schiebetor. Sie waren sofort da. Exzellenter Service!\"",
     "t2Author": "Isabel T. (Elche)",
     "t3Text": "\"Sie haben ein Carport und Gitter in tadelloser Schlosserqualität angefertigt.\"",
-    "t3Author": "Pedro López (Murcia)"
+    "t3Author": "Pedro López (Murcia)",
+    "googleBadge": "GOOGLE-BEWERTUNGEN",
+    "googleDesc": "Haben wir Ihr Tor installiert oder automatisiert? Ihre Bewertung hilft uns, weiterhin die führende Adresse in Alicante und Provinz zu sein.",
+    "googleBtn": "⭐ Bewertung auf Google abgeben",
+    "waBtn": "📲 Bewertung per WhatsApp anfragen"
   },
   "faq": {
     "title": "Häufig Gestellte Fragen",
