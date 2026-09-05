@@ -177,7 +177,11 @@
     "t2Text": "Tuve una urgencia con la puerta corredera un domingo y vinieron de inmediato. Excelente servicio.",
     "t2Author": "Isabel T. (Elche)",
     "t3Text": "Fabricaron unas rejas y una cubierta para el coche con una calidad de herrería impecable.",
-    "t3Author": "Pedro López (Murcia)"
+    "t3Author": "Pedro López (Murcia)",
+    "googleBadge": "VALORACIONES EN GOOGLE",
+    "googleDesc": "¿Hemos instalado o automatizado tu puerta? Tu opinión nos ayuda a seguir siendo el referente en Alicante y provincia.",
+    "googleBtn": "⭐ Dejar reseña en Google",
+    "waBtn": "📲 Pedir reseña por WhatsApp"
   },
   "faq": {
     "title": "Preguntas Frecuentes",
