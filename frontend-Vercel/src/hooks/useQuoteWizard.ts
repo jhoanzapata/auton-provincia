@@ -110,8 +110,9 @@ export function useQuoteWizard() {
     const vDoorTypeLabel = DOOR_TYPE_LABELS[vDoorType] ?? vDoorType;
 
     const parts = [
-      `Hola, quiero solicitar un presupuesto para una puerta ${vDoorTypeLabel}.`,
-      `Medidas: ${vWidth} metros de ancho x ${vHeight} metros de alto.`,
+      "¡Hola! 👋 Vengo de calcular un presupuesto en su cotizador web y me gustaría confirmarlo:",
+      `Tipo: Puerta ${vDoorTypeLabel}.`,
+      `Medidas: ${vWidth} m de ancho x ${vHeight} m de alto.`,
     ];
     if (vColor) parts.push(`Color: ${vColor}.`);
     if (vEstimatedPrice) parts.push(`Precio estimado: ~${vEstimatedPrice.toLocaleString()} €.`);

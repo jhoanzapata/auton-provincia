@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 export function WhatsAppBtn() {
   const vPhoneNumber = "34694917083";
   const vMessage = encodeURIComponent(
-    "¡Hola! Necesito información sobre los servicios de Automatismos La Provincia.",
+    "¡Hola! 👋 Vengo de su página web y me gustaría consultar por un servicio de puertas automáticas / herrería en Alicante. ¿Me pueden brindar asesoría?",
   );
   const vWaUrl = `https://wa.me/${vPhoneNumber}?text=${vMessage}`;
 

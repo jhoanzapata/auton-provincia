@@ -10,7 +10,7 @@ export function ContactSection() {
         <p className="contact-sub">{t("contact.subtitle")}</p>
 
         <a
-          href="https://wa.me/34694917083?text=Hola%21%20Quiero%20consultar%20por%20un%20servicio%20de%20puertas%20met%C3%A1licas.%20%C2%BFPueden%20ayudarme%3F"
+          href={`https://wa.me/34694917083?text=${encodeURIComponent("¡Hola equipo de La Provincia! 👋 Estuve viendo su página web y me gustaría recibir asesoramiento para un trabajo de cerrajería / automatismos.")}`}
           className="btn-whatsapp"
           target="_blank"
           rel="external nofollow noopener noreferrer"

@@ -343,7 +343,7 @@ export function ServicesSection() {
               {/* Botón WhatsApp de Cotización Rápida */}
               <div style={{ marginTop: "1.5rem" }}>
                 <a
-                  href={`https://wa.me/34694917083?text=Hola,%20solicito%20presupuesto%20para:%20${encodeURIComponent(t(s.titleKey))}`}
+                  href={`https://wa.me/34694917083?text=${encodeURIComponent(`¡Hola! 👋 Vengo de ver en su web el servicio de "${t(s.titleKey)}" y me gustaría pedir un presupuesto personalizado.`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{

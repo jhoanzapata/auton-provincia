@@ -99,7 +99,7 @@ export function Navbar() {
           📞 694 91 70 83
         </a>
         <a
-          href="https://wa.me/34694917083?text=Hola%20Necesito%20un%20presupuesto"
+          href={`https://wa.me/34694917083?text=${encodeURIComponent("¡Hola! 👋 Vengo de su web y quiero solicitar presupuesto para una puerta / automatismo. ¿Tienen disponibilidad?")}`}
           className="nav-wa btn-secondary"
           style={{ padding: "0.4rem 0.8rem", fontSize: "0.85rem" }}
           target="_blank"

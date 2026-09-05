@@ -122,7 +122,7 @@ export function CoverageSection() {
 
         <div style={{ textAlign: "center", paddingTop: "0.5rem" }}>
           <a
-            href={companyInfo.waHref}
+            href={`https://wa.me/34694917083?text=${encodeURIComponent("¡Hola! 👋 Vengo de su página web y quisiera consultar si realizan instalaciones o servicios técnicos en mi localidad.")}`}
             target="_blank"
             rel="noopener noreferrer"
             style={{
